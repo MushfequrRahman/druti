@@ -279,7 +279,8 @@
 								</span>
 							</a>
 							<ul class="treeview-menu">
-								<li><a href="<?php echo base_url(); ?>Dashboard/order_list_for_challan"><i class="fa fa-circle-o"></i>Create Challan (By Order)</a></li>
+								<li><a href="<?php echo base_url(); ?>Dashboard/order_list_for_challan"><i class="fa fa-circle-o"></i>Create Challan (By PO)</a></li>
+								<li><a href="<?php echo base_url(); ?>Dashboard/non_po_challan_create_form"><i class="fa fa-circle-o"></i>Create Challan (By Non-PO)</a></li>
 							</ul>
 						</li>
 

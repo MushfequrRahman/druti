@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 03, 2024 at 04:51 AM
+-- Generation Time: Jan 03, 2024 at 10:31 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.26
 
@@ -630,7 +630,8 @@ INSERT INTO `challanm1_insert` (`chmid`, `sfactoryid`, `challanno`, `ptid`, `cti
 ('20231218112528', 'AKL', '2nd-16', 1, 1, 'BPL', '20231113114414', '20231113114602', '20231113114721', '20231113114948', 'AKLCUTTING', '2023-12-18', 'December', '2023', '2023-12-18', '11:25:28', '2023-12-18', '11:26:00', 3, 0),
 ('20231218112830', 'AKL', '2nd-17', 1, 1, 'BPL', '20231113114414', '20231113114602', '20231113114721', '20231113114948', 'AKLCUTTING', '2023-12-18', 'December', '2023', '2023-12-18', '11:28:30', '2023-12-18', '11:28:59', 3, 0),
 ('20231218115437', 'AKL', '2nd-18', 1, 1, 'BPL', '20231113114414', '20231113114602', '20231113114721', '20231113114948', 'AKLCUTTING', '2023-12-18', 'December', '2023', '2023-12-18', '11:54:37', '2023-12-18', '11:55:29', 3, 0),
-('20231219152041', 'AKL', '2nd-19', 1, 1, 'BPL', '20231113114414', '20231113114602', '20231113114721', '20231113114948', 'AKLCUTTING', '2023-12-19', 'December', '2023', '2023-12-19', '15:20:41', '2023-12-19', '15:22:45', 3, 1);
+('20231219152041', 'AKL', '2nd-19', 1, 1, 'BPL', '20231113114414', '20231113114602', '20231113114721', '20231113114948', 'AKLCUTTING', '2023-12-19', 'December', '2023', '2023-12-19', '15:20:41', '2023-12-19', '15:22:45', 3, 1),
+('20240103122503', 'HO', '111', 0, 0, '', '', '', '', '', 'HO926', '2024-01-03', 'January', '2024', '2024-01-03', '12:25:03', '0000-00-00', '00:00:00', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -2549,6 +2550,89 @@ CREATE TABLE `lot_wise_return_store_to_textile_view` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `non_po_challanm1_insert`
+--
+
+CREATE TABLE `non_po_challanm1_insert` (
+  `npochmid` varchar(50) NOT NULL,
+  `sfactoryid` varchar(50) NOT NULL,
+  `challanno` varchar(50) NOT NULL,
+  `dfactoryid` varchar(50) NOT NULL,
+  `userid` varchar(50) NOT NULL,
+  `crcdate` date NOT NULL,
+  `cmonth` varchar(15) NOT NULL,
+  `cyear` varchar(15) NOT NULL,
+  `sdate` date NOT NULL,
+  `stime` time NOT NULL,
+  `rdate` date NOT NULL,
+  `rtime` time NOT NULL,
+  `status` int(11) NOT NULL,
+  `non_non_challanm1status` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `non_po_challanm1_insert`
+--
+
+INSERT INTO `non_po_challanm1_insert` (`npochmid`, `sfactoryid`, `challanno`, `dfactoryid`, `userid`, `crcdate`, `cmonth`, `cyear`, `sdate`, `stime`, `rdate`, `rtime`, `status`, `non_non_challanm1status`) VALUES
+('20240103151601', 'HO', '1', 'BPL', '', '0000-00-00', 'January', '1970', '2024-01-03', '15:16:01', '0000-00-00', '00:00:00', 1, 1),
+('20240103152427', 'HO', '11', 'BPL', 'HO926', '0000-00-00', 'January', '2024', '2024-01-03', '15:24:27', '0000-00-00', '00:00:00', 1, 1),
+('20240103152629', 'HO', '2', 'BPL', 'HO926', '2024-01-03', 'January', '2024', '2024-01-03', '15:26:29', '0000-00-00', '00:00:00', 1, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `non_po_challanm2_insert`
+--
+
+CREATE TABLE `non_po_challanm2_insert` (
+  `npochmid2` varchar(50) NOT NULL,
+  `npochmid1` varchar(50) NOT NULL,
+  `nppcid` varchar(50) NOT NULL,
+  `pname` varchar(50) NOT NULL,
+  `spqty` varchar(50) NOT NULL,
+  `puomid` varchar(50) NOT NULL,
+  `challantype` float NOT NULL,
+  `rpqty` float NOT NULL,
+  `sremarks` varchar(500) NOT NULL,
+  `rremarks` varchar(500) NOT NULL,
+  `non_po_challanm2status` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `non_po_challanm2_insert`
+--
+
+INSERT INTO `non_po_challanm2_insert` (`npochmid2`, `npochmid1`, `nppcid`, `pname`, `spqty`, `puomid`, `challantype`, `rpqty`, `sremarks`, `rremarks`, `non_po_challanm2status`) VALUES
+('202401031516010', '20240103151601', '1', 'Pencil', '10', '', 3, 2, '', '', 1),
+('202401031516011', '20240103151601', '2', 'Laptop', '1', '', 3, 2, 'IT Product', '', 1),
+('202401031524270', '20240103152427', '1', 'Book', '10', '', 3, 2, '', '', 1),
+('202401031524271', '20240103152427', '2', 'Mouse', '2', '', 3, 2, '', '', 1),
+('202401031526290', '20240103152629', '1', 'File', '5', '', 3, 2, '', '', 1),
+('202401031526291', '20240103152629', '2', 'keyboard', '2', '', 3, 2, '', '', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `non_po_product_category`
+--
+
+CREATE TABLE `non_po_product_category` (
+  `nppcid` int(11) NOT NULL,
+  `nppcname` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `non_po_product_category`
+--
+
+INSERT INTO `non_po_product_category` (`nppcid`, `nppcname`) VALUES
+(1, 'General'),
+(2, 'IT');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `production_type`
 --
 
@@ -3627,6 +3711,26 @@ ALTER TABLE `jobno`
   ADD PRIMARY KEY (`jobnoid`);
 
 --
+-- Indexes for table `non_po_challanm1_insert`
+--
+ALTER TABLE `non_po_challanm1_insert`
+  ADD PRIMARY KEY (`npochmid`) USING BTREE,
+  ADD KEY `chmid` (`npochmid`) USING BTREE;
+
+--
+-- Indexes for table `non_po_challanm2_insert`
+--
+ALTER TABLE `non_po_challanm2_insert`
+  ADD PRIMARY KEY (`npochmid2`) USING BTREE,
+  ADD KEY `chmid1` (`npochmid1`) USING BTREE;
+
+--
+-- Indexes for table `non_po_product_category`
+--
+ALTER TABLE `non_po_product_category`
+  ADD PRIMARY KEY (`nppcid`);
+
+--
 -- Indexes for table `production_type`
 --
 ALTER TABLE `production_type`
@@ -3725,6 +3829,12 @@ ALTER TABLE `fabric_type`
 --
 ALTER TABLE `garments_part`
   MODIFY `gpid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- AUTO_INCREMENT for table `non_po_product_category`
+--
+ALTER TABLE `non_po_product_category`
+  MODIFY `nppcid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `production_type`

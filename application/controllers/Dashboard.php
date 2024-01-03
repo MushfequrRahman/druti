@@ -3058,4 +3058,103 @@ class Dashboard extends CI_Controller
 		//$this->pdf->createPDF($html, 'Order Wise Challan', false);
 		$this->load->view('admin/challanmpdf_html', $data);
 	}
+
+	// NON PO CHALLAN
+
+	public function non_po_challan_create_form()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Challan Create';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$data['pul'] = $this->Admin->product_uom_list();
+		$data['nl'] = $this->Admin->non_po_product_category();
+		$data['ctl'] = $this->Admin->challan_type_list();
+		$data['fl'] = $this->Admin->factory_list();
+		$this->load->view('admin/non_po_challan_create_form', $data);
+	}
+
+	public function non_po_wise_challan_available()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$sfactory = $this->input->get('sfactory');
+		$challanno = $this->input->get('challanno');
+		$sql = "SELECT COUNT(challanno) AS challanno FROM non_po_challanm1_insert WHERE sfactoryid='$sfactory' AND challanno='$challanno'";
+		$query = $this->db->query($sql);
+		$query = $query->result_array();
+		foreach ($query as $row) {
+			$challanno = $row['challanno'];
+		}
+		if ($challanno > 0) {
+
+			//$response = "<span style='color: red;'>This Info Already Inserted.</span>";
+			$response = '<span style="color: red;">This Info Already Inserted.</span><br/><input type="submit" class="btn btn-primary" name="submit" value="Submit" disabled="disabled" />';
+			//$sql = "INSERT INTO test VALUES ('$colorcode')";
+			//$query = $this->db->query($sql);
+		} else {
+			//$response = "<span style='color: green;'>Available.</span>";
+			$response = '<span style="color: green;">Available.</span><br/><input type="submit" class="btn btn-primary" name="submit" value="Submit" />';
+		}
+
+		echo $response;
+		die;
+	}
+
+	public function non_po_wise_challan_create()
+	{
+
+		date_default_timezone_set('Asia/Dhaka');
+		$crcdate = $this->input->get('crcdate');
+		$crcdate = date("Y-m-d", strtotime($crcdate));
+		$fmy = strtotime($crcdate);
+		$month = date("F", $fmy);
+		$year = date("Y", $fmy);
+		$d = date('Y-m-d');
+		$t = date("H:i:s");
+		$d1 = str_replace("-", "", $d);
+		$t1 = str_replace(":", "", $t);
+		$ccid = $d1 . $t1;
+
+
+		$this->load->database();
+		$this->load->model('Admin');
+		$sfactory = $this->input->get('sfactory');
+		$challanno = $this->input->get('challanno');
+		$dfactory = $this->input->get('dfactory');
+		$userid = $this->session->userdata('userid');
+		$nppcname = $this->input->get('nppcname');
+		$pname = $this->input->get('pname');
+		$pname =  str_replace("'", "\'", $pname);
+		$pqty = $this->input->get('pqty');
+		$puom = $this->input->get('puom');
+		$challantype = $this->input->get('challantype');
+		$remarks = $this->input->get('remarks');
+		$remarks =  str_replace("'", "\'", $remarks);
+
+		$sql = "INSERT INTO non_po_challanm1_insert VALUES ('$ccid','$sfactory','$challanno','$dfactory','$userid','$crcdate','$month','$year',CURDATE(),CURTIME(),'','','1','1')";
+		$query = $this->db->query($sql);
+
+
+		for ($i = 0; $i < count($nppcname); $i++) {
+			$data["i"] = $i;
+			$data["ccid"] = $ccid;
+			$data["ccid1"] = $ccid . $i;
+			$data["nppcname"] = $nppcname[$i];
+			$data["pname"] = $pname[$i];
+			$data["pqty"] = $pqty[$i];
+			$data["puom"] = $puom[$i];
+			$data["challantype"] = $challantype[$i];
+			$data["remarks"] = $remarks[$i];
+			$ins = $this->Admin->non_po__wise_challan_create($data);
+		}
+
+		if ($ins) {
+			echo  "ok";
+		} else {
+			echo  "error";
+		}
+	}
 }

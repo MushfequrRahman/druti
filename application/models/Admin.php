@@ -835,8 +835,8 @@ class Admin extends CI_Model
 		// if ($query1->num_rows() >= 1) {
 		// 	return false;
 		// } else {
-			$sql = "INSERT INTO gsize VALUES ('$ccid','$data[size]','$data[sbqty]','$data[uom]','$data[colorid]','$data[orderno]','$data[style]','$data[jobno]','$data[buyerid]','1')";
-			return $query = $this->db->query($sql);
+		$sql = "INSERT INTO gsize VALUES ('$ccid','$data[size]','$data[sbqty]','$data[uom]','$data[colorid]','$data[orderno]','$data[style]','$data[jobno]','$data[buyerid]','1')";
+		return $query = $this->db->query($sql);
 		//}
 	}
 	public function size_list()
@@ -2004,5 +2004,21 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		WHERE chmid='$chmid'";
 		$result = $this->db->query($query);
 		return $result->result_array();
+	}
+
+	// NON PO PRODUCT CATEGORY
+
+	public function non_po_product_category()
+	{
+		$query = "SELECT * FROM non_po_product_category ORDER BY nppcname ASC";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po__wise_challan_create($data)
+	{
+
+		$sql1 = "INSERT INTO non_po_challanm2_insert VALUES ('$data[ccid1]','$data[ccid]','$data[nppcname]','$data[pname]','$data[pqty]','','$data[puom]','$data[challantype]','$data[remarks]','','1')";
+		$query1 = $this->db->query($sql1);
+		return $query1;
 	}
 }
