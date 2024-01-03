@@ -1,0 +1,677 @@
+Factory Name,Division,Department,Section,Sub Section,Location,Name(English),??? (?????),Designation,Sub Designation,Religion,Maritual Status,Birth Date,Date of Join,Home District,Permanent Address (English),??????? ?????? (?????),Present Address (English),??????? ??????(?????),NID,Blood Group,Gender,Salary,Efficiency,Identification Mark,Office Email,Personal Email,Personal Mobile,Emergency Mobile,User Type,Service Type,P User ID,User ID,R User ID,Password,User Photo,U Status
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.Abdul  Khaleq,,Office Attendant,,1,,1973-9-20,2004-1-12,,,,,,,,1,12483,,,,,,,,2,214,ATL214,ATL214,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.Sumon  Hossain,,Office Attendant,,1,,1987-1-21,2005-5-15,,,,,,,,1,14254,,,,,,,,2,335,ATL335,ATL335,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Montu  Mia,,Office Attendant,,1,,1989-12-31,2009-2-3,,,,,,,,1,11691,,,,,,,,2,1246,ATL1246,ATL1246,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Raju  Sarkar,,Office Attendant,,1,,1985-1-10,2009-10-20,,,,,,,,1,11691,,,,,,,,2,1365,ATL1365,ATL1365,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Mominur  Islam,,Cleaner,,1,,1967-9-19,2010-10-3,,,,,,,,1,9907,,,,,,,,2,1475,ATL1475,ATL1475,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Amirul  Islam,,Cleaner,,1,,1965-5-10,2011-2-5,,,,,,,,1,9824,,,,,,,,2,1571,ATL1571,ATL1571,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Saddam  Hossain,,Cleaner,,1,,1990-9-21,2012-2-13,,,,,,,,1,9293,,,,,,,,2,1773,ATL1773,ATL1773,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Raju  ,,Cleaner,,1,,1985-10-20,2012-5-9,,,,,,,,1,9175,,,,,,,,2,1839,ATL1839,ATL1839,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Mithu  Mia,,Cleaner,,1,,1992-5-27,2013-1-15,,,,,,,,1,9553,,,,,,,,2,2013,ATL2013,ATL2013,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Sohrab  Mia,,Cleaner,,1,,1974-1-1,2014-9-1,,,,,,,,1,9293,,,,,,,,2,2251,ATL2251,ATL2251,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Abdur  Rashid,,Gardener,,1,,1981-10-20,2014-11-1,,,,,,,,1,9353,,,,,,,,2,2272,ATL2272,ATL2272,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Mofizar  Rahman,,Cleaner,,1,,1980-9-21,2014-12-6,,,,,,,,1,9045,,,,,,,,2,2292,ATL2292,ATL2292,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Rafiqul  Islam,,Medical Assistant,,1,,1992-8-4,2015-6-6,,,,,,,,1,15026,,,,,,,,2,2376,ATL2376,ATL2376,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Shahin  -,,Cleaner,,1,,1984-1-1,2015-10-6,,,,,,,,1,9045,,,,,,,,2,2411,ATL2411,ATL2411,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Zahedul   Islam,,Cleaner,,1,,1984-2-10,2015-11-7,,,,,,,,1,9115,,,,,,,,2,2440,ATL2440,ATL2440,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Sujon   Sordar ,,Cleaner,,1,,1994-11-10,2016-8-6,,,,,,,,1,9045,,,,,,,,2,2572,ATL2572,ATL2572,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Abdul  Azid,,Cleaner,,1,,1968-6-27,2016-11-15,,,,,,,,1,9045,,,,,,,,2,2629,ATL2629,ATL2629,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Nurul   Huda,,Cleaner,,1,,1979-4-7,2017-3-14,,,,,,,,1,9057,,,,,,,,2,2706,ATL2706,ATL2706,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Badrul  Islam,,Cleaner,,1,,1977-5-24,2017-3-18,,,,,,,,1,9045,,,,,,,,2,2712,ATL2712,ATL2712,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Nazmul  Haque,,Fireman,,1,,1980-4-5,2017-8-1,,,,,,,,1,15246,,,,,,,,2,2812,ATL2812,ATL2812,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Mostofa  ,,Cleaner,,1,,1986-10-4,2017-11-15,,,,,,,,1,9045,,,,,,,,2,2895,ATL2895,ATL2895,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Sazzadul  Haque,,Cleaner,,1,,1983-1-20,2017-11-20,,,,,,,,1,9045,,,,,,,,2,2899,ATL2899,ATL2899,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Robiul  Islam,,Cleaner,,1,,1985-5-14,2017-12-11,,,,,,,,1,9045,,,,,,,,2,2945,ATL2945,ATL2945,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Mominul  Islam,,Cleaner,,1,,1987-2-4,2018-1-1,,,,,,,,1,9045,,,,,,,,2,2961,ATL2961,ATL2961,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Farzul  Haque,,Cleaner,,1,,1980-2-3,2018-1-1,,,,,,,,1,9045,,,,,,,,2,2962,ATL2962,ATL2962,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Rashel  ,,Paramedic,,1,,1996-10-21,2018-1-13,,,,,,,,1,12270,,,,,,,,2,2976,ATL2976,ATL2976,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.   Manik,,Cleaner,,1,,1982-11-18,2018-4-7,,,,,,,,1,9045,,,,,,,,2,3026,ATL3026,ATL3026,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Sopiqul  ,,Cleaner,,1,,1982-8-17,2018-7-18,,,,,,,,1,9045,,,,,,,,2,3112,ATL3112,ATL3112,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Aynul  Haque,,Cleaner,,1,,1970-3-15,2018-9-10,,,,,,,,1,9045,,,,,,,,2,3186,ATL3186,ATL3186,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Abul   Mondal,,Cleaner,,1,,1991-6-25,2018-9-11,,,,,,,,1,9045,,,,,,,,2,3193,ATL3193,ATL3193,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Moslim  Uddin,,Cleaner,,1,,1970-7-10,2018-9-11,,,,,,,,1,9045,,,,,,,,2,3194,ATL3194,ATL3194,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Shahadul  Ali,,Cleaner,,1,,1991-5-19,2018-9-19,,,,,,,,1,9045,,,,,,,,2,3202,ATL3202,ATL3202,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Shaheb  Ali,,Cleaner,,1,,1976-1-1,2018-10-1,,,,,,,,1,9045,,,,,,,,2,3221,ATL3221,ATL3221,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Nobi Nur   Islam,,Cleaner,,1,,1993-6-10,2018-10-1,,,,,,,,1,9045,,,,,,,,2,3222,ATL3222,ATL3222,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Fojlar  Rahman,,Cleaner,,1,,1991-3-15,2018-10-10,,,,,,,,1,9045,,,,,,,,2,3232,ATL3232,ATL3232,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Abdul  Kafi,,Cleaner,,1,,1975-9-22,2018-12-1,,,,,,,,1,9045,,,,,,,,2,3291,ATL3291,ATL3291,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Liton   Babu,,Cleaner,,1,,1984-11-10,2019-1-10,,,,,,,,1,9029,,,,,,,,2,3317,ATL3317,ATL3317,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.  Ripon,,Cleaner,,1,,1982-10-9,2019-6-18,,,,,,,,1,8702,,,,,,,,2,3486,ATL3486,ATL3486,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Atikul  Islam,,Cleaner,,1,,1991-11-27,2019-9-15,,,,,,,,1,8702,,,,,,,,2,3503,ATL3503,ATL3503,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Anamul  Haque,,Cleaner,,1,,1977-3-20,2019-9-15,,,,,,,,1,8702,,,,,,,,2,3505,ATL3505,ATL3505,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Sohel   Rana (Fintu),,Cleaner,,1,,1980-10-12,2019-12-3,,,,,,,,1,8702,,,,,,,,2,3562,ATL3562,ATL3562,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Abu   Khan,,Cleaner,,1,,1987-3-17,2019-12-1,,,,,,,,1,8702,,,,,,,,2,3563,ATL3563,ATL3563,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Batul  Islam,,Cleaner,,1,,1979-5-23,2019-12-22,,,,,,,,1,8702,,,,,,,,2,3575,ATL3575,ATL3575,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.Soriful  Islam,,Cleaner,,1,,1981-9-12,2020-3-1,,,,,,,,1,8702,,,,,,,,2,3674,ATL3674,ATL3674,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.Shijil Sheikh  ,,Cleaner,,1,,1996-8-15,2020-8-16,,,,,,,,1,8375,,,,,,,,2,3729,ATL3729,ATL3729,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.Jabed Ali  ,,Cleaner,,1,,1971-8-5,2020-9-10,,,,,,,,1,8375,,,,,,,,2,3763,ATL3763,ATL3763,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md.Nasir Mia  ,,Office Attendant,,1,,2000-10-12,2020-10-10,,,,,,,,1,10775,,,,,,,,2,3791,ATL3791,ATL3791,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.  Afzal Hossain,,Operator,,1,,1978-1-1,2005-6-2,,,,,,,,1,15682,,,,,,,,2,340,ATL340,ATL340,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.  Shahin Mia,,Operator,,1,,1986-6-1,2005-11-16,,,,,,,,1,14860,,,,,,,,2,400,ATL400,ATL400,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.  Serajul Islam,,Operator,,1,,1980-10-1,2005-11-24,,,,,,,,1,15536,,,,,,,,2,409,ATL409,ATL409,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.  Akkas Ali,,Operator,,1,,1975-1-18,2006-3-5,,,,,,,,1,15505,,,,,,,,2,460,ATL460,ATL460,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Jamiar  Rahman,,Operator,,1,,1984-2-10,2007-2-19,,,,,,,,1,14796,,,,,,,,2,712,ATL712,ATL712,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Sumon  Das,,Junior Operator,,2,,1987-11-20,2007-5-1,,,,,,,,1,14677,,,,,,,,2,766,ATL766,ATL766,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Shahid  Alam,,Junior Operator,,1,,1965-1-7,2008-6-3,,,,,,,,1,13289,,,,,,,,2,1060,ATL1060,ATL1060,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Monir  Hossain,,Junior Operator,,1,,1990-5-12,2009-2-2,,,,,,,,1,13750,,,,,,,,2,1244,ATL1244,ATL1244,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Anowar  Hossain,,Operator,,1,,1974-8-12,2010-4-1,,,,,,,,1,13433,,,,,,,,2,1411,ATL1411,ATL1411,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Mojibur  Rahman,,Junior Operator,,1,,1972-1-4,2012-1-3,,,,,,,,1,12382,,,,,,,,2,1755,ATL1755,ATL1755,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,alamin  ,,Junior Operator,,1,,1990-7-1,2012-5-2,,,,,,,,1,12695,,,,,,,,2,1828,ATL1828,ATL1828,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Atarul  Islam,,Junior Operator,,1,,1989-1-1,2012-7-20,,,,,,,,1,12483,,,,,,,,2,1897,ATL1897,ATL1897,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Ramzan  Ali,,Junior Operator,,1,,1973-11-27,2012-7-9,,,,,,,,1,12483,,,,,,,,2,1898,ATL1898,ATL1898,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Sha  Alam,,Operator,,1,,1983-3-10,2012-11-11,,,,,,,,1,13741,,,,,,,,2,1950,ATL1950,ATL1950,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Saidul  Islam,,Operator,,1,,1994-9-17,2014-8-9,,,,,,,,1,10150,,,,,,,,2,2221,ATL2221,ATL2221,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Nizam  Uddin,,Junior Operator,,1,,1986-1-1,2014-11-5,,,,,,,,1,9919,,,,,,,,2,2277,ATL2277,ATL2277,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.Selim  ,,Operator,,1,,1993-10-3,2015-1-6,,,,,,,,1,10116,,,,,,,,2,2303,ATL2303,ATL2303,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Asadurzzaman  ,,Junior Operator,,1,,1986-5-20,2015-3-2,,,,,,,,1,9596,,,,,,,,2,2332,ATL2332,ATL2332,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Moinul  Islam,,Junior Operator,,1,,1993-4-20,2015-3-4,,,,,,,,1,9596,,,,,,,,2,2334,ATL2334,ATL2334,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Sakender  Ali,,Junior Operator,,1,,1970-10-12,2015-4-19,,,,,,,,1,9596,,,,,,,,2,2361,ATL2361,ATL2361,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Abdur  Rakib,,Junior Operator,,1,,1993-8-19,2016-11-8,,,,,,,,1,9647,,,,,,,,2,2616,ATL2616,ATL2616,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Mr. Nur  Alam Islam,,Assistant Operator,,1,,1998-3-12,2017-12-2,,,,,,,,1,8631,,,,,,,,2,2930,ATL2930,ATL2930,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Abdur  Rahim,,Junior Operator,,1,,1997-10-6,2017-12-12,,,,,,,,1,9228,,,,,,,,2,2938,ATL2938,ATL2938,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Saiful  Alam,,Junior Operator,,1,,1974-8-12,2018-7-17,,,,,,,,1,9228,,,,,,,,2,3109,ATL3109,ATL3109,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Sahinur   Islam,,Assistant Operator,,1,,1991-6-14,2019-1-19,,,,,,,,1,8631,,,,,,,,2,3332,ATL3332,ATL3332,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Abul  Hasanat,,Assistant Operator,,1,,1980-11-10,2019-2-10,,,,,,,,1,8631,,,,,,,,2,3348,ATL3348,ATL3348,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Poygam  Ali,,Assistant Operator,,1,,2000-11-25,2019-2-7,,,,,,,,1,8631,,,,,,,,2,3357,ATL3357,ATL3357,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Sariful  Islam,,Assistant Operator,,1,,1993-1-8,2019-3-2,,,,,,,,1,8631,,,,,,,,2,3392,ATL3392,ATL3392,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.  Aslam,,Assistant Operator,,1,,1984-3-2,2019-3-18,,,,,,,,1,8631,,,,,,,,2,3421,ATL3421,ATL3421,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.Alamin  Hossain,,Junior Operator,,1,,1995-1-1,2019-11-2,,,,,,,,1,9226,,,,,,,,2,3512,ATL3512,ATL3512,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Sujon Kumar  Bishas,,Assistant Operator,,2,,1999-12-3,2019-11-2,,,,,,,,1,8308,,,,,,,,2,3513,ATL3513,ATL3513,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.  Elias,,Assistant Operator,,1,,1987-8-10,2019-11-3,,,,,,,,1,8308,,,,,,,,2,3514,ATL3514,ATL3514,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Hafijur  Rahman,,Assistant Operator,,1,,1988-2-11,2019-12-10,,,,,,,,1,8308,,,,,,,,2,3551,ATL3551,ATL3551,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md. Rashedul  Hasan,,Assistant Operator,,1,,1993-11-13,2019-12-10,,,,,,,,1,8308,,,,,,,,2,3553,ATL3553,ATL3553,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.Shah Alom  ,,Assistant Operator,,1,,2001-1-15,2021-2-10,,,,,,,,1,8000,,,,,,,,2,3890,ATL3890,ATL3890,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.Sahajan Ali  ,,Assistant Operator,,1,,1990-12-17,2021-2-10,,,,,,,,1,8000,,,,,,,,2,3891,ATL3891,ATL3891,123456,,1
+ATL,Textiles,Dyeing Production,Batch Planning,Batch Planning,,Md.Ashadul  ,,Assistant Operator,,1,,1986-10-11,2021-2-23,,,,,,,,1,8000,,,,,,,,2,3896,ATL3896,ATL3896,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Hanif  Mia,,Operator,,1,,1984-5-14,2003-5-3,,,,,,,,1,16262,,,,,,,,2,166,ATL166,ATL166,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Azad  Hossain,,Operator,,1,,1985-6-11,2006-3-15,,,,,,,,1,15695,,,,,,,,2,465,ATL465,ATL465,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Aribondo  Chandro Biswas,,Operator,,2,,1988-2-10,2007-11-1,,,,,,,,1,12954,,,,,,,,2,859,ATL859,ATL859,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Billal  Hossain,,Operator,,1,,1989-6-5,2008-2-6,,,,,,,,1,12983,,,,,,,,2,966,ATL966,ATL966,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Abdul  Mannan Mandal,,Operator,,1,,1985-3-2,2008-6-7,,,,,,,,1,13387,,,,,,,,2,1069,ATL1069,ATL1069,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Hasidul  Islam,,Operator,,1,,1991-6-10,2010-10-2,,,,,,,,1,12155,,,,,,,,2,1466,ATL1466,ATL1466,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Palash  Mia,,Operator,,1,,1987-6-1,2010-12-2,,,,,,,,1,13309,,,,,,,,2,1513,ATL1513,ATL1513,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Abu  Taher,,Operator,,1,,1985-2-1,2010-12-8,,,,,,,,1,12864,,,,,,,,2,1524,ATL1524,ATL1524,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Monir  Hossain,,Operator,,1,,1988-12-21,2010-12-21,,,,,,,,1,13014,,,,,,,,2,1543,ATL1543,ATL1543,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Anarul  Haque,,Operator,,1,,1992-1-19,2011-3-3,,,,,,,,1,12600,,,,,,,,2,1584,ATL1584,ATL1584,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Arif  Hossain,,Operator,,1,,1992-1-10,2011-11-23,,,,,,,,1,12983,,,,,,,,2,1710,ATL1710,ATL1710,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Monjurul  Islam,,Operator,,1,,1989-6-15,2012-4-11,,,,,,,,1,13132,,,,,,,,2,1820,ATL1820,ATL1820,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Mohir  Uddin,,Operator,,1,,1986-1-1,2012-9-2,,,,,,,,1,12722,,,,,,,,2,1903,ATL1903,ATL1903,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Abdul  Jalil,,Operator,,1,,1993-12-11,2013-11-3,,,,,,,,1,12864,,,,,,,,2,2122,ATL2122,ATL2122,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Milon  Haque,,Operator,,1,,1995-7-15,2014-3-3,,,,,,,,1,11116,,,,,,,,2,2147,ATL2147,ATL2147,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Ranu  Mia,,Operator,,1,,1995-5-10,2014-3-15,,,,,,,,1,11422,,,,,,,,2,2173,ATL2173,ATL2173,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Nur  Nobi Hossain,,Operator,,1,,1994-9-28,2014-3-17,,,,,,,,1,10853,,,,,,,,2,2174,ATL2174,ATL2174,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Habibulla  Al Hadi,,Operator,,1,,1995-10-12,2014-11-13,,,,,,,,1,11411,,,,,,,,2,2285,ATL2285,ATL2285,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Jwal  Islam,,Junior Operator,,1,,1996-3-12,2015-3-17,,,,,,,,1,10596,,,,,,,,2,2344,ATL2344,ATL2344,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Rahenul  Islam,,Junior Operator,,1,,1997-1-5,2015-8-1,,,,,,,,1,10596,,,,,,,,2,2393,ATL2393,ATL2393,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Mozidul   Islam,,Operator,,1,,1994-1-1,2015-8-10,,,,,,,,1,10752,,,,,,,,2,2404,ATL2404,ATL2404,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Amirul  Islam,,Operator,,1,,1971-11-4,2015-12-1,,,,,,,,1,11418,,,,,,,,2,2449,ATL2449,ATL2449,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Kabir   Hossain ,,Operator,,1,,1992-7-10,2016-5-7,,,,,,,,1,10752,,,,,,,,2,2516,ATL2516,ATL2516,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Topon   Chandro Bormon ,,Operator,,2,,1998-7-8,2016-8-2,,,,,,,,1,10752,,,,,,,,2,2554,ATL2554,ATL2554,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Shariful  Islam,,Junior Operator,,1,,1997-7-31,2016-10-8,,,,,,,,1,10596,,,,,,,,2,2584,ATL2584,ATL2584,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Rasel Shekh  ,,Junior Operator,,1,,1992-10-1,2016-11-1,,,,,,,,1,11002,,,,,,,,2,2601,ATL2601,ATL2601,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Abul  Kashem,,Junior Operator,,1,,1994-12-20,2016-11-24,,,,,,,,1,11002,,,,,,,,2,2630,ATL2630,ATL2630,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Zikrul  Haque,,Operator,,1,,1990-10-14,2017-5-24,,,,,,,,1,10752,,,,,,,,2,2764,ATL2764,ATL2764,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Anarul   Hoque,,Operator,,1,,1990-12-10,2017-7-9,,,,,,,,1,10752,,,,,,,,2,2783,ATL2783,ATL2783,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Sazzad  Hossain Molla,,Operator,,1,,1998-9-6,2017-7-9,,,,,,,,1,10752,,,,,,,,2,2802,ATL2802,ATL2802,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Farhad  Ali,,Junior Operator,,1,,1985-7-25,2017-9-12,,,,,,,,1,10596,,,,,,,,2,2830,ATL2830,ATL2830,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Mafajur  Rahman,,Junior Operator,,1,,1997-7-9,2017-9-13,,,,,,,,1,10596,,,,,,,,2,2833,ATL2833,ATL2833,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Eliyas  Ali,,Junior Operator,,1,,1986-7-1,2017-9-14,,,,,,,,1,10596,,,,,,,,2,2838,ATL2838,ATL2838,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Abul  Kalam Azad,,Junior Operator,,1,,1995-8-25,2017-9-21,,,,,,,,1,12155,,,,,,,,2,2862,ATL2862,ATL2862,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Abdul  Mannan,,Assistant Operator,,1,,1986-10-25,2017-12-2,,,,,,,,1,9183,,,,,,,,2,2905,ATL2905,ATL2905,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Mr. Dowal   Chandro Bormon,,Junior Operator,,2,,1985-1-6,2017-12-2,,,,,,,,1,10596,,,,,,,,2,2906,ATL2906,ATL2906,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Based  Ali,,Operator,,1,,1993-1-10,2017-12-2,,,,,,,,1,11417,,,,,,,,2,2909,ATL2909,ATL2909,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Josim  Mondol,,Operator,,1,,1995-3-20,2017-12-2,,,,,,,,1,11428,,,,,,,,2,2910,ATL2910,ATL2910,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Monabbar  Hossain,,Assistant Operator,,1,,1982-10-8,2017-12-2,,,,,,,,1,9183,,,,,,,,2,2911,ATL2911,ATL2911,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Ali  Hossain,,Operator,,1,,1995-2-10,2017-12-2,,,,,,,,1,11428,,,,,,,,2,2917,ATL2917,ATL2917,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Forhadul  Islam,,Operator,,1,,1985-5-15,2017-12-2,,,,,,,,1,11411,,,,,,,,2,2918,ATL2918,ATL2918,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Roni  Mia,,Operator,,1,,1994-1-1,2017-12-2,,,,,,,,1,11428,,,,,,,,2,2919,ATL2919,ATL2919,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Habibur  Rahman,,Junior Operator,,1,,1993-2-4,2017-12-17,,,,,,,,1,11683,,,,,,,,2,2934,ATL2934,ATL2934,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Nur Amin  Islam,,Junior Operator,,1,,1999-2-27,2017-12-12,,,,,,,,1,10596,,,,,,,,2,2937,ATL2937,ATL2937,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Ali  Kadar,,Junior Operator,,1,,1980-6-24,2017-12-13,,,,,,,,1,11428,,,,,,,,2,2942,ATL2942,ATL2942,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Faruk  Hosen,,Junior Operator,,1,,1995-12-8,2018-1-1,,,,,,,,1,11417,,,,,,,,2,2969,ATL2969,ATL2969,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Dilip  Chandro Das,,Junior Operator,,2,,1995-4-12,2018-4-8,,,,,,,,1,10175,,,,,,,,2,3029,ATL3029,ATL3029,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Golam  Rabbani,,Junior Operator,,1,,1998-10-5,2018-7-1,,,,,,,,1,10800,,,,,,,,2,3061,ATL3061,ATL3061,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Rasidul  Islam,,Junior Operator,,1,,1999-1-13,2018-7-3,,,,,,,,1,9803,,,,,,,,2,3067,ATL3067,ATL3067,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Sohel  Rana,,Junior Operator,,1,,1999-2-3,2018-7-3,,,,,,,,1,10385,,,,,,,,2,3072,ATL3072,ATL3072,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Tamim  Sheikh,,Junior Operator,,1,,1996-11-15,2018-7-9,,,,,,,,1,11683,,,,,,,,2,3088,ATL3088,ATL3088,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Roysul  Islam,,Junior Operator,,1,,1999-9-24,2018-7-10,,,,,,,,1,9970,,,,,,,,2,3092,ATL3092,ATL3092,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Al  Amin,,Operator,,1,,1989-3-2,2018-7-12,,,,,,,,1,12273,,,,,,,,2,3098,ATL3098,ATL3098,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Bidut   Biswas,,Operator,,2,,1992-12-10,2018-8-1,,,,,,,,1,12273,,,,,,,,2,3121,ATL3121,ATL3121,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Anowar  Hossen,,Operator,,1,,1980-4-12,2018-8-1,,,,,,,,1,11683,,,,,,,,2,3122,ATL3122,ATL3122,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.  Shamim,,Junior Operator,,1,,1994-12-10,2018-8-1,,,,,,,,1,12273,,,,,,,,2,3123,ATL3123,ATL3123,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Mafuz   Miya,,Junior Operator,,1,,1996-2-2,2018-8-1,,,,,,,,1,12273,,,,,,,,2,3124,ATL3124,ATL3124,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Joydeb  Kumar,,Junior Operator,,2,,1997-11-17,2018-9-6,,,,,,,,1,11683,,,,,,,,2,3159,ATL3159,ATL3159,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Monzur  Rahman,,Junior Operator,,1,,1993-3-12,2018-9-9,,,,,,,,1,12273,,,,,,,,2,3183,ATL3183,ATL3183,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Uzzal   Rana,,Junior Operator,,1,,1997-3-26,2018-9-9,,,,,,,,1,12273,,,,,,,,2,3185,ATL3185,ATL3185,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Msaud   Rana,,Junior Operator,,1,,1988-2-10,2018-9-9,,,,,,,,1,9803,,,,,,,,2,3196,ATL3196,ATL3196,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Asraful  Mia,,Operator,,1,,1996-3-1,2018-10-1,,,,,,,,1,12273,,,,,,,,2,3217,ATL3217,ATL3217,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.  Asraful,,Junior Operator,,1,,1989-11-5,2018-10-1,,,,,,,,1,11683,,,,,,,,2,3218,ATL3218,ATL3218,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Miju  Molla,,Junior Operator,,1,,1999-4-5,2018-10-3,,,,,,,,1,9803,,,,,,,,2,3227,ATL3227,ATL3227,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Abu   Hasan,,Junior Operator,,1,,1994-2-9,2018-10-13,,,,,,,,1,12273,,,,,,,,2,3244,ATL3244,ATL3244,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Abu  Sahin,,Operator,,1,,1993-1-7,2018-10-15,,,,,,,,1,12273,,,,,,,,2,3247,ATL3247,ATL3247,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Shamim  Mia,,Operator,,1,,1990-7-6,2018-10-15,,,,,,,,1,12273,,,,,,,,2,3248,ATL3248,ATL3248,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Sohel   Rana,,Operator,,1,,1999-2-5,2018-10-20,,,,,,,,1,12273,,,,,,,,2,3257,ATL3257,ATL3257,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Solayman  Ali,,Operator,,1,,1992-5-5,2018-11-1,,,,,,,,1,12273,,,,,,,,2,3262,ATL3262,ATL3262,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Mizanur  Rahman,,Junior Operator,,1,,1987-5-5,2018-11-19,,,,,,,,1,12273,,,,,,,,2,3281,ATL3281,ATL3281,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. kamal  Uddin,,Operator,,1,,1990-9-12,2018-11-20,,,,,,,,1,12273,,,,,,,,2,3283,ATL3283,ATL3283,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Anisur  Rahman,,Junior Operator,,1,,1997-3-5,2019-2-17,,,,,,,,1,10812,,,,,,,,2,3377,ATL3377,ATL3377,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Chanchol   Hosen,,Operator,,1,,2000-12-7,2019-2-2,,,,,,,,1,11913,,,,,,,,2,3380,ATL3380,ATL3380,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Mortuza   Ali,,Junior Operator,,1,,1997-12-31,2019-3-2,,,,,,,,1,10812,,,,,,,,2,3387,ATL3387,ATL3387,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Mominul   Haque,,Operator,,1,,1988-6-24,2019-4-1,,,,,,,,1,11433,,,,,,,,2,3434,ATL3434,ATL3434,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Shipon  Hossain,,Junior Operator,,1,,2000-8-2,2019-4-1,,,,,,,,1,11000,,,,,,,,2,3435,ATL3435,ATL3435,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Abdul Hannan  (Habib),,Junior Operator,,1,,1998-2-25,2019-7-6,,,,,,,,1,9803,,,,,,,,2,3497,ATL3497,ATL3497,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Nazrul  Islam,,Junior Operator,,1,,1998-10-18,2019-7-11,,,,,,,,1,9970,,,,,,,,2,3499,ATL3499,ATL3499,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Rakibul   Islam,,Junior Operator,,1,,1999-7-5,2019-12-8,,,,,,,,1,9208,,,,,,,,2,3531,ATL3531,ATL3531,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Ariful  Islam,,Junior Operator,,1,,1995-3-2,2019-12-8,,,,,,,,1,9440,,,,,,,,2,3532,ATL3532,ATL3532,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Sahin  Kader,,Junior Operator,,1,,2001-2-3,2019-12-8,,,,,,,,1,9308,,,,,,,,2,3533,ATL3533,ATL3533,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Ebrahim  Islam,,Junior Operator,,1,,2001-6-28,2019-12-9,,,,,,,,1,9308,,,,,,,,2,3540,ATL3540,ATL3540,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Kazi  Roni,,Operator,,1,,1989-12-15,2019-12-12,,,,,,,,1,11433,,,,,,,,2,3559,ATL3559,ATL3559,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Razib  Hossain,,Junior Operator,,1,,1997-6-15,2020-1-20,,,,,,,,1,10722,,,,,,,,2,3600,ATL3600,ATL3600,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Montaj   Ali,,Operator,,1,,1988-6-19,2020-1-21,,,,,,,,1,11458,,,,,,,,2,3602,ATL3602,ATL3602,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Shoriful   Islam,,Junior Operator,,1,,2001-7-18,2020-1-21,,,,,,,,1,9308,,,,,,,,2,3605,ATL3605,ATL3605,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Omar   Faruk,,Junior Operator,,1,,1994-8-14,2020-1-22,,,,,,,,1,9308,,,,,,,,2,3607,ATL3607,ATL3607,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Rabiul   Islam,,Junior Operator,,1,,1999-6-23,2020-1-22,,,,,,,,1,9108,,,,,,,,2,3610,ATL3610,ATL3610,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Arif  Hossen ,,Junior Operator,,1,,1999-6-2,2020-1-23,,,,,,,,1,9208,,,,,,,,2,3611,ATL3611,ATL3611,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Rayhan  Talukder,,Operator,,1,,1996-6-10,2020-2-3,,,,,,,,1,11458,,,,,,,,2,3618,ATL3618,ATL3618,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Khairul  Islam,,Operator,,1,,1988-6-25,2020-2-14,,,,,,,,1,11458,,,,,,,,2,3653,ATL3653,ATL3653,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Salmansha  Islam,,Junior Operator,,1,,2001-11-12,2020-2-16,,,,,,,,1,9308,,,,,,,,2,3654,ATL3654,ATL3654,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Abu Bakkur  Siddik,,Junior Operator,,1,,1997-12-10,2020-2-22,,,,,,,,1,9108,,,,,,,,2,3661,ATL3661,ATL3661,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Sahid Hasan  Ferdaus,,Assistant Operator,,1,,1995-10-21,2020-2-26,,,,,,,,1,8308,,,,,,,,2,3662,ATL3662,ATL3662,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Shahnewaz  Hossen,,Junior Operator,,1,,1996-9-8,2020-3-10,,,,,,,,1,9308,,,,,,,,2,3677,ATL3677,ATL3677,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Manik   Mia,,Junior Operator,,1,,1993-11-28,2020-3-10,,,,,,,,1,9308,,,,,,,,2,3678,ATL3678,ATL3678,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Al-Mamun  ,,Operator,,1,,1988-12-1,2020-3-12,,,,,,,,1,11458,,,,,,,,2,3679,ATL3679,ATL3679,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Imran  ,,Junior Operator,,1,,1994-3-15,2020-3-14,,,,,,,,1,11458,,,,,,,,2,3682,ATL3682,ATL3682,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Rayhan  Ali,,Junior Operator,,1,,1988-8-1,2020-3-18,,,,,,,,1,11458,,,,,,,,2,3684,ATL3684,ATL3684,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Raju  Mia,,Operator,,1,,2000-11-24,2020-7-1,,,,,,,,1,11000,,,,,,,,2,3692,ATL3692,ATL3692,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Kartik Das  ,,Junior Operator,,2,,1977-2-27,2020-7-1,,,,,,,,1,10800,,,,,,,,2,3693,ATL3693,ATL3693,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Rohedul  Islam,,Junior Operator,,1,,1996-11-2,2020-7-4,,,,,,,,1,11000,,,,,,,,2,3694,ATL3694,ATL3694,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Tangemul Islam  Shohag,,Operator,,1,,1982-4-7,2020-7-7,,,,,,,,1,11500,,,,,,,,2,3695,ATL3695,ATL3695,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Jakaria  Hossen,,Operator,,1,,1988-1-1,2020-7-7,,,,,,,,1,11500,,,,,,,,2,3696,ATL3696,ATL3696,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Shorif   Ali,,Junior Operator,,1,,2000-3-19,2020-8-11,,,,,,,,1,11000,,,,,,,,2,3706,ATL3706,ATL3706,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Nahid   Hasan,,Operator,,1,,1997-11-14,2020-8-13,,,,,,,,1,12000,,,,,,,,2,3707,ATL3707,ATL3707,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Shakil  Biswas,,Operator,,1,,1999-2-12,2020-8-13,,,,,,,,1,11500,,,,,,,,2,3708,ATL3708,ATL3708,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Sohel Rana  ,,Operator,,1,,1985-7-18,2020-8-13,,,,,,,,1,12000,,,,,,,,2,3709,ATL3709,ATL3709,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Badal  Khondakar,,Junior Operator,,1,,1993-10-22,2020-8-13,,,,,,,,1,11300,,,,,,,,2,3711,ATL3711,ATL3711,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Saju  ,,Junior Operator,,1,,1997-11-25,2020-8-13,,,,,,,,1,11300,,,,,,,,2,3712,ATL3712,ATL3712,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Atikur Rahman  ,,Junior Operator,,1,,1999-3-3,2020-8-13,,,,,,,,1,11300,,,,,,,,2,3713,ATL3713,ATL3713,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Manik Hossain  ,,Junior Operator,,1,,1998-7-3,2020-8-13,,,,,,,,1,11300,,,,,,,,2,3714,ATL3714,ATL3714,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Khairul Islam  ,,Operator,,1,,1990-5-9,2020-8-16,,,,,,,,1,11700,,,,,,,,2,3715,ATL3715,ATL3715,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Mamun Roshid  ,,Operator,,1,,1995-2-1,2020-8-16,,,,,,,,1,11500,,,,,,,,2,3716,ATL3716,ATL3716,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Jiyarul Islam  ,,Operator,,1,,1990-4-3,2020-8-16,,,,,,,,1,12000,,,,,,,,2,3717,ATL3717,ATL3717,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Bikash Chandra Sarker  ,,Operator,,2,,1984-8-20,2020-8-16,,,,,,,,1,12000,,,,,,,,2,3718,ATL3718,ATL3718,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Soriful Islam  Ripon,,Operator,,1,,1995-12-14,2020-8-16,,,,,,,,1,12000,,,,,,,,2,3719,ATL3719,ATL3719,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Rafiqul Islam  ,,Junior Operator,,1,,1980-9-21,2020-8-16,,,,,,,,1,11300,,,,,,,,2,3721,ATL3721,ATL3721,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Delowar Hossain  ,,Junior Operator,,1,,2000-7-16,2020-8-16,,,,,,,,1,11300,,,,,,,,2,3723,ATL3723,ATL3723,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Mukul Hossen  ,,Junior Operator,,1,,1995-8-11,2020-8-16,,,,,,,,1,11300,,,,,,,,2,3724,ATL3724,ATL3724,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Ismail Ali  ,,Operator,,1,,1990-1-1,2020-9-22,,,,,,,,1,11500,,,,,,,,2,3742,ATL3742,ATL3742,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Robiul Islam  ,,Assistant Operator,,1,,2002-1-1,2020-9-13,,,,,,,,1,8000,,,,,,,,2,3744,ATL3744,ATL3744,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Rashed Islam  ,,Assistant Operator,,1,,1998-12-31,2020-9-13,,,,,,,,1,8000,,,,,,,,2,3745,ATL3745,ATL3745,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Hasanur Rahman  ,,Assistant Operator,,1,,2001-3-25,2020-9-13,,,,,,,,1,8000,,,,,,,,2,3746,ATL3746,ATL3746,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Sonjit Kumar Paul  ,,Assistant Operator,,2,,2000-12-7,2020-9-13,,,,,,,,1,8000,,,,,,,,2,3747,ATL3747,ATL3747,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Al-Amin  ,,Assistant Operator,,1,,1999-10-27,2020-9-13,,,,,,,,1,8000,,,,,,,,2,3748,ATL3748,ATL3748,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Alamgir  ,,Assistant Operator,,1,,1993-6-15,2020-9-23,,,,,,,,1,8000,,,,,,,,2,3758,ATL3758,ATL3758,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Sohel Rana  ,,Assistant Operator,,1,,1987-11-1,2020-9-23,,,,,,,,1,8000,,,,,,,,2,3759,ATL3759,ATL3759,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Asraful Islam  ,,Junior Operator,,1,,2000-9-5,2020-10-10,,,,,,,,1,11000,,,,,,,,2,3776,ATL3776,ATL3776,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Julfikar Hossen   ,,Junior Operator,,1,,1996-9-13,2020-10-10,,,,,,,,1,11000,,,,,,,,2,3777,ATL3777,ATL3777,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Murshedur Rahman  ,,Assistant Operator,,1,,1999-1-1,2020-10-15,,,,,,,,1,8000,,,,,,,,2,3783,ATL3783,ATL3783,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Asaduzzaman  ,,Assistant Operator,,1,,2002-4-14,2020-10-15,,,,,,,,1,8000,,,,,,,,2,3785,ATL3785,ATL3785,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Eyasin Ali  ,,Operator,,1,,1996-2-5,2020-11-16,,,,,,,,1,11500,,,,,,,,2,3805,ATL3805,ATL3805,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Rakib Biswas  ,,Junior Operator,,1,,1999-6-3,2020-11-17,,,,,,,,1,10800,,,,,,,,2,3806,ATL3806,ATL3806,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Al-Amin Hasan Saykat  ,,Needleman,,1,,1997-2-12,2021-1-9,,,,,,,,1,13500,,,,,,,,2,3847,ATL3847,ATL3847,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Kamrul Hasan  ,,Assistant Operator,,1,,2002-4-15,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3863,ATL3863,ATL3863,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Hamidur Rahman  ,,Assistant Operator,,1,,1998-1-1,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3864,ATL3864,ATL3864,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Abdur Razzak  ,,Assistant Operator,,1,,2001-6-13,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3866,ATL3866,ATL3866,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Hridoy  ,,Assistant Operator,,1,,2002-1-30,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3869,ATL3869,ATL3869,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Soriful Islam  ,,Assistant Operator,,1,,1995-4-20,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3870,ATL3870,ATL3870,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Mehedi Hasan Antor  ,,Assistant Operator,,1,,2001-11-28,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3874,ATL3874,ATL3874,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Raton Mia  ,,Assistant Operator,,1,,2001-6-15,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3875,ATL3875,ATL3875,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Aminul Islam  ,,Assistant Operator,,1,,2001-5-29,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3876,ATL3876,ATL3876,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Parvez Hossain   ,,Assistant Operator,,1,,2002-10-1,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3880,ATL3880,ATL3880,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Tafsir Hossain  ,,Assistant Operator,,1,,2001-9-24,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3881,ATL3881,ATL3881,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Mamunur Rashid  ,,Assistant Operator,,1,,2002-6-20,2021-2-7,,,,,,,,1,8000,,,,,,,,2,3883,ATL3883,ATL3883,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md. Hasim Ali   ,,Assistant Operator,,1,,1996-3-7,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3892,ATL3892,ATL3892,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Sahadat Hossen  ,,Assistant Operator,,1,,2001-3-16,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3893,ATL3893,ATL3893,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Baharul  ,,Operator,,1,,1987-1-25,2021-3-6,,,,,,,,1,11500,,,,,,,,2,3905,ATL3905,ATL3905,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Aluddin  ,,Operator,,1,,1996-9-20,2021-3-7,,,,,,,,1,11500,,,,,,,,2,3906,ATL3906,ATL3906,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Tariqul Islam  ,,Operator,,1,,1998-7-17,2021-3-13,,,,,,,,1,9800,,,,,,,,2,3907,ATL3907,ATL3907,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Masud Rana  ,,Operator,,1,,1999-2-12,2021-3-15,,,,,,,,1,11500,,,,,,,,2,3908,ATL3908,ATL3908,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Shohag   Hossain,,Assistant Operator,,1,,1998-3-7,2021-3-15,,,,,,,,1,8000,,,,,,,,2,3910,ATL3910,ATL3910,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.sumon parvez  ,,Assistant Operator,,1,,2003-2-23,2021-3-16,,,,,,,,1,8000,,,,,,,,2,3911,ATL3911,ATL3911,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Ruhul Amin  ,,Assistant Operator,,1,,2002-1-3,2021-3-16,,,,,,,,1,8000,,,,,,,,2,3912,ATL3912,ATL3912,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Esrafil Hossen  ,,Assistant Operator,,1,,2002-6-20,2021-3-18,,,,,,,,1,8000,,,,,,,,2,3913,ATL3913,ATL3913,123456,,1
+ATL,Textiles,Knitting,Circular Knitting,Circular Knitting,,Md.Shamim Reja  ,,Assistant Operator,,1,,2003-1-21,2021-3-18,,,,,,,,1,8000,,,,,,,,2,3914,ATL3914,ATL3914,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Amzad  Hossain,,Operator,,1,,1980-1-1,2001-6-18,,,,,,,,1,19876,,,,,,,,2,25,ATL25,ATL25,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Osman  Goni,,Operator,,1,,1980-9-22,2001-11-14,,,,,,,,1,18086,,,,,,,,2,56,ATL56,ATL56,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Zakir  Hossain,,Operator,,1,,1981-1-18,2001-12-26,,,,,,,,1,20635,,,,,,,,2,73,ATL73,ATL73,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Jashim  Uddin,,Operator,,1,,1983-5-15,2002-5-21,,,,,,,,1,15745,,,,,,,,2,107,ATL107,ATL107,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Al-Amin  Kazi,,Junior Operator,,1,,1980-4-2,2002-9-1,,,,,,,,1,14744,,,,,,,,2,115,ATL115,ATL115,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Anowar  Hossain,,Operator,,1,,1985-1-1,2003-3-2,,,,,,,,1,18604,,,,,,,,2,151,ATL151,ATL151,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Khandaker  Suruzzaman,,Operator,,1,,1971-6-4,2003-4-7,,,,,,,,1,17345,,,,,,,,2,159,ATL159,ATL159,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Foyaz  Ahmed (Sumon),,Operator,,1,,1985-6-1,2003-8-18,,,,,,,,1,19211,,,,,,,,2,183,ATL183,ATL183,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Faruq  Hossain,,Operator,,1,,1980-11-22,2003-10-2,,,,,,,,1,16496,,,,,,,,2,188,ATL188,ATL188,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Sayeed  Md.Rassel,,Operator,,1,,1983-10-5,2003-10-7,,,,,,,,1,18044,,,,,,,,2,190,ATL190,ATL190,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Milon  Mia,,Operator,,1,,1985-8-15,2004-6-1,,,,,,,,1,15505,,,,,,,,2,226,ATL226,ATL226,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Ariful  Haque,,Operator,,1,,1980-12-14,2004-12-8,,,,,,,,1,16340,,,,,,,,2,253,ATL253,ATL253,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Mamunur  Rashid,,Operator,,1,,1985-1-1,2005-4-4,,,,,,,,1,17689,,,,,,,,2,320,ATL320,ATL320,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Shafiqul  Islam,,Operator,,1,,1985-2-15,2005-5-4,,,,,,,,1,16406,,,,,,,,2,331,ATL331,ATL331,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Kamruzzaman  ,,Operator,,1,,1987-5-10,2005-8-15,,,,,,,,1,14774,,,,,,,,2,369,ATL369,ATL369,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Jabbar Mondol,,Operator,,1,,1979-2-1,2005-8-21,,,,,,,,1,14746,,,,,,,,2,373,ATL373,ATL373,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Maydul Islam,,Operator,,1,,1985-1-25,2006-1-1,,,,,,,,1,15610,,,,,,,,2,420,ATL420,ATL420,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Rahidul  Islam,,Operator,,1,,1987-2-5,2006-2-1,,,,,,,,1,16830,,,,,,,,2,428,ATL428,ATL428,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Zillur Rahman,,Operator,,1,,1985-5-14,2006-2-22,,,,,,,,1,16786,,,,,,,,2,444,ATL444,ATL444,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Humayun Kabir,,Operator,,1,,1983-3-1,2006-9-2,,,,,,,,1,14248,,,,,,,,2,557,ATL557,ATL557,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Monjur Alam,,Operator,,1,,1984-3-12,2006-9-2,,,,,,,,1,14306,,,,,,,,2,562,ATL562,ATL562,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Tipu  Mia,,Junior Operator,,1,,1983-1-1,2007-1-13,,,,,,,,1,13605,,,,,,,,2,639,ATL639,ATL639,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Harun  Or Rashid,,Operator,,1,,1984-1-15,2007-1-16,,,,,,,,1,15232,,,,,,,,2,656,ATL656,ATL656,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Nizam  Mondol,,Junior Operator,,1,,1986-1-1,2007-2-5,,,,,,,,1,14506,,,,,,,,2,695,ATL695,ATL695,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Mizanur  Rahman,,Operator,,1,,1986-5-10,2007-3-1,,,,,,,,1,16836,,,,,,,,2,715,ATL715,ATL715,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Shahidul  Islam,,Operator,,1,,1987-7-12,2008-5-12,,,,,,,,1,14423,,,,,,,,2,1037,ATL1037,ATL1037,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Billal  Hossain,,Operator,,1,,1989-7-14,2009-4-2,,,,,,,,1,14383,,,,,,,,2,1277,ATL1277,ATL1277,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Arzu  ,,Junior Operator,,1,,1987-8-5,2009-4-26,,,,,,,,1,13715,,,,,,,,2,1286,ATL1286,ATL1286,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Kamal  Uddin,,Operator,,1,,1979-9-27,2009-8-1,,,,,,,,1,15176,,,,,,,,2,1346,ATL1346,ATL1346,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Ramesh  Chandro Roy,,Operator,,2,,1987-10-5,2010-1-2,,,,,,,,1,14317,,,,,,,,2,1387,ATL1387,ATL1387,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Abu  Bakkar Siddique,,Operator,,1,,1982-10-30,2011-11-14,,,,,,,,1,14845,,,,,,,,2,1691,ATL1691,ATL1691,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Abdul  Motin Khan,,Junior Operator,,1,,1988-8-22,2011-12-1,,,,,,,,1,11734,,,,,,,,2,1750,ATL1750,ATL1750,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Rasheduzzaman,,Operator,,1,,1979-12-31,2012-6-9,,,,,,,,1,15116,,,,,,,,2,1864,ATL1864,ATL1864,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Dipogkar  Mondol,,Operator,,2,,1993-1-11,2012-7-15,,,,,,,,1,13061,,,,,,,,2,1895,ATL1895,ATL1895,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Jakir  Hossain,,Operator,,1,,1992-7-20,2012-11-20,,,,,,,,1,12191,,,,,,,,2,1966,ATL1966,ATL1966,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Manik  Molla,,Operator,,1,,1993-5-20,2013-9-4,,,,,,,,1,12758,,,,,,,,2,2118,ATL2118,ATL2118,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Ariful  Islam,,Operator,,1,,1983-1-1,2014-8-5,,,,,,,,1,14744,,,,,,,,2,2219,ATL2219,ATL2219,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Milon  Hossain,,Operator,,1,,1992-7-15,2014-8-11,,,,,,,,1,13268,,,,,,,,2,2233,ATL2233,ATL2233,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Omar  Faruk,,Junior Operator,,1,,1995-6-15,2015-2-17,,,,,,,,1,10285,,,,,,,,2,2327,ATL2327,ATL2327,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Mamun  Mia,,Operator,,1,,1983-1-1,2015-3-10,,,,,,,,1,12043,,,,,,,,2,2337,ATL2337,ATL2337,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Tokon  Mondol,,Operator,,2,,1985-1-1,2015-10-22,,,,,,,,1,11572,,,,,,,,2,2426,ATL2426,ATL2426,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Alamgir  -,,Junior Operator,,1,,1994-1-1,2016-1-14,,,,,,,,1,10115,,,,,,,,2,2472,ATL2472,ATL2472,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Amir   Hossain,,Operator,,1,,1990-5-12,2016-5-18,,,,,,,,1,11976,,,,,,,,2,2523,ATL2523,ATL2523,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Manik  Islam,,Junior Operator,,1,,1996-3-10,2017-1-9,,,,,,,,1,10940,,,,,,,,2,2658,ATL2658,ATL2658,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Gopesh Chandra Vowmik  ,,Operator,,2,,1989-6-12,2017-1-21,,,,,,,,1,13192,,,,,,,,2,2675,ATL2675,ATL2675,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Jakaria  Hossain,,Operator,,1,,1993-3-19,2017-3-4,,,,,,,,1,13073,,,,,,,,2,2705,ATL2705,ATL2705,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Munsur  Rahman,,Operator,,1,,1995-11-20,2017-4-20,,,,,,,,1,14137,,,,,,,,2,2740,ATL2740,ATL2740,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Selim   Khan ,,Operator,,1,,1995-9-20,2017-5-6,,,,,,,,1,14490,,,,,,,,2,2745,ATL2745,ATL2745,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Mahirul   Islam,,Junior Operator,,1,,1996-1-1,2017-5-11,,,,,,,,1,13132,,,,,,,,2,2750,ATL2750,ATL2750,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Rubel  ,,Junior Operator,,1,,1995-1-1,2017-5-11,,,,,,,,1,12275,,,,,,,,2,2751,ATL2751,ATL2751,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Mr. Sudorsan  Biswas,,Junior Operator,,2,,1996-10-25,2017-7-12,,,,,,,,1,12541,,,,,,,,2,2797,ATL2797,ATL2797,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Sohel  Rana,,Junior Operator,,1,,1995-1-5,2017-9-17,,,,,,,,1,11419,,,,,,,,2,2846,ATL2846,ATL2846,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Khairul  Islam,,Operator,,1,,1992-7-23,2017-10-12,,,,,,,,1,13545,,,,,,,,2,2871,ATL2871,ATL2871,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Kaium  Miah,,Junior Operator,,1,,1996-5-26,2018-1-7,,,,,,,,1,12954,,,,,,,,2,2964,ATL2964,ATL2964,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Shipon  Ali,,Assistant Operator,,1,,1990-4-1,2018-3-6,,,,,,,,1,9387,,,,,,,,2,3007,ATL3007,ATL3007,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Juwel  Miah,,Junior Operator,,1,,1997-1-9,2018-3-13,,,,,,,,1,11773,,,,,,,,2,3010,ATL3010,ATL3010,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Sohel  Mia,,Junior Operator,,1,,1992-3-13,2018-3-24,,,,,,,,1,12954,,,,,,,,2,3016,ATL3016,ATL3016,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Munem Sarkar,,Junior Operator,,1,,1998-7-28,2018-4-11,,,,,,,,1,12718,,,,,,,,2,3032,ATL3032,ATL3032,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.   Liakot Hossain,,Junior Operator,,1,,1997-9-26,2018-4-11,,,,,,,,1,12364,,,,,,,,2,3033,ATL3033,ATL3033,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Tofazzol  Hossain,,Junior Operator,,1,,1995-1-1,2018-7-11,,,,,,,,1,12364,,,,,,,,2,3097,ATL3097,ATL3097,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Rashel  Mahmud,,Junior Operator,,1,,1994-11-28,2018-9-8,,,,,,,,1,12128,,,,,,,,2,3173,ATL3173,ATL3173,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Abdus   Sohid,,Junior Operator,,1,,1995-1-1,2018-9-8,,,,,,,,1,12009,,,,,,,,2,3174,ATL3174,ATL3174,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Humaun  Kabir,,Junior Operator,,1,,1997-7-19,2018-9-10,,,,,,,,1,10947,,,,,,,,2,3188,ATL3188,ATL3188,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Raihan  Badsha,,Junior Operator,,1,,1991-6-14,2018-9-10,,,,,,,,1,11773,,,,,,,,2,3189,ATL3189,ATL3189,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Robin  Hossain,,Operator,,1,,1997-6-12,2018-10-13,,,,,,,,1,13545,,,,,,,,2,3242,ATL3242,ATL3242,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Mr.   Prosenzit,,Junior Operator,,2,,1996-12-31,2018-10-13,,,,,,,,1,12364,,,,,,,,2,3243,ATL3243,ATL3243,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Abdul  Mozid,,Assistant Operator,,1,,1987-2-3,2019-1-9,,,,,,,,1,8631,,,,,,,,2,3309,ATL3309,ATL3309,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Anisur  Rahman,,Junior Operator,,1,,1996-8-25,2019-1-10,,,,,,,,1,11608,,,,,,,,2,3319,ATL3319,ATL3319,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Rubel  Mia,,Junior Operator,,1,,1996-11-25,2019-1-15,,,,,,,,1,11056,,,,,,,,2,3333,ATL3333,ATL3333,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Rashed,,Junior Operator,,1,,1998-4-14,2019-2-5,,,,,,,,1,11057,,,,,,,,2,3354,ATL3354,ATL3354,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Kamal  Hossain,,Assistant Operator,,1,,1989-6-25,2019-2-7,,,,,,,,1,8631,,,,,,,,2,3358,ATL3358,ATL3358,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Alamin  Hossain,,Assistant Operator,,1,,1998-10-4,2019-3-2,,,,,,,,1,8631,,,,,,,,2,3390,ATL3390,ATL3390,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Saiful  Islam,,Operator,,1,,1993-1-2,2019-3-13,,,,,,,,1,17451,,,,,,,,2,3412,ATL3412,ATL3412,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.  Mursalin,,Assistant Operator,,1,,1997-4-2,2019-4-4,,,,,,,,1,8308,,,,,,,,2,3440,ATL3440,ATL3440,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Rasel  Talukder,,Operator,,1,,1996-9-20,2019-12-10,,,,,,,,1,13033,,,,,,,,2,3552,ATL3552,ATL3552,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Monir  Hossain,,Junior Operator,,1,,1990-1-21,2019-12-11,,,,,,,,1,13033,,,,,,,,2,3565,ATL3565,ATL3565,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Tutul  Sarker,,Junior Operator,,2,,1997-5-4,2019-12-11,,,,,,,,1,11668,,,,,,,,2,3566,ATL3566,ATL3566,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Anower  Hossen,,Operator,,1,,1977-8-6,2019-12-12,,,,,,,,1,16183,,,,,,,,2,3567,ATL3567,ATL3567,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md. Yousuf  Miya,,Junior Operator,,1,,1986-6-8,2019-12-10,,,,,,,,1,13243,,,,,,,,2,3576,ATL3576,ATL3576,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Sanowar Hossen  ,,Operator,,1,,1995-2-5,2020-8-16,,,,,,,,1,13000,,,,,,,,2,3731,ATL3731,ATL3731,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Mehedi Hasan  ,,Operator,,1,,1993-10-25,2020-8-18,,,,,,,,1,13000,,,,,,,,2,3732,ATL3732,ATL3732,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Abdul Kader  ,,Operator,,1,,1999-10-12,2020-8-8,,,,,,,,1,10500,,,,,,,,2,3733,ATL3733,ATL3733,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Zahir Raihan  ,,Senior Operator,,1,,1989-11-30,2020-9-13,,,,,,,,1,16000,,,,,,,,2,3751,ATL3751,ATL3751,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Forkan Miah  ,,Junior Operator,,1,,1998-3-27,2020-10-10,,,,,,,,1,11500,,,,,,,,2,3792,ATL3792,ATL3792,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Yasin Arafat  ,,Assistant Operator,,1,,1997-4-3,2021-1-6,,,,,,,,1,8000,,,,,,,,2,3840,ATL3840,ATL3840,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Shakil Aknda  ,,Operator,,1,,1996-12-30,2021-2-1,,,,,,,,1,10000,,,,,,,,2,3886,ATL3886,ATL3886,123456,,1
+ATL,Textiles,Dyeing Production,Dyeing,Dyeing,,Md.Shariful Islam  ,,Assistant Operator,,1,,2000-2-5,2021-2-10,,,,,,,,1,8000,,,,,,,,2,3889,ATL3889,ATL3889,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md.Narul  Amin Dewan,,Loader,,1,,1982-3-5,2002-1-1,,,,,,,,1,15134,,,,,,,,2,80,ATL80,ATL80,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md.Monsur  Ali,,Loader,,1,,1968-7-20,2002-5-2,,,,,,,,1,15134,,,,,,,,2,106,ATL106,ATL106,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md.Eleash  Ali,,Loader,,1,,1975-1-10,2005-5-4,,,,,,,,1,13515,,,,,,,,2,332,ATL332,ATL332,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Jillur  Rahman,,Loader,,1,,1986-5-3,2007-6-1,,,,,,,,1,12033,,,,,,,,2,787,ATL787,ATL787,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md. Aynul  ,,Loader,,1,,1984-4-14,2013-5-13,,,,,,,,1,9553,,,,,,,,2,2072,ATL2072,ATL2072,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md. Hanifur  ,,Loader,,1,,1984-9-30,2017-11-5,,,,,,,,1,9045,,,,,,,,2,2883,ATL2883,ATL2883,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md. Josim   Hossain,,Loader,,1,,1990-3-12,2019-4-7,,,,,,,,1,8701,,,,,,,,2,3443,ATL3443,ATL3443,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md. Raton  Mia,,Loader,,1,,1999-1-1,2020-2-11,,,,,,,,1,8702,,,,,,,,2,3642,ATL3642,ATL3642,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md.Rashel   Sheikh,,Loader,,1,,2000-12-10,2020-2-10,,,,,,,,1,8702,,,,,,,,2,3651,ATL3651,ATL3651,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Dyes & Chemical,,Md. Samiul   Islam,,Loader,,1,,1992-7-15,2020-2-10,,,,,,,,1,8702,,,,,,,,2,3652,ATL3652,ATL3652,123456,,1
+ATL,Textiles,Maintenance,Electrical,Electrical,,Md. Nur  Islam,,Electrician,,1,,1996-8-2,2019-6-13,,,,,,,,1,16095,,,,,,,,2,3479,ATL3479,ATL3479,123456,,1
+ATL,Textiles,Maintenance,Electro-Mechanical,Electro-Mechanical,,Md. Shoanur Rahman  Shohag,,Junior Electrician,,1,,1993-1-2,2018-2-10,,,,,,,,1,12364,,,,,,,,2,2986,ATL2986,ATL2986,123456,,1
+ATL,Textiles,Maintenance,Electro-Mechanical,Electro-Mechanical,,Md. Kauser  Islam,,Junior Electrician,,1,,1995-11-22,2018-10-20,,,,,,,,1,12364,,,,,,,,2,3258,ATL3258,ATL3258,123456,,1
+ATL,Textiles,Maintenance,Electro-Mechanical,Electro-Mechanical,,Md. Anower  Hossain,,Junior Electrician,,1,,1998-7-3,2018-11-6,,,,,,,,1,10665,,,,,,,,2,3268,ATL3268,ATL3268,123456,,1
+ATL,Textiles,Maintenance,Electro-Mechanical,Electro-Mechanical,,Md. Alamin  Hossen,,Junior Electrician,,1,,1997-1-2,2019-1-23,,,,,,,,1,10665,,,,,,,,2,3339,ATL3339,ATL3339,123456,,1
+ATL,Textiles,Maintenance,Electro-Mechanical,Electro-Mechanical,,Md. Osman  Faruk,,Junior Electrician,,1,,1991-9-13,2019-4-23,,,,,,,,1,10245,,,,,,,,2,3460,ATL3460,ATL3460,123456,,1
+ATL,Textiles,Maintenance,Electro-Mechanical,Electro-Mechanical,,Md. Aminur  Rahman,,Electrician,,1,,1994-3-18,2019-6-13,,,,,,,,1,16095,,,,,,,,2,3480,ATL3480,ATL3480,123456,,1
+ATL,Textiles,Environmental Management,Environmental ,Environmental ,,Shariful  Islam,,ETP Operator,,1,,1984-2-1,2012-7-4,,,,,,,,1,11691,,,,,,,,2,1884,ATL1884,ATL1884,123456,,1
+ATL,Textiles,Environmental Management,Environmental ,Environmental ,,Md.  Abdus Salam,,ETP Operator,,1,,1994-8-1,2013-8-1,,,,,,,,1,11691,,,,,,,,2,2086,ATL2086,ATL2086,123456,,1
+ATL,Textiles,Environmental Management,Environmental ,Environmental ,,Md. Mehedi   Hasan,,ETP Operator,,1,,1997-1-1,2016-7-21,,,,,,,,1,11691,,,,,,,,2,2547,ATL2547,ATL2547,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Abdur  Razzak Mollah,,Loader,,1,,1978-10-10,2005-3-11,,,,,,,,1,13911,,,,,,,,2,309,ATL309,ATL309,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md.Ranju  Sheikh,,Loader,,1,,1981-1-1,2005-7-3,,,,,,,,1,13699,,,,,,,,2,363,ATL363,ATL363,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md.  Hamidur Rahman,,Loader,,1,,1980-1-1,2006-8-2,,,,,,,,1,12491,,,,,,,,2,545,ATL545,ATL545,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md.  Monayem Ali Mollah,,Loader,,1,,1981-7-21,2006-11-1,,,,,,,,1,12553,,,,,,,,2,579,ATL579,ATL579,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Rafiqul  Islam,,Loader,,1,,1982-1-10,2007-11-5,,,,,,,,1,12157,,,,,,,,2,897,ATL897,ATL897,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Nayum  Uddin,,Loader,,1,,1982-1-1,2008-2-13,,,,,,,,1,11909,,,,,,,,2,976,ATL976,ATL976,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Saymal  Chandra Roy,,Finishing Assistant,,2,,1979-10-15,2008-3-1,,,,,,,,1,12087,,,,,,,,2,981,ATL981,ATL981,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Aminul  Islam,,Finishing Assistant,,1,,1988-8-11,2008-10-14,,,,,,,,1,12210,,,,,,,,2,1159,ATL1159,ATL1159,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Mokbul  Hossain,,Loader,,1,,1980-6-15,2009-1-6,,,,,,,,1,11352,,,,,,,,2,1218,ATL1218,ATL1218,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Suraj  Mia Sarkar,,Finishing Assistant,,1,,1982-6-4,2009-3-1,,,,,,,,1,11342,,,,,,,,2,1257,ATL1257,ATL1257,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Raton  Mia,,Loader,,1,,1982-10-30,2010-2-16,,,,,,,,1,11194,,,,,,,,2,1405,ATL1405,ATL1405,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Vudtu  Ali,,Loader,,1,,1976-7-8,2010-12-12,,,,,,,,1,10917,,,,,,,,2,1534,ATL1534,ATL1534,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Liton  ,,Finishing Assistant,,1,,1991-10-9,2011-3-1,,,,,,,,1,10355,,,,,,,,2,1580,ATL1580,ATL1580,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Amir  Ali,,Finishing Assistant,,1,,1986-6-16,2011-11-21,,,,,,,,1,10345,,,,,,,,2,1707,ATL1707,ATL1707,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Delowar  Hossain,,Loader,,1,,1976-7-3,2011-12-3,,,,,,,,1,9275,,,,,,,,2,1725,ATL1725,ATL1725,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Kalam  Mia,,Loader,,1,,1972-3-13,2012-9-5,,,,,,,,1,9801,,,,,,,,2,1923,ATL1923,ATL1923,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Nabir  Hossain,,Loader,,1,,1983-5-6,2012-9-6,,,,,,,,1,9801,,,,,,,,2,1925,ATL1925,ATL1925,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Toriqul  Isalm,,Loader,,1,,1974-2-7,2012-12-1,,,,,,,,1,9045,,,,,,,,2,1970,ATL1970,ATL1970,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Hajrot  Ali,,Loader,,1,,1982-3-18,2012-12-1,,,,,,,,1,9045,,,,,,,,2,1971,ATL1971,ATL1971,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Khyrul  Alam,,Loader,,1,,1979-3-4,2012-12-11,,,,,,,,1,9045,,,,,,,,2,1990,ATL1990,ATL1990,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Rostom  Ali,,Loader,,1,,1967-6-15,2013-9-1,,,,,,,,1,9553,,,,,,,,2,2100,ATL2100,ATL2100,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Zahangir  Hossin,,Loader,,1,,1978-3-7,2014-3-4,,,,,,,,1,9045,,,,,,,,2,2149,ATL2149,ATL2149,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Al-  Amin,,Finishing Assistant,,1,,1994-5-23,2014-3-5,,,,,,,,1,9057,,,,,,,,2,2152,ATL2152,ATL2152,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Jasim  Uddin,,Loader,,1,,1971-10-20,2014-6-15,,,,,,,,1,9045,,,,,,,,2,2207,ATL2207,ATL2207,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Amirul  Islam,,Finishing Assistant,,1,,1982-9-9,2014-12-20,,,,,,,,1,8644,,,,,,,,2,2297,ATL2297,ATL2297,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Anisur  Rahman,,Finishing Assistant,,1,,1982-5-1,2014-12-21,,,,,,,,1,8644,,,,,,,,2,2298,ATL2298,ATL2298,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Tofazzal  Hossain,,Finishing Assistant,,1,,1990-9-6,2015-1-13,,,,,,,,1,8892,,,,,,,,2,2308,ATL2308,ATL2308,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Shahin  Mia,,Loader,,1,,1988-11-7,2015-8-10,,,,,,,,1,9045,,,,,,,,2,2403,ATL2403,ATL2403,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Sadekul  Islam,,Finishing Assistant,,1,,1982-2-14,2015-10-19,,,,,,,,1,9022,,,,,,,,2,2424,ATL2424,ATL2424,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Abul kalam   Azad,,Finishing Assistant,,1,,1984-8-27,2016-4-2,,,,,,,,1,9140,,,,,,,,2,2497,ATL2497,ATL2497,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Mizanur   Rahman,,Finishing Assistant,,1,,1991-8-24,2016-5-4,,,,,,,,1,9080,,,,,,,,2,2511,ATL2511,ATL2511,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Mofiz   Uddin,,Loader,,1,,1984-2-15,2016-5-4,,,,,,,,1,9045,,,,,,,,2,2514,ATL2514,ATL2514,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Alamin  Islam,,Finishing Assistant,,1,,1988-2-19,2016-5-16,,,,,,,,1,9080,,,,,,,,2,2522,ATL2522,ATL2522,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Safiur   Rahman,,Loader,,1,,1980-7-5,2016-12-21,,,,,,,,1,9045,,,,,,,,2,2644,ATL2644,ATL2644,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Shafiul Islam  ,,Loader,,1,,1989-8-7,2017-1-1,,,,,,,,1,9045,,,,,,,,2,2650,ATL2650,ATL2650,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Shahnur  ,,Loader,,1,,1996-9-1,2017-1-19,,,,,,,,1,9045,,,,,,,,2,2674,ATL2674,ATL2674,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Akram Akanda Urofe Masud Rana   ,,Loader,,1,,1975-11-8,2017-1-22,,,,,,,,1,9045,,,,,,,,2,2677,ATL2677,ATL2677,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Shahinur Islam  ,,Finishing Assistant,,1,,1985-10-10,2017-4-1,,,,,,,,1,8820,,,,,,,,2,2716,ATL2716,ATL2716,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Nuru  Mia,,Loader,,1,,1985-8-25,2017-5-22,,,,,,,,1,9045,,,,,,,,2,2763,ATL2763,ATL2763,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Ataur  Rahman,,Loader,,1,,1984-5-10,2017-12-20,,,,,,,,1,9045,,,,,,,,2,2950,ATL2950,ATL2950,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Nazrul  Islam,,Loader,,1,,1987-1-3,2018-1-8,,,,,,,,1,9045,,,,,,,,2,2972,ATL2972,ATL2972,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Salim  Pramanik,,Loader,,1,,1981-10-10,2018-1-14,,,,,,,,1,9045,,,,,,,,2,2978,ATL2978,ATL2978,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Dabirul  Islam,,Loader,,1,,1979-8-15,2018-1-14,,,,,,,,1,9045,,,,,,,,2,2979,ATL2979,ATL2979,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Mr. Fonie  Vushon,,Finishing Assistant,,2,,1972-3-13,2019-1-21,,,,,,,,1,8631,,,,,,,,2,3336,ATL3336,ATL3336,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Asadul  Islam,,Finishing Assistant,,1,,1984-12-10,2019-5-2,,,,,,,,1,8308,,,,,,,,2,3465,ATL3465,ATL3465,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Iqbal  Hossain,,Finishing Assistant,,1,,1981-7-3,2019-5-2,,,,,,,,1,8308,,,,,,,,2,3466,ATL3466,ATL3466,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md.Rafiqul  Islam,,Loader,,1,,1982-5-15,2020-2-10,,,,,,,,1,8702,,,,,,,,2,3638,ATL3638,ATL3638,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Younus  Ali,,Loader,,1,,1986-1-2,2020-2-10,,,,,,,,1,8702,,,,,,,,2,3639,ATL3639,ATL3639,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Sohrab  Ali,,Loader,,1,,1980-4-8,2020-2-10,,,,,,,,1,8702,,,,,,,,2,3641,ATL3641,ATL3641,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Anwarul  Haque,,Loader,,1,,1988-11-25,2020-2-12,,,,,,,,1,8702,,,,,,,,2,3644,ATL3644,ATL3644,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Fabric Store,,Md. Saju  Mia,,Loader,,1,,1982-3-25,2020-3-17,,,,,,,,1,8702,,,,,,,,2,3685,ATL3685,ATL3685,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Moksedur  Rahman,,Finishing Assistant,,1,,1984-1-1,2016-7-20,,,,,,,,1,9022,,,,,,,,2,2544,ATL2544,ATL2544,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Saidul  Islam,,Finishing Assistant,,1,,1991-1-23,2016-10-16,,,,,,,,1,9022,,,,,,,,2,2591,ATL2591,ATL2591,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Shamim  ,,Finishing Assistant,,1,,1991-6-6,2017-2-1,,,,,,,,1,8820,,,,,,,,2,2682,ATL2682,ATL2682,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Sahin  Islam,,Finishing Assistant,,1,,1996-10-27,2017-4-20,,,,,,,,1,8820,,,,,,,,2,2739,ATL2739,ATL2739,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Titul  Ali,,Finishing Assistant,,1,,1985-4-12,2017-7-11,,,,,,,,1,8702,,,,,,,,2,2792,ATL2792,ATL2792,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Abdul  Kader ,,Finishing Assistant,,1,,1989-5-18,2018-8-1,,,,,,,,1,8631,,,,,,,,2,3131,ATL3131,ATL3131,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Raju  ,,Finishing Assistant,,1,,1994-12-18,2018-8-1,,,,,,,,1,8631,,,,,,,,2,3135,ATL3135,ATL3135,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Nur  Islam,,Finishing Assistant,,1,,1995-3-21,2018-9-6,,,,,,,,1,8631,,,,,,,,2,3157,ATL3157,ATL3157,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Shah  Alom,,Finishing Assistant,,1,,1977-9-11,2019-1-1,,,,,,,,1,8631,,,,,,,,2,3303,ATL3303,ATL3303,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Harun  Rashid,,Finishing Assistant,,1,,1996-3-5,2019-1-10,,,,,,,,1,8631,,,,,,,,2,3318,ATL3318,ATL3318,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Al  Amin,,Finishing Assistant,,1,,1998-10-8,2019-2-2,,,,,,,,1,8631,,,,,,,,2,3346,ATL3346,ATL3346,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md. Nur   Jaman,,Finishing Assistant,,1,,1999-5-3,2019-12-9,,,,,,,,1,8308,,,,,,,,2,3549,ATL3549,ATL3549,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md.  Alam,,Finishing Assistant,,1,,1985-12-10,2020-2-4,,,,,,,,1,8308,,,,,,,,2,3627,ATL3627,ATL3627,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md.Munsur   Ali,,Finishing Assistant,,1,,1989-3-15,2020-2-8,,,,,,,,1,8308,,,,,,,,2,3635,ATL3635,ATL3635,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md.Arifur  Rahman,,Finishing Assistant,,1,,1978-11-1,2020-2-8,,,,,,,,1,8308,,,,,,,,2,3636,ATL3636,ATL3636,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Finished Fabric,,Md.Belal Hossain  ,,Finishing Assistant,,1,,1994-3-10,2020-10-5,,,,,,,,1,8000,,,,,,,,2,3790,ATL3790,ATL3790,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Jahirul  Islam,,Senior Inspector,,1,,1985-12-26,2007-11-13,,,,,,,,1,15508,,,,,,,,2,885,ATL885,ATL885,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Kabir  Hossain,,Senior Inspector,,1,,1991-11-5,2011-6-19,,,,,,,,1,12884,,,,,,,,2,1622,ATL1622,ATL1622,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Elias  Kanchan,,Senior Inspector,,1,,1988-11-30,2012-11-18,,,,,,,,1,11644,,,,,,,,2,1963,ATL1963,ATL1963,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Rajib   ,,Quality Inspector,,1,,1997-6-19,2016-3-24,,,,,,,,1,10116,,,,,,,,2,2496,ATL2496,ATL2496,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Mahmudul   Hasan,,Senior Quality Inspector,,1,,1996-6-29,2016-10-1,,,,,,,,1,10247,,,,,,,,2,2577,ATL2577,ATL2577,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Tuhin  Reza,,Senior Inspector,,1,,1995-6-17,2016-12-4,,,,,,,,1,10665,,,,,,,,2,2633,ATL2633,ATL2633,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Amir Hossain  ,,Senior Quality Inspector,,1,,1998-1-2,2017-4-1,,,,,,,,1,10247,,,,,,,,2,2714,ATL2714,ATL2714,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Abdullah  Azhar,,Senior Inspector,,1,,1996-1-2,2017-5-22,,,,,,,,1,10665,,,,,,,,2,2762,ATL2762,ATL2762,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Arif  Hossain,,Senior Quality Inspector,,1,,1999-6-4,2017-7-6,,,,,,,,1,10247,,,,,,,,2,2779,ATL2779,ATL2779,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Robiul  Islam,,Quality Inspector,,1,,1994-2-1,2017-9-13,,,,,,,,1,10116,,,,,,,,2,2834,ATL2834,ATL2834,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Saha  Alam,,Quality Inspector,,1,,2000-1-1,2018-3-1,,,,,,,,1,10116,,,,,,,,2,3003,ATL3003,ATL3003,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Saiful  Islam,,Senior Inspector,,1,,1990-4-17,2018-3-1,,,,,,,,1,10665,,,,,,,,2,3006,ATL3006,ATL3006,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Morshed  Mia,,Quality Inspector,,1,,1998-8-10,2018-7-1,,,,,,,,1,10116,,,,,,,,2,3065,ATL3065,ATL3065,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Kashem  Mollaha,,Senior Quality Inspector,,1,,1998-10-25,2018-7-5,,,,,,,,1,10247,,,,,,,,2,3073,ATL3073,ATL3073,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Idris  Ali Sheikh,,Senior Inspector,,1,,1995-10-28,2018-7-10,,,,,,,,1,10665,,,,,,,,2,3096,ATL3096,ATL3096,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Mehedi  Hasan,,Quality Inspector,,1,,1997-1-4,2018-7-18,,,,,,,,1,10116,,,,,,,,2,3111,ATL3111,ATL3111,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Milon  Ali,,Quality Inspector,,1,,1995-4-27,2018-9-2,,,,,,,,1,10116,,,,,,,,2,3139,ATL3139,ATL3139,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Ramjan  Ali,,Senior Inspector,,1,,1997-6-12,2018-9-6,,,,,,,,1,10665,,,,,,,,2,3148,ATL3148,ATL3148,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Abdul  Hai,,Quality Inspector,,1,,1998-8-9,2018-9-11,,,,,,,,1,10116,,,,,,,,2,3205,ATL3205,ATL3205,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Mr. Raju  Kumer Roy,,Senior Inspector,,2,,1997-5-8,2018-11-21,,,,,,,,1,10665,,,,,,,,2,3286,ATL3286,ATL3286,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Rasel  Hossen,,Quality Inspector,,1,,1999-5-7,2018-11-22,,,,,,,,1,10116,,,,,,,,2,3287,ATL3287,ATL3287,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Mithu  Mia,,Quality Inspector,,1,,1999-4-11,2018-12-22,,,,,,,,1,9347,,,,,,,,2,3300,ATL3300,ATL3300,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Mustakim  Islam Imran,,Assistant Quality Inspector,,1,,2000-6-1,2019-1-3,,,,,,,,1,8631,,,,,,,,2,3306,ATL3306,ATL3306,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Morshed  Mia,,Assistant Quality Inspector,,1,,1994-2-11,2019-1-13,,,,,,,,1,8631,,,,,,,,2,3324,ATL3324,ATL3324,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Aminul  Islam,,Senior Inspector,,1,,1995-10-20,2019-2-2,,,,,,,,1,13041,,,,,,,,2,3366,ATL3366,ATL3366,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Saiful  Islam,,Assistant Quality Inspector,,1,,1984-1-7,2019-2-2,,,,,,,,1,8631,,,,,,,,2,3382,ATL3382,ATL3382,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Mr. Amit  Kumer ,,Quality Inspector,,2,,1994-9-17,2019-3-9,,,,,,,,1,10116,,,,,,,,2,3405,ATL3405,ATL3405,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Jahirul  Islam,,Assistant Quality Inspector,,1,,1999-8-20,2019-3-10,,,,,,,,1,8631,,,,,,,,2,3408,ATL3408,ATL3408,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Shaharia  Nafiz,,Quality Inspector,,1,,1997-1-7,2019-3-10,,,,,,,,1,10116,,,,,,,,2,3409,ATL3409,ATL3409,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Firoz  Hossain,,Senior Inspector,,1,,1996-1-7,2019-3-16,,,,,,,,1,12159,,,,,,,,2,3416,ATL3416,ATL3416,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Manjur  alam,,Senior Inspector,,1,,1996-1-27,2019-3-16,,,,,,,,1,11939,,,,,,,,2,3417,ATL3417,ATL3417,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Sagor   Ali,,Assistant Quality Inspector,,1,,1999-11-4,2019-4-9,,,,,,,,1,8308,,,,,,,,2,3453,ATL3453,ATL3453,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Shoyef  Reza,,Assistant Quality Inspector,,1,,1996-11-7,2019-4-23,,,,,,,,1,8308,,,,,,,,2,3462,ATL3462,ATL3462,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Sohagh  Hossen,,Assistant Quality Inspector,,1,,1996-10-8,2019-6-16,,,,,,,,1,8308,,,,,,,,2,3484,ATL3484,ATL3484,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Rukon  Uddaula,,Quality Inspector,,1,,1997-4-20,2019-11-19,,,,,,,,1,9722,,,,,,,,2,3517,ATL3517,ATL3517,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Abdur  Rahim,,Senior Quality Inspector,,1,,1995-12-13,2019-11-20,,,,,,,,1,10245,,,,,,,,2,3519,ATL3519,ATL3519,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md.  Ashraful,,Assistant Quality Inspector,,1,,2001-3-2,2019-11-24,,,,,,,,1,8308,,,,,,,,2,3520,ATL3520,ATL3520,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md.  Kamruzzaman,,Assistant Quality Inspector,,1,,1989-12-19,2019-11-25,,,,,,,,1,8308,,,,,,,,2,3525,ATL3525,ATL3525,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md.Abu Bakkar  Siddik,,Assistant Quality Inspector,,1,,1995-7-5,2020-2-2,,,,,,,,1,8308,,,,,,,,2,3621,ATL3621,ATL3621,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Mr.Rocky  Kumar,,Assistant Quality Inspector,,1,,1995-12-20,2020-2-2,,,,,,,,1,8308,,,,,,,,2,3623,ATL3623,ATL3623,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md.Rabbi  Hasan,,Assistant Quality Inspector,,1,,1999-1-5,2020-2-4,,,,,,,,1,8308,,,,,,,,2,3625,ATL3625,ATL3625,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md.Monirul  Islam,,Assistant Quality Inspector,,1,,2000-7-1,2020-2-9,,,,,,,,1,8308,,,,,,,,2,3650,ATL3650,ATL3650,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Rimon  Hossain,,Assistant Quality Inspector,,1,,2001-8-17,2020-3-5,,,,,,,,1,8308,,,,,,,,2,3668,ATL3668,ATL3668,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Rabiul  Islam,,Assistant Quality Inspector,,1,,2002-2-25,2020-3-5,,,,,,,,1,8308,,,,,,,,2,3669,ATL3669,ATL3669,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Khokan  Mia,,Assistant Quality Inspector,,1,,2000-1-20,2020-3-10,,,,,,,,1,8308,,,,,,,,2,3670,ATL3670,ATL3670,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Md. Rashedul Islam  ,,Quality Inspector,,1,,1994-3-20,2021-1-5,,,,,,,,1,9347,,,,,,,,2,3837,ATL3837,ATL3837,123456,,1
+ATL,Textiles,Quality,Finished QC,Finished QC,,Abu Hasan  ,,Assistant Quality Inspector,,1,,1996-9-1,2021-3-27,,,,,,,,1,8000,,,,,,,,2,3916,ATL3916,ATL3916,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Abul  Hashem,,Operator,,1,,1981-1-1,2001-10-23,,,,,,,,1,21913,,,,,,,,2,42,ATL42,ATL42,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Abdul  Alim,,Operator,,1,,1982-3-18,2001-12-25,,,,,,,,1,18809,,,,,,,,2,49,ATL49,ATL49,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Abul  Kashem,,Operator,,1,,1979-1-1,2001-12-22,,,,,,,,1,18878,,,,,,,,2,67,ATL67,ATL67,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Jahangir  Alam,,Operator,,1,,1983-12-31,2002-1-13,,,,,,,,1,19698,,,,,,,,2,85,ATL85,ATL85,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Shomir  Ali,,Operator,,1,,1978-3-2,2002-2-3,,,,,,,,1,17236,,,,,,,,2,93,ATL93,ATL93,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Robiul  Alam,,Operator,,1,,1981-3-5,2002-3-21,,,,,,,,1,18671,,,,,,,,2,97,ATL97,ATL97,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Sabur  Hossain,,Operator,,1,,1983-10-23,2004-12-14,,,,,,,,1,16963,,,,,,,,2,259,ATL259,ATL259,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Azad  Uddin,,Operator,,1,,1983-7-1,2004-12-15,,,,,,,,1,15870,,,,,,,,2,262,ATL262,ATL262,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Aminul  Islam (Raju),,Operator,,1,,1984-4-1,2005-4-1,,,,,,,,1,16170,,,,,,,,2,318,ATL318,ATL318,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Akash  Kumar Pal,,Operator,,2,,1984-4-10,2005-6-1,,,,,,,,1,15253,,,,,,,,2,338,ATL338,ATL338,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Abu  Taher,,Operator,,1,,1986-1-1,2005-6-19,,,,,,,,1,18179,,,,,,,,2,351,ATL351,ATL351,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Abul  Basar,,Operator,,1,,1985-7-25,2005-7-1,,,,,,,,1,16211,,,,,,,,2,360,ATL360,ATL360,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.  Noor Mohammad Nayan,,Operator,,1,,1985-12-2,2005-11-13,,,,,,,,1,16697,,,,,,,,2,394,ATL394,ATL394,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Hashem  Mandal,,Operator,,1,,1987-8-4,2006-2-1,,,,,,,,1,15716,,,,,,,,2,423,ATL423,ATL423,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Bipul  Kumar Biswas,,Operator,,2,,1975-11-11,2006-3-1,,,,,,,,1,14776,,,,,,,,2,453,ATL453,ATL453,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.  Abu Sayeed,,Junior Operator,,1,,1982-12-10,2006-3-1,,,,,,,,1,14780,,,,,,,,2,455,ATL455,ATL455,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.  Abu Rayhan,,Operator,,1,,1988-2-3,2006-4-7,,,,,,,,1,16777,,,,,,,,2,488,ATL488,ATL488,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.  Rashedul Islam,,Junior Operator,,1,,1987-6-15,2006-6-1,,,,,,,,1,14022,,,,,,,,2,503,ATL503,ATL503,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Saiful  Islam,,Operator,,1,,1986-10-20,2006-6-4,,,,,,,,1,14672,,,,,,,,2,511,ATL511,ATL511,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Bikas  Chandra Paul,,Junior Operator,,2,,1987-2-6,2006-8-5,,,,,,,,1,13954,,,,,,,,2,543,ATL543,ATL543,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Saiful  Islam,,Operator,,1,,1986-2-10,2006-12-1,,,,,,,,1,14435,,,,,,,,2,609,ATL609,ATL609,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Roni  Das,,Junior Operator,,2,,1987-10-6,2006-12-11,,,,,,,,1,14117,,,,,,,,2,619,ATL619,ATL619,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Razaul  Korim.,,Junior Operator,,1,,1987-1-10,2007-1-11,,,,,,,,1,14164,,,,,,,,2,660,ATL660,ATL660,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Jony  Das,,Junior Operator,,2,,1987-10-7,2007-2-1,,,,,,,,1,14239,,,,,,,,2,682,ATL682,ATL682,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Dulal  Hossain Sheikh,,Junior Operator,,1,,1986-6-9,2007-4-10,,,,,,,,1,14672,,,,,,,,2,757,ATL757,ATL757,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Lolit  Chandra Roy.,,Operator,,2,,1989-1-2,2007-7-5,,,,,,,,1,15423,,,,,,,,2,814,ATL814,ATL814,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Jashim  Uddin,,Junior Operator,,1,,1985-6-30,2007-11-2,,,,,,,,1,13929,,,,,,,,2,892,ATL892,ATL892,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Kamrul  Hasan,,Operator,,1,,1988-4-2,2008-4-13,,,,,,,,1,13879,,,,,,,,2,1022,ATL1022,ATL1022,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Hasan  Kabir,,Junior Operator,,1,,1981-4-5,2010-1-13,,,,,,,,1,13134,,,,,,,,2,1395,ATL1395,ATL1395,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Abdul  Rasul,,Junior Operator,,1,,1989-6-25,2010-4-4,,,,,,,,1,13744,,,,,,,,2,1414,ATL1414,ATL1414,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Jahangir  Alam,,Junior Operator,,1,,1993-1-10,2011-10-15,,,,,,,,1,13804,,,,,,,,2,1686,ATL1686,ATL1686,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.  Rakibul Hasan,,Junior Operator,,1,,1994-3-15,2012-6-10,,,,,,,,1,13806,,,,,,,,2,1865,ATL1865,ATL1865,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Rezaul  Karim Sheikh,,Junior Operator,,1,,1991-9-10,2014-6-15,,,,,,,,1,9825,,,,,,,,2,2206,ATL2206,ATL2206,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,MD. sahabuddid  ,,Junior Operator,,1,,1995-8-10,2014-10-16,,,,,,,,1,10014,,,,,,,,2,2258,ATL2258,ATL2258,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Al-  Amin,,Junior Operator,,1,,1994-1-6,2015-4-1,,,,,,,,1,9596,,,,,,,,2,2347,ATL2347,ATL2347,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Julmot  Ali,,Junior Operator,,1,,1983-7-19,2015-4-1,,,,,,,,1,9596,,,,,,,,2,2348,ATL2348,ATL2348,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Diponkor  Das,,Junior Operator,,2,,1996-11-14,2016-8-2,,,,,,,,1,9596,,,,,,,,2,2558,ATL2558,ATL2558,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Shaiyaduzzaman  Suruz,,Junior Operator,,1,,1995-1-17,2017-2-4,,,,,,,,1,9596,,,,,,,,2,2686,ATL2686,ATL2686,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Mr. Bishu  Chandro Das,,Assistant Operator,,2,,1984-1-25,2017-7-11,,,,,,,,1,9277,,,,,,,,2,2794,ATL2794,ATL2794,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Sree. Shamim  Das,,Assistant Operator,,2,,1996-6-4,2017-7-16,,,,,,,,1,9277,,,,,,,,2,2806,ATL2806,ATL2806,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Mehedi  Hasan,,Assistant Operator,,1,,1999-11-1,2017-11-21,,,,,,,,1,9270,,,,,,,,2,2900,ATL2900,ATL2900,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Mr. Sony  Das,,Assistant Operator,,2,,1997-4-29,2018-5-5,,,,,,,,1,9072,,,,,,,,2,3043,ATL3043,ATL3043,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Faruk  Ahmed,,Assistant Operator,,1,,1997-12-10,2018-7-2,,,,,,,,1,8631,,,,,,,,2,3066,ATL3066,ATL3066,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Jewal  Rana,,Assistant Operator,,1,,1997-2-10,2018-9-2,,,,,,,,1,8631,,,,,,,,2,3138,ATL3138,ATL3138,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Sofiqul  Sardar,,Assistant Operator,,1,,1999-9-21,2018-9-6,,,,,,,,1,8631,,,,,,,,2,3146,ATL3146,ATL3146,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Rakib  Sultan,,Assistant Operator,,1,,1996-8-25,2018-9-10,,,,,,,,1,8631,,,,,,,,2,3190,ATL3190,ATL3190,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Shahinur  Rahman,,Operator,,1,,1990-12-3,2018-10-2,,,,,,,,1,17089,,,,,,,,2,3225,ATL3225,ATL3225,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Mintu  Ahmed,,Assistant Operator,,1,,1995-6-20,2018-11-21,,,,,,,,1,8631,,,,,,,,2,3284,ATL3284,ATL3284,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Soriful  Islam,,Assistant Operator,,1,,1995-10-13,2019-1-1,,,,,,,,1,8631,,,,,,,,2,3335,ATL3335,ATL3335,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Ataur  Rahman,,Assistant Operator,,1,,1997-11-25,2019-3-2,,,,,,,,1,8631,,,,,,,,2,3395,ATL3395,ATL3395,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Rubel  Islam,,Assistant Operator,,1,,1997-6-12,2019-3-19,,,,,,,,1,8631,,,,,,,,2,3422,ATL3422,ATL3422,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Mizanur Rahman  Mostofa,,Assistant Operator,,1,,1976-9-17,2019-4-3,,,,,,,,1,8308,,,,,,,,2,3439,ATL3439,ATL3439,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Ruhul  Amin,,Assistant Operator,,1,,1996-5-24,2019-4-7,,,,,,,,1,8308,,,,,,,,2,3441,ATL3441,ATL3441,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Rezaul   Haque,,Assistant Operator,,1,,2000-8-10,2019-4-23,,,,,,,,1,8308,,,,,,,,2,3461,ATL3461,ATL3461,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Mr. Papon  Malakar,,Assistant Operator,,2,,2000-6-21,2019-5-11,,,,,,,,1,8308,,,,,,,,2,3471,ATL3471,ATL3471,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Shamim  Rana,,Assistant Operator,,1,,1999-6-20,2019-5-11,,,,,,,,1,8308,,,,,,,,2,3472,ATL3472,ATL3472,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Anisur  Rahman Molla,,Senior Operator,,1,,1995-6-15,2019-5-20,,,,,,,,1,18808,,,,,,,,2,3476,ATL3476,ATL3476,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.   Shah Alam Bhuya,,Operator,,1,,1985-8-5,2019-10-1,,,,,,,,1,15658,,,,,,,,2,3509,ATL3509,ATL3509,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.  Gotiar Rahman,,Junior Operator,,1,,1978-3-30,2019-10-1,,,,,,,,1,15658,,,,,,,,2,3510,ATL3510,ATL3510,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Rasedul  Islam,,Assistant Operator,,1,,1997-11-21,2020-1-13,,,,,,,,1,8308,,,,,,,,2,3581,ATL3581,ATL3581,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md. Selim  Badsha,,Assistant Operator,,1,,1994-10-2,2020-1-8,,,,,,,,1,8308,,,,,,,,2,3590,ATL3590,ATL3590,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Mahamud  Hasan,,Assistant Operator,,1,,2000-2-2,2020-1-9,,,,,,,,1,8308,,,,,,,,2,3591,ATL3591,ATL3591,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Moznu  Mia,,Operator,,1,,1997-1-12,2020-2-15,,,,,,,,1,15658,,,,,,,,2,3655,ATL3655,ATL3655,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Sharif  Hossain,,Assistant Operator,,1,,2001-2-1,2020-2-22,,,,,,,,1,8308,,,,,,,,2,3659,ATL3659,ATL3659,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Mintu Chandra Roy  ,,Assistant Operator,,2,,2002-7-8,2020-8-11,,,,,,,,1,8000,,,,,,,,2,3736,ATL3736,ATL3736,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Ratul Hossain  ,,Assistant Operator,,1,,1993-1-1,2020-8-12,,,,,,,,1,8000,,,,,,,,2,3737,ATL3737,ATL3737,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Didar   Ali,,Assistant Operator,,1,,1996-6-15,2020-8-10,,,,,,,,1,8000,,,,,,,,2,3738,ATL3738,ATL3738,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Abdul Mazed  ,,Junior Operator,,1,,1994-8-12,2020-8-16,,,,,,,,1,11000,,,,,,,,2,3739,ATL3739,ATL3739,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Mujahid Molla  ,,Assistant Operator,,1,,2000-10-15,2020-8-16,,,,,,,,1,8000,,,,,,,,2,3740,ATL3740,ATL3740,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Babul Hossain  ,,Operator,,1,,1993-3-18,2020-9-13,,,,,,,,1,15500,,,,,,,,2,3752,ATL3752,ATL3752,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Arif Khandoker  ,,Assistant Operator,,1,,1992-5-5,2020-9-8,,,,,,,,1,8000,,,,,,,,2,3753,ATL3753,ATL3753,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Ripon Mondol  ,,Assistant Operator,,1,,1992-1-11,2020-10-14,,,,,,,,1,8000,,,,,,,,2,3794,ATL3794,ATL3794,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Rejaul Karim  ,,Assistant Operator,,1,,1995-2-10,2020-10-1,,,,,,,,1,8000,,,,,,,,2,3797,ATL3797,ATL3797,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Al- Amin Islam  ,,Assistant Operator,,1,,2000-6-1,2020-11-3,,,,,,,,1,8000,,,,,,,,2,3808,ATL3808,ATL3808,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Ayub Ali  ,,Assistant Operator,,1,,1997-3-15,2020-11-5,,,,,,,,1,8000,,,,,,,,2,3809,ATL3809,ATL3809,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Nur Alam  ,,Assistant Operator,,1,,1998-9-17,2020-11-22,,,,,,,,1,8000,,,,,,,,2,3812,ATL3812,ATL3812,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Khairul Islam  ,,Assistant Operator,,1,,1996-5-3,2020-11-22,,,,,,,,1,8000,,,,,,,,2,3813,ATL3813,ATL3813,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Refat Rejwan  ,,Assistant Operator,,1,,1998-9-12,2021-1-5,,,,,,,,1,8000,,,,,,,,2,3836,ATL3836,ATL3836,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Konok Roy  ,,Assistant Operator,,2,,2000-1-25,2021-1-5,,,,,,,,1,8000,,,,,,,,2,3838,ATL3838,ATL3838,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Touhidul Islam  ,,Assistant Operator,,1,,1995-2-20,2021-1-6,,,,,,,,1,8000,,,,,,,,2,3839,ATL3839,ATL3839,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Rashel  ,,Assistant Operator,,1,,1996-8-2,2021-1-6,,,,,,,,1,8000,,,,,,,,2,3841,ATL3841,ATL3841,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Monir Hossain  ,,Operator,,1,,1989-9-15,2021-1-6,,,,,,,,1,15000,,,,,,,,2,3852,ATL3852,ATL3852,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Aktar Hossain  ,,Operator,,1,,1988-2-21,2021-1-9,,,,,,,,1,17000,,,,,,,,2,3853,ATL3853,ATL3853,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Abul kalam Azad  ,,Assistant Operator,,1,,1996-1-1,2021-2-10,,,,,,,,1,8000,,,,,,,,2,3887,ATL3887,ATL3887,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Bikash Debnath  ,,Assistant Operator,,2,,1992-11-20,2021-2-10,,,,,,,,1,8000,,,,,,,,2,3888,ATL3888,ATL3888,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Md.Mehedi Hasan  Raju,,Assistant Operator,,1,,1996-5-23,2021-3-2,,,,,,,,1,8000,,,,,,,,2,3901,ATL3901,ATL3901,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,Razib Hossain  ,,Assistant Operator,,1,,2001-10-15,2021-3-10,,,,,,,,1,8000,,,,,,,,2,3903,ATL3903,ATL3903,123456,,1
+ATL,Textiles,Dyeing Production,Finishing,Finishing,,S.M. Moshfekur  Rahman,,Assistant Operator,,1,,1986-1-15,2021-3-17,,,,,,,,1,8000,,,,,,,,2,3917,ATL3917,ATL3917,123456,,1
+ATL,Textiles,HRAC,HRAC,HRAC,,Md. Mosharop  Hossain,,Fireman,,1,,1989-9-28,2017-8-2,,,,,,,,1,15246,,,,,,,,2,2814,ATL2814,ATL2814,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Md.Ashikur  Rahman,,Operator,,1,,1986-11-9,2005-9-1,,,,,,,,1,13687,,,,,,,,2,381,ATL381,ATL381,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Md.Sayful  Islam,,Operator,,1,,1984-1-1,2005-10-8,,,,,,,,1,14372,,,,,,,,2,390,ATL390,ATL390,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Ashraful  Islam,,Operator,,1,,1983-7-15,2007-11-1,,,,,,,,1,13073,,,,,,,,2,864,ATL864,ATL864,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Rony  Mia,,Operator,,1,,1994-1-4,2012-9-1,,,,,,,,1,11538,,,,,,,,2,1900,ATL1900,ATL1900,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Pankaj  Kumar Gain,,Junior Operator,,2,,1993-5-15,2015-2-2,,,,,,,,1,9596,,,,,,,,2,2316,ATL2316,ATL2316,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Md.Ranju  Mia,,Assistant Operator,,1,,1997-3-1,2020-1-22,,,,,,,,1,8308,,,,,,,,2,3609,ATL3609,ATL3609,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Md.Munna Islam  ,,Assistant Operator,,1,,2000-10-2,2020-9-23,,,,,,,,1,8000,,,,,,,,2,3762,ATL3762,ATL3762,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Md.Anisur Rahman  ,,Assistant Operator,,1,,1995-11-11,2021-2-1,,,,,,,,1,8000,,,,,,,,2,3877,ATL3877,ATL3877,123456,,1
+ATL,Textiles,Knitting,Flat Knitting,Flat Knitting,,Achinto debnath  ,,Junior Operator,,1,,1996-11-30,2021-2-6,,,,,,,,1,10500,,,,,,,,2,3882,ATL3882,ATL3882,123456,,1
+ATL,Textiles,Quality,Quality,GPQ,,Md.   Alomgir ,,Senior Quality Inspector,,1,,1994-10-20,2017-9-17,,,,,,,,1,10247,,,,,,,,2,2841,ATL2841,ATL2841,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Kattik  Kumar Roy,,Senior Inspector,,2,,1982-11-18,2006-7-22,,,,,,,,1,15317,,,,,,,,2,527,ATL527,ATL527,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Rakibul  Islam,,Senior Inspector,,1,,1982-1-9,2012-2-4,,,,,,,,1,11821,,,,,,,,2,1767,ATL1767,ATL1767,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Abdul  Kader,,Senior Inspector,,1,,1993-3-7,2012-2-12,,,,,,,,1,11596,,,,,,,,2,1772,ATL1772,ATL1772,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Salauddin  ,,Senior Quality Inspector,,1,,1992-7-7,2013-1-1,,,,,,,,1,11060,,,,,,,,2,1998,ATL1998,ATL1998,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Abdul  Gofur,,Senior Quality Inspector,,1,,1992-10-25,2013-5-7,,,,,,,,1,10656,,,,,,,,2,2069,ATL2069,ATL2069,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.  Alamgir Hossain,,Senior Inspector,,1,,1994-12-28,2013-6-1,,,,,,,,1,11277,,,,,,,,2,2075,ATL2075,ATL2075,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Abdul   Agiz,,Senior Quality Inspector,,1,,1989-2-1,2016-6-11,,,,,,,,1,10247,,,,,,,,2,2535,ATL2535,ATL2535,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Golam  Nabi,,Senior Quality Inspector,,1,,1976-12-3,2017-9-16,,,,,,,,1,10116,,,,,,,,2,2839,ATL2839,ATL2839,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Masud  Rana,,Senior Quality Inspector,,1,,1996-12-20,2017-9-20,,,,,,,,1,10116,,,,,,,,2,2859,ATL2859,ATL2859,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Atikur  Rahman,,Senior Quality Inspector,,1,,1994-12-9,2017-11-4,,,,,,,,1,10116,,,,,,,,2,2881,ATL2881,ATL2881,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Rafiqul  Islam,,Senior Quality Inspector,,1,,1995-2-10,2017-12-2,,,,,,,,1,10247,,,,,,,,2,2908,ATL2908,ATL2908,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Abu  Syed,,Senior Quality Inspector,,1,,1994-12-25,2018-1-1,,,,,,,,1,10247,,,,,,,,2,2963,ATL2963,ATL2963,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Anowarul  Islam,,Quality Inspector,,1,,1996-3-11,2018-5-9,,,,,,,,1,10116,,,,,,,,2,3045,ATL3045,ATL3045,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Nazrul  Islam,,Quality Inspector,,1,,2000-4-16,2018-9-6,,,,,,,,1,10116,,,,,,,,2,3150,ATL3150,ATL3150,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Masud  Rana,,Quality Inspector,,1,,1991-9-25,2018-9-6,,,,,,,,1,10116,,,,,,,,2,3151,ATL3151,ATL3151,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Mr. Rubel  Rana,,Senior Quality Inspector,,1,,1995-6-20,2018-11-1,,,,,,,,1,10247,,,,,,,,2,3263,ATL3263,ATL3263,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Soharab  Ali,,Senior Quality Inspector,,1,,1999-8-10,2018-11-6,,,,,,,,1,10116,,,,,,,,2,3271,ATL3271,ATL3271,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Milon  Baroi,,Assistant Quality Inspector,,2,,1999-2-20,2019-1-7,,,,,,,,1,8631,,,,,,,,2,3315,ATL3315,ATL3315,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Jahid  Islam,,Assistant Quality Inspector,,1,,1998-12-8,2019-2-3,,,,,,,,1,8631,,,,,,,,2,3378,ATL3378,ATL3378,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Sahinur   Islam,,Senior Inspector,,1,,1992-6-15,2019-3-4,,,,,,,,1,12159,,,,,,,,2,3388,ATL3388,ATL3388,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Selim  Hossain,,Assistant Quality Inspector,,1,,2000-7-6,2019-11-27,,,,,,,,1,8308,,,,,,,,2,3527,ATL3527,ATL3527,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Nurul  Islam,,Assistant Quality Inspector,,1,,1994-4-3,2019-12-2,,,,,,,,1,8308,,,,,,,,2,3536,ATL3536,ATL3536,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Sagar  Ali,,Assistant Quality Inspector,,1,,2000-10-11,2019-12-2,,,,,,,,1,8308,,,,,,,,2,3537,ATL3537,ATL3537,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Jahid  Hasan,,Quality Inspector,,1,,2001-11-18,2019-12-15,,,,,,,,1,9347,,,,,,,,2,3577,ATL3577,ATL3577,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Tarikul   Islam,,Assistant Quality Inspector,,1,,1995-9-10,2020-2-4,,,,,,,,1,8308,,,,,,,,2,3626,ATL3626,ATL3626,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Munna Aziz  ,,Assistant Quality Inspector,,1,,2000-5-3,2020-10-19,,,,,,,,1,8000,,,,,,,,2,3796,ATL3796,ATL3796,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md Liton Ali  ,,Assistant Quality Inspector,,1,,2001-3-12,2020-11-12,,,,,,,,1,8000,,,,,,,,2,3804,ATL3804,ATL3804,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Biplob Rahman  ,,Assistant Quality Inspector,,1,,2002-3-20,2021-1-6,,,,,,,,1,8000,,,,,,,,2,3843,ATL3843,ATL3843,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Abdus Sabur  ,,Assistant Quality Inspector,,1,,1999-1-10,2021-1-6,,,,,,,,1,8000,,,,,,,,2,3844,ATL3844,ATL3844,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Shimul Ahmed  ,,Assistant Quality Inspector,,1,,2002-11-25,2021-1-7,,,,,,,,1,8000,,,,,,,,2,3845,ATL3845,ATL3845,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Anisur Rahman  ,,Assistant Quality Inspector,,1,,1998-7-1,2021-1-6,,,,,,,,1,8000,,,,,,,,2,3846,ATL3846,ATL3846,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Rashidul Islam  ,,Assistant Quality Inspector,,1,,2001-5-15,2021-1-14,,,,,,,,1,8000,,,,,,,,2,3848,ATL3848,ATL3848,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Mister Rahman  ,,Assistant Quality Inspector,,1,,1998-7-2,2021-1-5,,,,,,,,1,8000,,,,,,,,2,3849,ATL3849,ATL3849,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md.Mehedi Hasan  ,,Senior Quality Inspector,,1,,1996-10-10,2021-2-9,,,,,,,,1,10000,,,,,,,,2,3895,ATL3895,ATL3895,123456,,1
+ATL,Textiles,Quality,Greige QC,Greige QC,,Md. Abu Sayeed  ,,Assistant Quality Inspector,,1,,2002-5-7,2021-3-15,,,,,,,,1,8000,,,,,,,,2,3909,ATL3909,ATL3909,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md.  Manik Hossain,,Lab Assistant-,,1,,1979-4-5,2005-3-12,,,,,,,,1,16569,,,,,,,,2,296,ATL296,ATL296,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Niher  Ranjan Sarkar,,Senior Quality Inspector,,2,,1979-10-25,2012-5-5,,,,,,,,1,12270,,,,,,,,2,1833,ATL1833,ATL1833,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Rubel  Rana,,Lab Assistant-,,1,,1997-4-5,2015-4-9,,,,,,,,1,10682,,,,,,,,2,2354,ATL2354,ATL2354,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md. Aminul  Islam,,Lab Assistant-,,1,,1996-1-1,2017-12-2,,,,,,,,1,8962,,,,,,,,2,2926,ATL2926,ATL2926,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md. Redoy  Sheikh,,Lab Assistant-,,1,,1999-1-1,2017-12-18,,,,,,,,1,8962,,,,,,,,2,2946,ATL2946,ATL2946,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md. Arman  Mondol,,Quality Inspector,,1,,1991-8-4,2019-3-3,,,,,,,,1,10616,,,,,,,,2,3522,ATL3522,ATL3522,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md. Tajmul  Hossain,,Quality Inspector,,1,,1995-4-10,2017-3-6,,,,,,,,1,10116,,,,,,,,2,3523,ATL3523,ATL3523,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md. Khandakar  Shahin,,Lab Assistant-,,1,,1998-12-27,2020-1-19,,,,,,,,1,12508,,,,,,,,2,3597,ATL3597,ATL3597,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Raju  Ahmed    Refez,,Quality Inspector,,1,,1994-1-1,2020-1-2,,,,,,,,1,9988,,,,,,,,2,3699,ATL3699,ATL3699,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md. Tarek   Mehdi,,Quality Inspector,,1,,1986-6-12,2019-11-23,,,,,,,,1,9778,,,,,,,,2,3700,ATL3700,ATL3700,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md. Rafiqul  Islam,,Quality Inspector,,1,,1996-9-15,2018-3-14,,,,,,,,1,10116,,,,,,,,2,3701,ATL3701,ATL3701,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Mominul  Islam  Murad,,Quality Inspector,,1,,2000-5-4,2020-2-5,,,,,,,,1,9883,,,,,,,,2,3702,ATL3702,ATL3702,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Abu Hanif  Molla,,Junior Quality Inspector,,1,,2000-5-25,2019-4-1,,,,,,,,1,9226,,,,,,,,2,3704,ATL3704,ATL3704,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md.Tohanur Rahman  ,,Senior Quality Inspector,,1,,1996-1-15,2020-8-16,,,,,,,,1,11000,,,,,,,,2,3728,ATL3728,ATL3728,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Md.Akramul Islam  ,,Quality Inspector,,1,,1990-5-21,2017-12-2,,,,,,,,1,10116,,,,,,,,2,3741,ATL3741,ATL3741,123456,,1
+ATL,Textiles,Dyeing Production,Laboratory,Laboratory,,Abu Turab  ,,Lab Assistant-,,1,,1999-1-2,2020-9-20,,,,,,,,1,8000,,,,,,,,2,3766,ATL3766,ATL3766,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Md.  Aynal Haque,,Loader,,1,,1981-1-18,2006-4-2,,,,,,,,1,13267,,,,,,,,2,486,ATL486,ATL486,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Amirul  Islam,,Loader,,1,,1988-10-15,2007-5-1,,,,,,,,1,12588,,,,,,,,2,764,ATL764,ATL764,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Md. Sajedur  Rahman,,Loader,,1,,1978-1-1,2019-4-8,,,,,,,,1,8701,,,,,,,,2,3447,ATL3447,ATL3447,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Md.  Harun,,Loader,,1,,1985-5-12,2019-4-8,,,,,,,,1,8701,,,,,,,,2,3448,ATL3448,ATL3448,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Md. Abdur   Rashid,,Loader,,1,,1981-10-17,2019-4-10,,,,,,,,1,8701,,,,,,,,2,3450,ATL3450,ATL3450,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Md. Anamul  Haque,,Loader,,1,,1983-1-1,2020-1-1,,,,,,,,1,8701,,,,,,,,2,3586,ATL3586,ATL3586,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Md.Nasirul   Islam,,Loader,,1,,1994-7-14,2020-1-1,,,,,,,,1,8701,,,,,,,,2,3588,ATL3588,ATL3588,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Receive & Delivery,,Md.Sobuz Hosain  ,,Loader,,1,,1994-6-11,2020-11-15,,,,,,,,1,8375,,,,,,,,2,3811,ATL3811,ATL3811,123456,,1
+ATL,Textiles,IE,Research & Development,Research & Development,,Md.Roknzzaman  ,,Operator,,1,,1997-1-1,2016-10-24,,,,,,,,1,10752,,,,,,,,2,2595,ATL2595,ATL2595,123456,,1
+ATL,Textiles,IE,Research & Development,Research & Development,,Md.Nur Hossen Sarker  ,,Assistant Operator,,1,,2001-5-21,2021-1-7,,,,,,,,1,8000,,,,,,,,2,3842,ATL3842,ATL3842,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Khairuzzaman  ,,Security Guard,,1,,1985-2-5,2015-3-10,,,,,,,,1,12364,,,,,,,,2,2339,ATL2339,ATL2339,123456,,1
+ATL,Textiles,Security,Security,Security,,Abdul   Alim,,Security Guard,,1,,1980-2-2,2012-6-13,,,,,,,,1,13900,,,,,,,,2,2386,ATL2386,ATL2386,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Firdous Ali  ,,Security Guard,,1,,1980-3-15,2017-1-8,,,,,,,,1,11691,,,,,,,,2,2663,ATL2663,ATL2663,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Shajahan  Islam,,Security Guard,,1,,1998-4-2,2017-8-3,,,,,,,,1,11691,,,,,,,,2,2820,ATL2820,ATL2820,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Moniruzzaman  ,,Security Guard,,1,,1986-11-11,2017-8-12,,,,,,,,1,11691,,,,,,,,2,2824,ATL2824,ATL2824,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Sadekul  Islam,,Security Guard,,1,,1999-1-25,2017-10-1,,,,,,,,1,11691,,,,,,,,2,2865,ATL2865,ATL2865,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Nur  Nabi,,Security Guard,,1,,1982-3-27,2017-11-1,,,,,,,,1,11691,,,,,,,,2,2874,ATL2874,ATL2874,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Ismail  Sarif,,Security Guard,,1,,1975-8-28,2017-12-2,,,,,,,,1,11691,,,,,,,,2,2936,ATL2936,ATL2936,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Kazi  Ariful Islam,,Security Guard,,1,,1976-9-13,2007-3-13,,,,,,,,1,14727,,,,,,,,2,2951,ATL2951,ATL2951,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Hafijul  Mollike,,Security Guard,,1,,1987-8-15,2010-1-3,,,,,,,,1,15080,,,,,,,,2,2952,ATL2952,ATL2952,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Abul  Bashar,,Security Guard,,1,,1986-10-20,2015-5-2,,,,,,,,1,12837,,,,,,,,2,2953,ATL2953,ATL2953,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Aminul  Islam,,Security Guard,,1,,1983-3-1,2017-10-7,,,,,,,,1,11691,,,,,,,,2,2954,ATL2954,ATL2954,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Anowar  Hossain,,Security Guard,,1,,1981-2-1,2017-10-17,,,,,,,,1,11691,,,,,,,,2,2955,ATL2955,ATL2955,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Anowar  Hossain,,Security Guard,,1,,1976-12-31,2010-5-20,,,,,,,,1,14372,,,,,,,,2,2981,ATL2981,ATL2981,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Ahmadul  Hasan,,Security Guard,,1,,1998-12-12,2018-4-2,,,,,,,,1,11691,,,,,,,,2,3037,ATL3037,ATL3037,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Soyabur  Rahman,,Security Guard,,1,,1996-8-29,2018-7-5,,,,,,,,1,11691,,,,,,,,2,3104,ATL3104,ATL3104,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Al  Amin,,Security Guard,,1,,1997-7-13,2018-7-14,,,,,,,,1,11691,,,,,,,,2,3108,ATL3108,ATL3108,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Younus  Ali,,Security Guard,,1,,1978-1-1,2018-9-5,,,,,,,,1,11691,,,,,,,,2,3144,ATL3144,ATL3144,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Sultan  Mahmud,,Security Guard,,1,,1979-11-18,2018-9-8,,,,,,,,1,11691,,,,,,,,2,3171,ATL3171,ATL3171,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Parijatul  Islam,,Security Guard,,1,,1980-9-2,2018-11-12,,,,,,,,1,11691,,,,,,,,2,3276,ATL3276,ATL3276,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Mozammal  Haq,,Junior Security Guard,,1,,1986-8-11,2019-3-18,,,,,,,,1,9045,,,,,,,,2,3424,ATL3424,ATL3424,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Arafatur   Rahman,,Junior Security Guard,,1,,1988-1-1,2019-4-1,,,,,,,,1,8701,,,,,,,,2,3436,ATL3436,ATL3436,123456,,1
+ATL,Textiles,Security,Security,Security,,Md. Saiful  Islam,,Junior Security Guard,,1,,1990-1-5,2019-7-2,,,,,,,,1,8702,,,,,,,,2,3496,ATL3496,ATL3496,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Jahangir Hossain  ,,Junior Security Guard,,1,,1997-12-31,2020-8-17,,,,,,,,1,8375,,,,,,,,2,3725,ATL3725,ATL3725,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Arif Hossain  ,,Junior Security Guard,,1,,1992-12-12,2020-8-11,,,,,,,,1,8375,,,,,,,,2,3727,ATL3727,ATL3727,123456,,1
+ATL,Textiles,Security,Security,Security,,Sree Keshob Chondra   ,,Junior Security Guard,,2,,1980-2-18,2020-9-2,,,,,,,,1,8375,,,,,,,,2,3757,ATL3757,ATL3757,123456,,1
+ATL,Textiles,Security,Security,Security,,Rashedul Islam  ,,Junior Security Guard,,1,,1990-2-7,2020-9-12,,,,,,,,1,8375,,,,,,,,2,3764,ATL3764,ATL3764,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Atikur Rahman  ,,Junior Security Guard,,1,,1996-12-15,2020-9-19,,,,,,,,1,8375,,,,,,,,2,3765,ATL3765,ATL3765,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Moshour Rahman  ,,Junior Security Guard,,1,,1994-4-18,2020-9-15,,,,,,,,1,8375,,,,,,,,2,3770,ATL3770,ATL3770,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Muktiar  ,,Security Guard,,1,,1983-3-1,2016-1-3,,,,,,,,1,11691,,,,,,,,2,3772,ATL3772,ATL3772,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Mamunar Roshid  ,,Junior Security Guard,,1,,1991-10-1,2020-10-5,,,,,,,,1,8375,,,,,,,,2,3774,ATL3774,ATL3774,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Sohel Rana  ,,Junior Security Guard,,1,,1995-8-8,2020-11-10,,,,,,,,1,8375,,,,,,,,2,3810,ATL3810,ATL3810,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Saiful Islam  ,,Junior Security Guard,,1,,1985-8-12,2020-12-6,,,,,,,,1,8375,,,,,,,,2,3824,ATL3824,ATL3824,123456,,1
+ATL,Textiles,Security,Security,Security,,Md.Safiqul Islam  ,,Junior Security Guard,,1,,2001-1-17,2021-1-5,,,,,,,,1,8375,,,,,,,,2,3851,ATL3851,ATL3851,123456,,1
+ATL,Textiles,Security,Security,Security,,Shohel Rana  ,,Junior Security Guard,,1,,1989-11-10,2021-3-7,,,,,,,,1,8375,,,,,,,,2,3902,ATL3902,ATL3902,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Biplob  Hossain,,Assistant WTP Operator,,1,,1986-7-19,2016-5-11,,,,,,,,1,10375,,,,,,,,2,2520,ATL2520,ATL2520,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Ariful  Islam,,Assistant WTP Operator,,1,,1996-12-30,2017-10-9,,,,,,,,1,9837,,,,,,,,2,2869,ATL2869,ATL2869,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Mahabub  Alom,,Assistant Generator Operator,,1,,1997-12-31,2018-8-2,,,,,,,,1,9045,,,,,,,,2,3133,ATL3133,ATL3133,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Nazmul  Mia,,Assistant Generator Operator,,1,,2000-1-1,2018-11-5,,,,,,,,1,9045,,,,,,,,2,3267,ATL3267,ATL3267,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Abdur  Rashid,,Assistant Generator Operator,,1,,1999-7-19,2018-11-17,,,,,,,,1,9045,,,,,,,,2,3278,ATL3278,ATL3278,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Adil  Uddin Juwel,,Generator Operator,,1,,1995-2-1,2019-2-18,,,,,,,,1,11691,,,,,,,,2,3368,ATL3368,ATL3368,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Abdul  Hannan,,Generator Operator,,1,,1989-11-18,2019-3-2,,,,,,,,1,11690,,,,,,,,2,3394,ATL3394,ATL3394,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Didarul  Alam,,Boilar Operator,,1,,1993-9-7,2019-10-9,,,,,,,,1,13000,,,,,,,,2,3507,ATL3507,ATL3507,123456,,1
+ATL,Textiles,Maintenance,Utility,Utility,,Md. Abdur  Rahman,,Boilar Operator,,1,,1996-1-2,2019-9-21,,,,,,,,1,11900,,,,,,,,2,3511,ATL3511,ATL3511,123456,,1
+ATL,Textiles,Maintenance,Workshop,Workshop,,Sadiul  Islam,,Electrician,,1,,1990-1-1,2014-8-14,,,,,,,,1,16808,,,,,,,,2,2243,ATL2243,ATL2243,123456,,1
+ATL,Textiles,Maintenance,Workshop,Workshop,,Md. Faruk  Hossain ,,Electrician,,1,,1991-3-15,2016-6-1,,,,,,,,1,16808,,,,,,,,2,2536,ATL2536,ATL2536,123456,,1
+ATL,Textiles,Maintenance,Workshop,Workshop,,Md. Rashed  Sarker,,Electrician,,1,,1997-11-27,2018-11-4,,,,,,,,1,16808,,,,,,,,2,3266,ATL3266,ATL3266,123456,,1
+ATL,Textiles,Maintenance,Workshop,Workshop,,Md. Shuyib  Hossain,,Junior Mechanic,,1,,1998-1-9,2019-1-1,,,,,,,,1,10665,,,,,,,,2,3304,ATL3304,ATL3304,123456,,1
+ATL,Textiles,Maintenance,Workshop,Workshop,,Bidyut Chandra  Modak,,Junior Electrician,,2,,1996-12-20,2019-1-1,,,,,,,,1,10665,,,,,,,,2,3316,ATL3316,ATL3316,123456,,1
+ATL,Textiles,Maintenance,Workshop,Workshop,,Md. Mahfujur  Rahman,,Junior Mechanic,,1,,1992-7-1,2019-5-2,,,,,,,,1,13558,,,,,,,,2,3467,ATL3467,ATL3467,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Yarn,,Md. Khatib  Uddin,,Loader,,1,,1983-2-3,2017-6-1,,,,,,,,1,9045,,,,,,,,2,2766,ATL2766,ATL2766,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Yarn,,Md.Mizanur  Rahman,,Loader,,1,,1987-3-21,2019-4-8,,,,,,,,1,8701,,,,,,,,2,3456,ATL3456,ATL3456,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Yarn,,Md. Safiqul  Islam,,Loader,,1,,1978-6-15,2019-4-15,,,,,,,,1,8701,,,,,,,,2,3457,ATL3457,ATL3457,123456,,1
+ATL,Textiles,Store & Warehouse,Store & Warehouse,Yarn,,Md. Samiul  ,,Loader,,1,,1987-11-29,2019-4-17,,,,,,,,1,8701,,,,,,,,2,3458,ATL3458,ATL3458,123456,,1

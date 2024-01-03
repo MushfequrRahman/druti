@@ -1,0 +1,166 @@
+Factory Name,Division,Department,Section,Sub Section,Location,Name(English),??? (?????),Designation,Sub Designation,Religion,Maritual Status,Birth Date,Date of Join,Home District,Permanent Address (English),??????? ?????? (?????),Present Address (English),??????? ??????(?????),NID,Blood Group,Gender,Salary,Efficiency,Identification Mark,Office Email,Personal Email,Personal Mobile,Emergency Mobile,User Type,Service Type,P User ID,User ID,R User ID,Password,User Photo,U Status
+BPL,Printing,Production,Colour,Colour,,Md. Sabuj   Sarkor,,Operator,,1,,1997-4-2,2017-4-15,,,,,,,,1,10116,,,,,,,,2,2951,BPL2951,BPL2951,123456,,1
+BPL,Printing,Production,Colour,Colour,,Md. Asadul Islam  ,,Assistant Colour,,1,,1998-9-15,2019-7-1,,,,,,,,1,8308,,,,,,,,2,3298,BPL3298,BPL3298,123456,,1
+BPL,Printing,Production,Colour,Colour,,Mst. Shahinur Begum  ,,Assistant Colour,,1,,1986-6-10,2019-12-2,,,,,,,,2,8308,,,,,,,,2,3319,BPL3319,BPL3319,123456,,1
+BPL,Printing,Production,Colour,Colour,,Rasel Shikder  ,,Assistant Colour,,1,,1998-10-10,2020-2-1,,,,,,,,1,9883,,,,,,,,2,3337,BPL3337,BPL3337,123456,,1
+BPL,Printing,Production,Expose,Expose,,Ali   Hossain,,Junior Expose Man,,1,,1990-1-1,2012-11-12,,,,,,,,1,9596,,,,,,,,2,2416,BPL2416,BPL2416,123456,,1
+BPL,Printing,Production,Expose,Expose,,Kawsar  ,,Expose Man,,1,,1984-5-10,2013-4-2,,,,,,,,1,10116,,,,,,,,2,2494,BPL2494,BPL2494,123456,,1
+BPL,Printing,Production,Expose,Expose,,Abdul   Gafur,,Expose Man,,1,,1988-7-7,2018-1-1,,,,,,,,1,10116,,,,,,,,2,3059,BPL3059,BPL3059,123456,,1
+BPL,Printing,Production,Expose,Expose,,Md. Nazrul Islam  ,,Assistant Expose Man,,1,,1996-2-5,2020-3-7,,,,,,,,1,8308,,,,,,,,2,3353,BPL3353,BPL3353,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Hafijur   Rahman,,Assistant Input Man,,1,,1999-6-9,2018-2-13,,,,,,,,1,8631,,,,,,,,2,3107,BPL3107,BPL3107,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Ruhul  Amin,,Assistant Input Man,,1,,1995-1-1,2018-9-10,,,,,,,,1,8631,,,,,,,,2,3206,BPL3206,BPL3206,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Momin Uddin  Molla,,Assistant Input Man,,1,,1985-8-1,2018-9-15,,,,,,,,1,8631,,,,,,,,2,3208,BPL3208,BPL3208,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Ashraful Islam  Sohag,,Inputman,,1,,1993-1-1,2018-11-3,,,,,,,,1,10116,,,,,,,,2,3235,BPL3235,BPL3235,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Masud Rana  ,,Assistant Input Man,,1,,2001-2-7,2019-7-13,,,,,,,,1,8308,,,,,,,,2,3303,BPL3303,BPL3303,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Suruj Mia  ,,Assistant Input Man,,1,,1998-6-25,2019-12-7,,,,,,,,1,8308,,,,,,,,2,3325,BPL3325,BPL3325,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Alam Mia  ,,Assistant Input Man,,1,,1997-12-5,2020-2-2,,,,,,,,1,8308,,,,,,,,2,3339,BPL3339,BPL3339,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Belal Hossain  ,,Assistant Input Man,,1,,1996-7-12,2020-2-3,,,,,,,,1,8308,,,,,,,,2,3344,BPL3344,BPL3344,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Hasan Reza  ,,Assistant Input Man,,1,,1997-10-15,2020-11-2,,,,,,,,1,8000,,,,,,,,2,3362,BPL3362,BPL3362,123456,,1
+BPL,Printing,Production,Finishing,Finishing,,Md. Rasel Rana  ,,Assistant Input Man,,1,,2000-12-30,2020-11-2,,,,,,,,1,8000,,,,,,,,2,3363,BPL3363,BPL3363,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Jayeda  ,,Cleaner,,1,,1982-6-25,2008-4-1,,,,,,,,2,9045,,,,,,,,2,1089,BPL1089,BPL1089,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Banu   Sheikh,,Sweeper,,1,,1962-11-20,2012-1-1,,,,,,,,1,10805,,,,,,,,2,2204,BPL2204,BPL2204,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Bodion   Nesa,,Cleaner,,1,,1984-5-1,2012-3-11,,,,,,,,2,9045,,,,,,,,2,2239,BPL2239,BPL2239,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Merina   Begum,,Baby Sitter,,1,,1978-2-1,2012-5-2,,,,,,,,2,11691,,,,,,,,2,2282,BPL2282,BPL2282,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Malia   Begum,,Cleaner,,1,,1973-1-1,2012-11-4,,,,,,,,2,9045,,,,,,,,2,2341,BPL2341,BPL2341,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Morseda   Begum,,Cleaner,,1,,1976-10-25,2013-11-2,,,,,,,,2,9045,,,,,,,,2,2546,BPL2546,BPL2546,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Rafiqul   Islam,,Canteen Boy,,1,,1975-4-17,2013-7-1,,,,,,,,1,12116,,,,,,,,2,2647,BPL2647,BPL2647,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Sabera  Banu,,Cleaner,,1,,1989-3-2,2018-12-10,,,,,,,,2,9045,,,,,,,,2,3251,BPL3251,BPL3251,123456,,1
+BPL,Printing,HRAC,HRAC,HRAC,,Beauty Khatun  ,,Medical Assistant,,1,,1997-10-24,2019-1-19,,,,,,,,2,15986,,,,,,,,2,3260,BPL3260,BPL3260,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Sumi   Akter,,Screen Woman,,1,,1988-2-20,2006-2-1,,,,,,,,2,10226,,,,,,,,2,226,BPL226,BPL226,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Afroza  Khatun,,Screen Woman,,1,,1989-3-10,2007-6-6,,,,,,,,2,10116,,,,,,,,2,687,BPL687,BPL687,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Anarul  Islam,,Screen Man,,1,,1989-5-6,2007-6-6,,,,,,,,1,10445,,,,,,,,2,712,BPL712,BPL712,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Mina  Akhter,,Layer Woman,,1,,1987-5-19,2008-4-1,,,,,,,,2,10116,,,,,,,,2,1096,BPL1096,BPL1096,123456,,1
+BPL,Printing,Production,Production (A),Production (A),, Md. Akbor   Ali,,Inputman,,1,,1979-7-5,2009-6-2,,,,,,,,1,10116,,,,,,,,2,1684,BPL1684,BPL1684,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Arefa   Begum,,Layer Woman,,1,,1988-7-22,2009-10-3,,,,,,,,2,10116,,,,,,,,2,1749,BPL1749,BPL1749,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Khorseda  Begum,,Layer Woman,,1,,1981-2-25,2010-1-3,,,,,,,,2,10116,,,,,,,,2,1857,BPL1857,BPL1857,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Moni   Akter,,Junior Layer Woman,,1,,1989-12-31,2011-10-4,,,,,,,,2,9596,,,,,,,,2,2116,BPL2116,BPL2116,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Rubina   Begum,,General Layer Woman,,1,,1982-2-8,2012-2-6,,,,,,,,2,9094,,,,,,,,2,2222,BPL2222,BPL2222,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Lucky   Begum,,Screen Woman,,1,,1992-8-3,2012-2-16,,,,,,,,2,10226,,,,,,,,2,2227,BPL2227,BPL2227,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Tahera   Begum,,Layer Woman,,1,,1990-7-1,2013-1-1,,,,,,,,2,10116,,,,,,,,2,2433,BPL2433,BPL2433,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Ronjina   Begum,,General Drayerman,,1,,1987-8-10,2013-4-1,,,,,,,,2,9094,,,,,,,,2,2490,BPL2490,BPL2490,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Liton   Mia,,Assistant Screen Man,,1,,1993-7-18,2013-4-15,,,,,,,,1,8631,,,,,,,,2,2495,BPL2495,BPL2495,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Akhi   Akhter,,Layer Woman,,1,,1994-6-2,2013-11-2,,,,,,,,2,10116,,,,,,,,2,2559,BPL2559,BPL2559,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Moli   Begum,,Layer Woman,,1,,1992-1-1,2013-11-9,,,,,,,,2,10116,,,,,,,,2,2584,BPL2584,BPL2584,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Mukta  ,,Junior Layer Woman,,1,,1991-6-20,2014-4-1,,,,,,,,2,9596,,,,,,,,2,2619,BPL2619,BPL2619,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Shampa  Begum,,Assistant Dryer Woman,,1,,1990-1-20,2016-4-2,,,,,,,,2,8631,,,,,,,,2,2758,BPL2758,BPL2758,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Masuma   Begum,,General Operator (Heat ,,1,,1984-12-4,2016-11-2,,,,,,,,2,8750,,,,,,,,2,2837,BPL2837,BPL2837,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Atoyara   Begum,,General Drayerman,,1,,1987-1-10,2016-11-2,,,,,,,,2,8631,,,,,,,,2,2838,BPL2838,BPL2838,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Sajila    Begum,,Assistant Dryer Woman,,1,,1997-9-8,2016-12-1,,,,,,,,2,8631,,,,,,,,2,2855,BPL2855,BPL2855,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Banu   Khatun,,Assistant Dryer Woman,,1,,1991-5-8,2016-12-1,,,,,,,,2,8631,,,,,,,,2,2857,BPL2857,BPL2857,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Ruma   Begum,,Assistant Dryer Woman,,1,,1997-2-28,2016-12-3,,,,,,,,2,8631,,,,,,,,2,2861,BPL2861,BPL2861,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Shanaj   Begum,,Assistant Dryer Woman,,1,,1992-1-7,2016-12-3,,,,,,,,2,8631,,,,,,,,2,2863,BPL2863,BPL2863,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Ripon   Islam,,Screen Man,,1,,1995-6-10,2017-3-1,,,,,,,,1,10555,,,,,,,,2,2899,BPL2899,BPL2899,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Marufa   Akter,,General Drayerman,,1,,1996-7-26,2017-4-8,,,,,,,,2,8631,,,,,,,,2,2949,BPL2949,BPL2949,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Rani   Monidas,,General Operator (Heat ,,2,,1984-7-17,2017-7-3,,,,,,,,2,8750,,,,,,,,2,2960,BPL2960,BPL2960,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Tuli   Rani,,Assistant Dryer Woman,,2,,1993-10-18,2017-9-10,,,,,,,,2,8631,,,,,,,,2,2986,BPL2986,BPL2986,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Kobir   Uddin,,General Screen Man,,1,,1997-12-29,2017-9-10,,,,,,,,1,9094,,,,,,,,2,2990,BPL2990,BPL2990,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Reka   Begum,,Assistant Dryer Woman,,1,,1984-11-8,2018-1-2,,,,,,,,2,8631,,,,,,,,2,3063,BPL3063,BPL3063,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Shejeda   Khatun,,General Operator (Heat ,,1,,1989-5-4,2018-3-3,,,,,,,,2,8750,,,,,,,,2,3121,BPL3121,BPL3121,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Fardus  ,,Screen Man,,1,,1995-3-15,2018-3-6,,,,,,,,1,10555,,,,,,,,2,3125,BPL3125,BPL3125,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Rahena   Khatun,,Assistant Dryer Woman,,1,,1984-11-3,2018-5-8,,,,,,,,2,8631,,,,,,,,2,3159,BPL3159,BPL3159,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Rahima  Begum,,General Operator (Heat ,,1,,1989-10-25,2018-9-1,,,,,,,,2,8750,,,,,,,,2,3187,BPL3187,BPL3187,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Taslima  Begum,,Assistant Dryer Woman,,1,,1994-4-19,2018-9-1,,,,,,,,2,8631,,,,,,,,2,3188,BPL3188,BPL3188,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Sultan  Mia,,Assistant Screen Man,,1,,2000-2-1,2018-9-1,,,,,,,,1,8631,,,,,,,,2,3194,BPL3194,BPL3194,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Sabil  Alam,,Assistant Screen Man,,1,,1999-4-5,2018-10-6,,,,,,,,1,8631,,,,,,,,2,3217,BPL3217,BPL3217,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Sabina  Yesmin,,Assistant Dryer Woman,,1,,1990-3-9,2018-12-1,,,,,,,,2,8631,,,,,,,,2,3248,BPL3248,BPL3248,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Raju Mia  ,,Assistant Screen Man,,1,,1993-8-10,2019-2-2,,,,,,,,1,8631,,,,,,,,2,3263,BPL3263,BPL3263,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Razu Ahamed  ,,Screen Man,,1,,1999-2-2,2019-3-2,,,,,,,,1,10116,,,,,,,,2,3268,BPL3268,BPL3268,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Rashed Mia  ,,Screen Man,,1,,1994-5-15,2019-10-5,,,,,,,,1,9722,,,,,,,,2,3309,BPL3309,BPL3309,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Mst. Parvin Begum  ,,Assistant Screen Man,,1,,1995-10-12,2020-1-6,,,,,,,,2,8308,,,,,,,,2,3332,BPL3332,BPL3332,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Mst. Ashura Begum  ,,Assistant Screen Man,,1,,1975-1-4,2020-1-6,,,,,,,,2,8308,,,,,,,,2,3333,BPL3333,BPL3333,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Sree Proshanto Kumar Bormon  ,,Assistant Screen Man,,2,,1998-8-1,2020-2-2,,,,,,,,1,8308,,,,,,,,2,3340,BPL3340,BPL3340,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Md. Abdul Barik  ,,Assistant Screen Man,,1,,1999-7-3,2020-2-3,,,,,,,,1,8308,,,,,,,,2,3345,BPL3345,BPL3345,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Mst. Shila Khatun  ,,Assistant Screen Man,,1,,1991-3-8,2020-3-8,,,,,,,,2,8308,,,,,,,,2,3354,BPL3354,BPL3354,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Miss Reshma Khatun  ,,Assistant Screen Man,,1,,1997-11-20,2020-11-2,,,,,,,,2,8000,,,,,,,,2,3357,BPL3357,BPL3357,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Syed Shahid Miah  ,,Assistant Screen Man,,1,,2002-4-1,2020-11-2,,,,,,,,1,8000,,,,,,,,2,3361,BPL3361,BPL3361,123456,,1
+BPL,Printing,Production,Production (A),Production (A),,Somrat  ,,Senior Screen Man,,1,,1991-7-15,2018-1-1,,,,,,,,1,10665,,,,,,,,2,3058,BPL3058,BPL3058,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Shahnaj   Khatun,,Layer Woman,,1,,1986-3-10,2006-8-5,,,,,,,,2,10116,,,,,,,,2,411,BPL411,BPL411,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Parvin   Akter,,Layer Woman,,1,,1986-5-25,2006-11-2,,,,,,,,2,10116,,,,,,,,2,514,BPL514,BPL514,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Najma  Begum,,Layer Woman,,1,,1980-3-10,2008-1-1,,,,,,,,2,10116,,,,,,,,2,904,BPL904,BPL904,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Nilu   Khatun,,Layer Woman,,1,,1977-1-15,2008-1-3,,,,,,,,2,10116,,,,,,,,2,932,BPL932,BPL932,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Arzina  ,,Screen Woman,,1,,1983-1-15,2008-2-2,,,,,,,,2,10226,,,,,,,,2,986,BPL986,BPL986,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Aeysa   Begum,,Layer Woman,,1,,1988-9-20,2008-10-12,,,,,,,,2,10116,,,,,,,,2,1305,BPL1305,BPL1305,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Anju   Begum,,Layer Woman,,1,,1986-1-20,2008-10-13,,,,,,,,2,10116,,,,,,,,2,1314,BPL1314,BPL1314,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Moslema  -,,Dryer Woman,,1,,1982-12-10,2008-10-13,,,,,,,,2,10116,,,,,,,,2,1317,BPL1317,BPL1317,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Noor   Jahan,,Layer Woman,,1,,1973-2-1,2009-2-4,,,,,,,,2,10116,,,,,,,,2,1529,BPL1529,BPL1529,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Rashada  -,,Layer Woman,,1,,1982-2-2,2009-3-3,,,,,,,,2,10116,,,,,,,,2,1584,BPL1584,BPL1584,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Rehana   Begum,,Layer Woman,,1,,1989-1-1,2009-4-5,,,,,,,,2,10116,,,,,,,,2,1613,BPL1613,BPL1613,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Kulsum  -,,Operator (Heat Press),,1,,1990-2-2,2010-5-16,,,,,,,,2,10116,,,,,,,,2,1948,BPL1948,BPL1948,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Rupali  ,,Junior Layer Woman,,1,,1986-12-18,2011-12-1,,,,,,,,2,9596,,,,,,,,2,2155,BPL2155,BPL2155,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Layla   Akter,,Layer Woman,,1,,1993-3-27,2012-4-12,,,,,,,,2,10116,,,,,,,,2,2273,BPL2273,BPL2273,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Anwar   Hossain,,Inputman,,1,,1988-7-20,2012-11-3,,,,,,,,1,10116,,,,,,,,2,2334,BPL2334,BPL2334,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Aduri   Begum,,Junior Layer Woman,,1,,1992-10-11,2012-11-10,,,,,,,,2,9596,,,,,,,,2,2386,BPL2386,BPL2386,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Nasima   Begum,,Junior Layer Woman,,1,,1972-3-16,2013-11-2,,,,,,,,2,9596,,,,,,,,2,2568,BPL2568,BPL2568,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Mofizul   Islam,,Screen Man,,1,,1993-1-2,2013-11-2,,,,,,,,1,10445,,,,,,,,2,2574,BPL2574,BPL2574,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Parvin  ,,General Layer Woman,,1,,1985-9-23,2014-4-1,,,,,,,,2,9094,,,,,,,,2,2618,BPL2618,BPL2618,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Sirina  Khatun,,Junior Layer Woman,,1,,1990-3-1,2015-8-6,,,,,,,,2,9094,,,,,,,,2,2684,BPL2684,BPL2684,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Shamima  ,,General Layer Woman,,1,,1986-11-29,2016-3-3,,,,,,,,2,9094,,,,,,,,2,2752,BPL2752,BPL2752,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Mojid  ,,Screen Man,,1,,1988-1-1,2017-2-4,,,,,,,,1,10445,,,,,,,,2,2890,BPL2890,BPL2890,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Sanjida    Yesmin,,Operator (Heat Press),,1,,1997-7-12,2017-3-5,,,,,,,,2,9596,,,,,,,,2,2906,BPL2906,BPL2906,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Nur   Nahar,,Assistant Dryer Woman,,1,,1990-1-1,2017-3-11,,,,,,,,2,8631,,,,,,,,2,2918,BPL2918,BPL2918,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Hanifa   Begum,,Junior Layer Woman,,1,,1988-8-5,2017-4-1,,,,,,,,2,9596,,,,,,,,2,2933,BPL2933,BPL2933,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Sotish Chandro   Das,,Screen Man,,2,,1990-2-12,2017-4-3,,,,,,,,1,10445,,,,,,,,2,2938,BPL2938,BPL2938,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Saheb  Ali,,Screen Man,,1,,1998-1-1,2017-10-3,,,,,,,,1,10445,,,,,,,,2,3017,BPL3017,BPL3017,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Morzina   Begum,,Assistant Dryer Woman,,1,,1982-10-15,2018-1-6,,,,,,,,2,8631,,,,,,,,2,3064,BPL3064,BPL3064,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Shohor   Vanu,,Assistant Dryer Woman,,1,,1982-12-10,2018-1-6,,,,,,,,2,8631,,,,,,,,2,3066,BPL3066,BPL3066,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Rebeya   Begum,,Assistant Dryer Woman,,1,,1980-4-15,2018-1-20,,,,,,,,2,8631,,,,,,,,2,3077,BPL3077,BPL3077,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Mehedi   Hasan,,Screen Man,,1,,1992-1-1,2018-1-20,,,,,,,,1,10555,,,,,,,,2,3078,BPL3078,BPL3078,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Hasina   Begum,,Assistant Dryer Woman,,1,,1994-11-28,2018-2-3,,,,,,,,2,8631,,,,,,,,2,3090,BPL3090,BPL3090,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Morzina  Begum,,General Operator (Heat ,,1,,1990-8-9,2018-2-3,,,,,,,,2,8750,,,,,,,,2,3093,BPL3093,BPL3093,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md.   Aktarul,,Assistant Screen Man,,1,,1989-1-1,2018-2-3,,,,,,,,1,8631,,,,,,,,2,3094,BPL3094,BPL3094,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Fatema   Begum,,General Operator (Heat ,,1,,1986-6-19,2018-2-3,,,,,,,,2,9094,,,,,,,,2,3096,BPL3096,BPL3096,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Marufa   Begum,,Assistant Dryer Woman,,1,,1993-3-2,2018-3-5,,,,,,,,2,8631,,,,,,,,2,3119,BPL3119,BPL3119,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Morjina   ,,Assistant Dryer Woman,,1,,1992-1-1,2018-3-5,,,,,,,,2,8631,,,,,,,,2,3120,BPL3120,BPL3120,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Asiya   Khatun,,Assistant Dryer Woman,,1,,1993-3-22,2018-3-3,,,,,,,,2,8631,,,,,,,,2,3122,BPL3122,BPL3122,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Sumi  -,,Assistant Dryer Woman,,1,,1995-11-1,2018-3-6,,,,,,,,2,8631,,,,,,,,2,3126,BPL3126,BPL3126,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Bizli  Begum,,Assistant Dryer Woman,,1,,1988-5-4,2018-9-1,,,,,,,,2,8631,,,,,,,,2,3195,BPL3195,BPL3195,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Monirul   Islam,,Screen Man,,1,,1996-8-18,2018-10-1,,,,,,,,1,10116,,,,,,,,2,3210,BPL3210,BPL3210,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Rana   Bisawas,,Screen Man,,1,,1990-7-16,2018-12-1,,,,,,,,1,10116,,,,,,,,2,3249,BPL3249,BPL3249,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Faruk  ,,Assistant Screen Man,,1,,1998-6-10,2018-12-3,,,,,,,,1,8631,,,,,,,,2,3250,BPL3250,BPL3250,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Sadin Mia  ,,Assistant Screen Man,,1,,1999-2-10,2019-3-9,,,,,,,,1,8631,,,,,,,,2,3281,BPL3281,BPL3281,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Mst. Shahanaj Begum  ,,Assistant Dryer Woman,,1,,1987-5-3,2019-3-16,,,,,,,,2,8631,,,,,,,,2,3282,BPL3282,BPL3282,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Rubel Mia  ,,Junior Screenman,,1,,1997-12-30,2019-6-15,,,,,,,,1,9358,,,,,,,,2,3288,BPL3288,BPL3288,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Mst. Suktara Khatun  ,,Assistant Screen Man,,1,,1994-6-27,2019-12-2,,,,,,,,2,8308,,,,,,,,2,3318,BPL3318,BPL3318,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Mst. Munni Khatun  ,,Assistant Screen Man,,1,,1999-5-3,2019-12-2,,,,,,,,2,8308,,,,,,,,2,3323,BPL3323,BPL3323,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Fatema Begum  ,,Assistant Screen Man,,1,,1992-1-8,2019-12-3,,,,,,,,2,8308,,,,,,,,2,3324,BPL3324,BPL3324,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Md. Arif Hossain  ,,Screen Man,,1,,1997-2-7,2020-2-2,,,,,,,,1,9777,,,,,,,,2,3341,BPL3341,BPL3341,123456,,1
+BPL,Printing,Production,Production (B),Production (B),,Faruk Hossan  ,,Screen Man,,1,,1986-4-25,2020-2-9,,,,,,,,1,9830,,,,,,,,2,3350,BPL3350,BPL3350,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Jonayet   Hossain,,Inspector,,1,,1987-1-1,2008-6-5,,,,,,,,1,10116,,,,,,,,2,1216,BPL1216,BPL1216,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Suvo Kumar   Nandi,,Inspector,,2,,1987-11-22,2008-11-6,,,,,,,,1,10116,,,,,,,,2,1385,BPL1385,BPL1385,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Rejaul   Karim,,Inspector,,1,,1989-4-18,2009-6-1,,,,,,,,1,10116,,,,,,,,2,1682,BPL1682,BPL1682,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Forhad   Ali,,Inspector,,1,,1988-3-21,2009-12-12,,,,,,,,1,10116,,,,,,,,2,1825,BPL1825,BPL1825,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Shahinur   Rahman,,Inspector,,1,,1991-1-30,2012-9-10,,,,,,,,1,10116,,,,,,,,2,2317,BPL2317,BPL2317,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Ramjan   Ali,,Senior Quality Inspector,,1,,1993-5-2,2012-11-11,,,,,,,,1,10245,,,,,,,,2,2419,BPL2419,BPL2419,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Prodip    Kumar,,Senior Quality Inspector,,2,,1990-3-3,2013-5-9,,,,,,,,1,10770,,,,,,,,2,2513,BPL2513,BPL2513,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Abdul   Hakim,,Inspector,,1,,1987-10-17,2016-12-3,,,,,,,,1,10116,,,,,,,,2,2850,BPL2850,BPL2850,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Juwel   Rana,,Inspector,,1,,1998-3-8,2017-3-5,,,,,,,,1,10116,,,,,,,,2,2905,BPL2905,BPL2905,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Raihan   Matubbar,,Inspector,,1,,1996-2-18,2017-5-2,,,,,,,,1,10116,,,,,,,,2,2955,BPL2955,BPL2955,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Jibon  Hossain,,Inspector,,1,,2000-1-12,2018-7-1,,,,,,,,1,10116,,,,,,,,2,3162,BPL3162,BPL3162,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Ariful  Islam,,Inspector,,1,,2000-3-1,2018-7-1,,,,,,,,1,10116,,,,,,,,2,3164,BPL3164,BPL3164,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Rayhan  Ali,,Inspector,,1,,1997-7-4,2018-7-1,,,,,,,,1,10116,,,,,,,,2,3165,BPL3165,BPL3165,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Didarul   Islam,,Junior Quality Inspector,,1,,1999-7-3,2018-7-7,,,,,,,,1,9596,,,,,,,,2,3180,BPL3180,BPL3180,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Rahat   Mia,,Inspector,,1,,1997-5-17,2018-9-15,,,,,,,,1,10116,,,,,,,,2,3207,BPL3207,BPL3207,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Mafijul   Islam,,Inspector,,1,,1994-1-1,2018-10-1,,,,,,,,1,10116,,,,,,,,2,3212,BPL3212,BPL3212,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Mahafuzul Islam  ,,Inspector,,1,,1997-12-13,2019-2-2,,,,,,,,1,10116,,,,,,,,2,3261,BPL3261,BPL3261,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Mojnur Rahaman  ,,Inspector,,1,,1995-6-10,2019-6-16,,,,,,,,1,9722,,,,,,,,2,3290,BPL3290,BPL3290,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Amirul Islam  ,,Inspector,,1,,1995-6-1,2019-10-2,,,,,,,,1,9722,,,,,,,,2,3307,BPL3307,BPL3307,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Sakhawat Hossen  ,,Inspector,,1,,1982-2-1,2019-10-2,,,,,,,,1,10092,,,,,,,,2,3308,BPL3308,BPL3308,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Mahamudul Hasan  ,,General Quality Inspector,,1,,1995-3-15,2020-2-3,,,,,,,,1,8749,,,,,,,,2,3347,BPL3347,BPL3347,123456,,1
+BPL,Printing,Production,Quality,Quality Assurance,,Md. Kobirul Islam  ,,General Quality Inspector,,1,,1995-1-1,2020-11-3,,,,,,,,1,8420,,,,,,,,2,3366,BPL3366,BPL3366,123456,,1
+BPL,Printing,Production,Sample,Sample,,Shapon   Mia,,Assistant Screen Man,,1,,1987-10-18,2009-1-1,,,,,,,,1,8631,,,,,,,,2,1453,BPL1453,BPL1453,123456,,1
+BPL,Printing,Production,Sample,Sample,,Kalpona   Begum,,Assistant Dryer Woman,,1,,1990-2-6,2015-6-1,,,,,,,,2,8631,,,,,,,,2,2669,BPL2669,BPL2669,123456,,1
+BPL,Printing,Production,Sample,Sample,,Momena   Begum,,Assistant Dryer Woman,,1,,1990-8-20,2016-12-1,,,,,,,,2,8631,,,,,,,,2,2858,BPL2858,BPL2858,123456,,1
+BPL,Printing,Production,Sample,Sample,,Md. Dukhu Mia  ,,Assistant Screen Man,,1,,1999-5-13,2019-1-12,,,,,,,,1,8631,,,,,,,,2,3259,BPL3259,BPL3259,123456,,1
+BPL,Printing,Production,Sample,Sample,,Sree Kali Kanto Roy  ,,Assistant Screen Man,,2,,1998-1-11,2019-10-12,,,,,,,,1,8308,,,,,,,,2,3312,BPL3312,BPL3312,123456,,1
+BPL,Printing,Production,Sample,Sample,,Rashedul Karim Rabbi  ,,Assistant Screen Man,,1,,2000-3-3,2020-1-14,,,,,,,,1,8308,,,,,,,,2,3336,BPL3336,BPL3336,123456,,1
+BPL,Printing,HRAC,HRAC,Security,,Fahima   Begum,,Security Guard,,1,,1977-12-31,2014-8-16,,,,,,,,2,12483,,,,,,,,2,2894,BPL2894,BPL2894,123456,,1
+BPL,Printing,HRAC,HRAC,Security,,Jabed   Shikder,,Security Guard,,1,,1987-2-3,2017-9-18,,,,,,,,1,11691,,,,,,,,2,3004,BPL3004,BPL3004,123456,,1
+BPL,Printing,HRAC,HRAC,Security,,Md. Joynul  Abedin,,Security Guard,,1,,1990-4-17,2017-9-19,,,,,,,,1,11691,,,,,,,,2,3006,BPL3006,BPL3006,123456,,1
+BPL,Printing,HRAC,HRAC,Security,,Phanibhusan   Ray,,Security Guard,,2,,1978-12-28,2018-2-5,,,,,,,,1,11691,,,,,,,,2,3106,BPL3106,BPL3106,123456,,1
+BPL,Printing,HRAC,HRAC,Security,,Md. Nasir Uddin  ,,Junior Security Guard,,1,,1984-2-1,2019-12-12,,,,,,,,1,8702,,,,,,,,2,3327,BPL3327,BPL3327,123456,,1
+BPL,Printing,HRAC,HRAC,Security,,Md. Sultan Mahamud  ,,Junior Security Guard,,1,,1980-6-18,2020-8-16,,,,,,,,1,8375,,,,,,,,2,3355,BPL3355,BPL3355,123456,,1
+BPL,Printing,Store & Warehouse,Store & Warehouse,Store & Warehouse,,Shohraf Hossain  Hossain,,Loader,,1,,1977-4-15,2011-10-3,,,,,,,,1,12247,,,,,,,,2,2114,BPL2114,BPL2114,123456,,1
+BPL,Printing,Store & Warehouse,Store & Warehouse,Store & Warehouse,,Abdur   Hamid,,Loader,,1,,1973-7-16,2012-12-5,,,,,,,,1,12009,,,,,,,,2,2423,BPL2423,BPL2423,123456,,1
+BPL,Printing,Store & Warehouse,Store & Warehouse,Store & Warehouse,,Sajedul   Islam,,Loader,,1,,1994-5-1,2017-5-9,,,,,,,,1,10947,,,,,,,,2,2958,BPL2958,BPL2958,123456,,1
+BPL,Printing,Store & Warehouse,Store & Warehouse,Store & Warehouse,,Md. Mukaddes  Ali,,Loader,,1,,1981-2-25,2018-3-1,,,,,,,,1,10616,,,,,,,,2,3111,BPL3111,BPL3111,123456,,1
+BPL,Printing,Store & Warehouse,Store & Warehouse,Store & Warehouse,,Md. Khaza  Mia,,Loader,,1,,1983-1-14,2018-9-10,,,,,,,,1,10002,,,,,,,,2,3205,BPL3205,BPL3205,123456,,1
