@@ -3157,4 +3157,40 @@ class Dashboard extends CI_Controller
 			echo  "error";
 		}
 	}
+	public function date_wise_non_po_challan_list_form()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Date Wise Challan Status';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$usertype = $this->session->userdata('user_type');
+		$factoryid = $this->session->userdata('factoryid');
+		if ($usertype == 1) {
+			$data['fl'] = $this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_list_form', $data);
+		}
+		if ($usertype == 2) {
+			$factoryid = $this->session->userdata('factoryid');
+			$this->load->view('admin/date_wise_non_po_challan_list_form', $data);
+		}
+		if ($usertype == 3) {
+			$factoryid = $this->session->userdata('factoryid');
+			$this->load->view('admin/date_wise_non_po_challan_list_form', $data);
+		}
+	}
+	public function date_wise_non_po_challan_list()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$pd = $this->input->post('pd');
+		$wd = $this->input->post('wd');
+		$factoryid = $this->input->post('factoryid');
+		$data['pd'] = $pd;
+		$data['wd'] = $wd;
+		$data['factoryid'] = $factoryid;
+		$data['ul'] = $this->Admin->date_wise_non_po_challan_list($pd, $wd, $factoryid);
+		$this->load->view('admin/date_wise_non_po_challan_list', $data);
+	}
 }

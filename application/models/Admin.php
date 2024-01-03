@@ -2021,4 +2021,16 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		$query1 = $this->db->query($sql1);
 		return $query1;
 	}
+	public function date_wise_non_po_challan_list($pd, $wd, $factoryid)
+	{
+		$pd = date("Y-m-d", strtotime($pd));
+		$wd = date("Y-m-d", strtotime($wd));
+
+		$query = "SELECT * FROM non_po_challanm1_insert
+		
+		WHERE crcdate BETWEEN '$pd' AND '$wd' AND sfactoryid='$factoryid' AND non_po_challanm1status='1'
+		ORDER BY nonpochmid DESC";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
 }

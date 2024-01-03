@@ -292,10 +292,34 @@
 								</span>
 							</a>
 							<ul class="treeview-menu">
-								<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_list_form"><i class="fa fa-circle-o"></i>Date Wise Challan List</a></li>
-								<?php /*?><li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_status_form"><i class="fa fa-circle-o"></i>Date Wise Challan(S/R)</a></li><?php */ ?>
-								<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent Challan</a></li>
-								<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive Challan</a></li>
+								<li class="treeview">
+									<a href="#">
+										<i class="fa fa-id-card" aria-hidden="true"></i> <span>PO Wise</span>
+										<span class="pull-right-container">
+											<i class="fa fa-angle-left pull-right"></i>
+										</span>
+									</a>
+									<ul class="treeview-menu">
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_list_form"><i class="fa fa-circle-o"></i>Date Wise Challan List</a></li>
+										<?php /*?><li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_status_form"><i class="fa fa-circle-o"></i>Date Wise Challan(S/R)</a></li><?php */ ?>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
+									</ul>
+								</li>
+								<li class="treeview">
+									<a href="#">
+										<i class="fa fa-id-card" aria-hidden="true"></i> <span>NON PO Wise</span>
+										<span class="pull-right-container">
+											<i class="fa fa-angle-left pull-right"></i>
+										</span>
+									</a>
+									<ul class="treeview-menu">
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_list_form"><i class="fa fa-circle-o"></i>Date Wise Challan List</a></li>
+										<?php /*?><li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_status_form"><i class="fa fa-circle-o"></i>Date Wise Challan(S/R)</a></li><?php */ ?>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
+									</ul>
+								</li>
 							</ul>
 						</li>
 
