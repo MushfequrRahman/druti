@@ -46,7 +46,7 @@
 </script>
 
 <!-- /.box-header -->
-<div class="box-body no-padding">
+<div class="box-body table-responsive no-padding">
   <?php /*?><form action="<?php echo base_url() ?>Dashboard/date_wise_mpr_list_xls" class="excel-upl" id="excel-upl" enctype="multipart/form-data" method="post" accept-charset="utf-8">
     <div class="row padall">
       <div class="col-lg-12">
@@ -75,26 +75,41 @@
             <input autocomplete='off' class='filter form-control' name='From' placeholder='From' data-col='From' />
           </div>
         </div> -->
-      <div class="col-md-4">
+      <div class="col-md-2">
         <div class='filter-container'>
           <input autocomplete='off' class='filter form-control' name='Challan' placeholder='Challan' data-col='Challan' />
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-2">
         <div class='filter-container'>
-          <input autocomplete='off' class='filter form-control' name='To' placeholder='To' data-col='To' />
+          <input autocomplete='off' class='filter form-control' name='Buyer' placeholder='Buyer' data-col='Buyer' />
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-2">
         <div class='filter-container'>
-          <input autocomplete='off' class='filter form-control' name='Edit/Status' placeholder='Edit/Status' data-col='Edit/Status' />
+          <input autocomplete='off' class='filter form-control' name='Job No/ATL No' placeholder='Job No/ATL No' data-col='Job No/ATL No' />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Style' placeholder='Style' data-col='Style' />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Order/PO' placeholder='Order/PO' data-col='Order/PO' />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Purpose' placeholder='Purpose' data-col='Purpose' />
         </div>
       </div>
     </div>
   </div>
   <br />
   <div class="table-responsive">
-    <table id="tableData" class="table table-hover table-bordered table-responsive">
+    <table id="tableData" class="table table-hover table-bordered">
       <thead style="background:#91b9e6;">
         <tr>
           <th>SL</th>
@@ -102,11 +117,17 @@
           <th>Date</th>
           <th>From</th>
           <th>To</th>
+          <th>Buyer</th>
+          <th>Job No/ATL NO</th>
+          <th>Style</th>
+          <th>Order/PO</th>
+          <!-- <th>Color</th> -->
+          <th>Purpose</th>
           <th>Sent Date</th>
           <th>Sent Time</th>
           <th>Received Date</th>
           <th>Received Time</th>
-          <th>Edit/Status</th>
+          <th>Status</th>
           <th>Print</th>
         </tr>
       </thead>
@@ -116,10 +137,16 @@
         foreach ($ul as $row) { ?>
           <tr>
             <td style="vertical-align:middle;"><?php echo $i++; ?></td>
-            <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/non_po_challanm_details/<?php echo $bn = $row['nonpochmid']; ?>"><?php echo $row['challanno']; ?></a></td>
+            <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/challanm_details/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['challanno']; ?></a></td>
             <td style="vertical-align:middle;"><?php echo date("d-m-Y", strtotime($row['crcdate'])); ?></td>
             <td style="vertical-align:middle;"><?php echo $row['sfactoryid']; ?></td>
             <td style="vertical-align:middle;"><?php echo $row['dfactoryid']; ?></td>
+            <td style="vertical-align:middle;"><?php echo $row['buyername']; ?></td>
+            <td style="vertical-align:middle;"><?php echo $row['jobno']; ?></td>
+            <td style="vertical-align:middle;"><?php echo $row['stylename']; ?></td>
+            <td style="vertical-align:middle;"><?php echo $row['ordername']; ?></td>
+            <!-- <td style="vertical-align:middle;"><?php echo $row['colorname']; ?></td> -->
+            <td style="vertical-align:middle;"><?php echo $row['productiontype']; ?></td>
 
             <?php
             if ($row['sdate'] == '0000-00-00') {
@@ -149,7 +176,7 @@
             <?php
             if ($row['status'] == '1') {
             ?>
-              <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/non_po_challanm_details_form/<?php echo $bn = $row['nonpochmid']; ?>">Waiting For Gate Out</a></td>
+              <td style="vertical-align:middle;">Waiting For Gate Out</td>
             <?php
             } elseif ($row['status'] == '2') {
             ?>
@@ -161,7 +188,7 @@
             <?php
             }
             ?>
-            <td style="vertical-align:middle;"><a target="_blank" href="<?php echo base_url(); ?>Dashboard/non_po_challanm_print/<?php echo $bn = $row['nonpochmid']; ?>"><i class="fa fa-print" aria-hidden="true"></i>
+            <td style="vertical-align:middle;"><a target="_blank" href="<?php echo base_url(); ?>Dashboard/challanm_print/<?php echo $bn = $row['chmid']; ?>"><i class="fa fa-print" aria-hidden="true"></i>
               </a></td>
           </tr>
       </tbody>

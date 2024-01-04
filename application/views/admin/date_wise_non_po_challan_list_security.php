@@ -106,7 +106,7 @@
           <th>Sent Time</th>
           <th>Received Date</th>
           <th>Received Time</th>
-          <th>Edit/Status</th>
+          <th>Status</th>
           <th>Print</th>
         </tr>
       </thead>
@@ -149,7 +149,7 @@
             <?php
             if ($row['status'] == '1') {
             ?>
-              <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/non_po_challanm_details_form/<?php echo $bn = $row['nonpochmid']; ?>">Waiting For Gate Out</a></td>
+              <td style="vertical-align:middle;">Waiting For Gate Out</td>
             <?php
             } elseif ($row['status'] == '2') {
             ?>

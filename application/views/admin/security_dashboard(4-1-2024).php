@@ -37,12 +37,6 @@
 <body class="hold-transition skin-blue sidebar-mini">
   <div class="wrapper">
     <div class="content-wrapper">
-      <section class="content-header">
-        <h1>
-          Dashboard
-          <small>Security</small>
-        </h1>
-      </section>
       <section class="content">
         <div class="row">
           <div class="col-md-12">
@@ -50,30 +44,15 @@
               <div class="col-md-12">
                 <div class="box box-danger">
                   <div class="box-header with-border">
+                    <h3 class="box-title">Challan List Info</h3>
                     <div class="row">
-                      <div class="col-lg-3 col-xs-6">
-                        <div class="small-box bg-aqua">
-                          <div class="inner">
-                          <?php
-                        foreach ($ul1 as $row) { ?>
-                            <?php $op=$row['opending'];?>
-                            <?php
-                            }
-                            ?>
-                          <?php
-                        foreach ($ul2 as $row) { ?>
-                            <?php $ip=$row['ipending'];?>
-                            <?php
-                            }
-                            ?>
-                            <h3><?php echo $op;?>/<?php echo $ip;?></h3>
-                            <p>PO Wise Gate Out/Gate In</p>
-                          </div>
-                          <div class="icon">
-                            <i class="ion ion-bag"></i>
-                          </div>
-                          <a href="#" class="small-box-footer float-left">More info <i class="fa fa-arrow-circle-right"></i></a>
-                        </div>
+                      <div class="col-sm-12 col-md-12 col-lg-12">
+                        <?php /*?><?php echo $this->session->userdata('factoryid');?><?php */ ?>
+                        <?php /*?><?php if($responce = $this->session->flashdata('Successfully')): ?>
+								<div class="text-center">
+									<div class="alert alert-success text-center"><?php echo $responce;?></div>
+								</div>
+							<?php endif;?><?php */ ?>
                       </div>
                     </div>
                   </div>

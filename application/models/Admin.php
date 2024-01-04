@@ -1859,6 +1859,20 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
+	public function factory_challanm_pending_list_out_count($factoryid)
+	{
+		$query = "SELECT COUNT(sfactoryid) AS opending FROM challanm1_insert
+		WHERE sfactoryid='$factoryid' AND status='1'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function factory_challanm_pending_list_in_count($factoryid)
+	{
+		$query = "SELECT COUNT(sfactoryid) AS ipending FROM challanm1_insert
+		WHERE dfactoryid='$factoryid' AND status='2'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
 	public function factory_challanm_sapproved($chmid)
 	{
 		$sql = "UPDATE challanm1_insert SET status='2' WHERE chmid='$chmid'";
@@ -2032,5 +2046,38 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		ORDER BY nonpochmid DESC";
 		$result = $this->db->query($query);
 		return $result->result_array();
+	}
+	public function non_po_challanm_details_form_c1($nonpochmid)
+	{
+		$query = "SELECT * FROM non_po_challanm1_insert
+		WHERE nonpochmid='$nonpochmid'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_challanm_details($nonpochmid)
+	{
+		$query = "SELECT nppcname,pname,spqty,rpqty,puom,challantype,
+		non_po_challanm2_insert.puomid,non_po_challanm2_insert.ctid,non_po_challanm2_insert.nppcid,
+		sremarks,rremarks,nonpochmid2 
+		FROM non_po_challanm1_insert
+		JOIN non_po_challanm2_insert ON non_po_challanm1_insert.nonpochmid=non_po_challanm2_insert.nonpochmid1
+		JOIN challan_type ON challan_type.ctid=non_po_challanm2_insert.ctid
+		LEFT JOIN non_po_product_category ON non_po_product_category.nppcid=non_po_challanm2_insert.nppcid
+		LEFT JOIN product_uom_insert ON product_uom_insert.puomid=non_po_challanm2_insert.puomid
+		WHERE nonpochmid1='$nonpochmid'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_challanm_details_edit($data)
+	{
+		$sql = "UPDATE non_po_challanm1_insert SET challanno='$data[challanno]',dfactoryid='$data[dfactory]' WHERE nonpochmid='$data[nonpochmid]'";
+		$query = $this->db->query($sql);
+		
+		$sql1 = "UPDATE non_po_challanm2_insert SET nppcid='$data[nppcid]',pname='$data[pname]',spqty='$data[spqty]',puomid='$data[puomid]',ctid='$data[ctid]',sremarks='$data[sremarks]' WHERE nonpochmid2='$data[nonpochmid2]'";
+		$query1 = $this->db->query($sql1);
+
+		$sqld = "DELETE FROM non_po_challanm2_insert WHERE spqty='0'";
+		$queryd = $this->db->query($sqld);
+		return $query;
 	}
 }

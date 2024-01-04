@@ -35,6 +35,8 @@ class Dashboard extends CI_Controller
 			$this->load->view('admin/user_dashboard', $data);
 		} elseif ($usertype == 3) {
 			$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
+			$data['ul1'] = $this->Admin->factory_challanm_pending_list_out_count($factoryid);
+			$data['ul2'] = $this->Admin->factory_challanm_pending_list_in_count($factoryid);
 			$this->load->view('admin/security_dashboard', $data);
 		}
 	}
@@ -2782,7 +2784,19 @@ class Dashboard extends CI_Controller
 		$data['wd'] = $wd;
 		$data['factoryid'] = $factoryid;
 		$data['ul'] = $this->Admin->date_wise_challan_list($pd, $wd, $factoryid);
-		$this->load->view('admin/date_wise_challan_list', $data);
+		$usertype = $this->session->userdata('user_type');
+		if ($usertype == 1) {
+			$data['fl'] = $this->Admin->factory_list();
+			$this->load->view('admin/date_wise_challan_list', $data);
+		}
+		if ($usertype == 2) {
+			$factoryid = $this->session->userdata('factoryid');
+			$this->load->view('admin/date_wise_challan_list', $data);
+		}
+		if ($usertype == 3) {
+			$factoryid = $this->session->userdata('factoryid');
+			$this->load->view('admin/date_wise_challan_list_security', $data);
+		}
 	}
 	public function date_wise_challan_status_form()
 	{
@@ -3191,6 +3205,98 @@ class Dashboard extends CI_Controller
 		$data['wd'] = $wd;
 		$data['factoryid'] = $factoryid;
 		$data['ul'] = $this->Admin->date_wise_non_po_challan_list($pd, $wd, $factoryid);
-		$this->load->view('admin/date_wise_non_po_challan_list', $data);
+		$usertype = $this->session->userdata('user_type');
+		if ($usertype == 1) {
+			$data['fl'] = $this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_list', $data);
+		}
+		if ($usertype == 2) {
+			$factoryid = $this->session->userdata('factoryid');
+			$this->load->view('admin/date_wise_non_po_challan_list', $data);
+		}
+		if ($usertype == 3) {
+			$factoryid = $this->session->userdata('factoryid');
+			$this->load->view('admin/date_wise_non_po_challan_list_security', $data);
+		}
+	}
+	public function non_po_challanm_details()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Non PO Wise Challan';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$nonpochmid = $this->uri->segment(3);
+		$data['nonpochmid'] = $nonpochmid;
+		$data['pul'] = $this->Admin->product_uom_list();
+		$data['npl'] = $this->Admin->non_po_product_category();
+		$data['ctl'] = $this->Admin->challan_type_list();
+		$data['fl'] = $this->Admin->factory_list();
+		$data['cl1'] = $this->Admin->non_po_challanm_details_form_c1($nonpochmid);
+		$data['ul'] = $this->Admin->non_po_challanm_details($nonpochmid);
+		$this->load->view('admin/non_po_challanm_details', $data);
+	}
+	public function non_po_challanm_details_form()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'NON PO Wise Challan';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$nonpochmid = $this->uri->segment(3);
+		$data['nonpochmid'] = $nonpochmid;
+		$data['pul'] = $this->Admin->product_uom_list();
+		$data['npl'] = $this->Admin->non_po_product_category();
+		$data['ctl'] = $this->Admin->challan_type_list();
+		$data['fl'] = $this->Admin->factory_list();
+		$data['cl1'] = $this->Admin->non_po_challanm_details_form_c1($nonpochmid);
+		$data['ul'] = $this->Admin->non_po_challanm_details($nonpochmid);
+		$this->load->view('admin/non_po_challanm_details_form', $data);
+	}
+	public function non_po_challanm_details_edit()
+	{
+		$this->load->database();
+		$this->load->library('form_validation');
+		$this->load->model('Admin');
+		$nonpochmid = $this->input->post('nonpochmid');
+		$crcdate = $this->input->post('crcdate');
+		$sfactory = $this->input->post('sfactory');
+		$challanno = $this->input->post('challanno');
+		$dfactory = $this->input->post('dfactory');
+		$nonpochmid2 = $this->input->post('nonpochmid2');
+		$nppcid = $this->input->post('nppcid');
+		$pname = $this->input->post('pname');
+		$spqty = $this->input->post('spqty');
+		$puomid = $this->input->post('puomid');
+		$ctid = $this->input->post('ctid');
+		$sremarks = $this->input->post('sremarks');
+		$userid = $this->session->userdata('userid');
+
+		for ($i = 0; $i < count($nppcid); $i++) {
+			$data["i"] = $i;
+			$data["j"] = $i + 1;
+			$data["nonpochmid"] = $nonpochmid;
+			$data["crcdate"] = $crcdate;
+			$data["sfactory"] = $sfactory;
+			$data["challanno"] = $challanno;
+			$data["dfactory"] = $dfactory;
+			$data["nonpochmid2"] = $nonpochmid2[$i];
+			$data["nppcid"] = $nppcid[$i];
+			$data["pname"] = $pname[$i];
+			$data["spqty"] = $spqty[$i];
+			$data["puomid"] = $puomid[$i];
+			$data["ctid"] = $ctid[$i];
+			$data["sremarks"] = $sremarks[$i];
+			$data["userid"] = $userid;
+			$ins = $this->Admin->non_po_challanm_details_edit($data);
+		}
+		if ($ins) {
+			$this->session->set_flashdata('Successfully', 'Successfully Updated');
+		} else {
+			$this->session->set_flashdata('UnSuccessfully', "Not Updated");
+		}
+		redirect('Dashboard/date_wise_non_po_challan_list_form', 'refresh');
 	}
 }

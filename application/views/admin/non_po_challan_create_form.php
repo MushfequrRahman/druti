@@ -77,8 +77,8 @@
 			challannoErr = false;
 		}
 
-		if (ptid == "") {
-			printError("ptidErr", "Need Production Type");
+		if (puom == "") {
+			printError("ptidErr", "Need UOM");
 		} else {
 			printError("ptidErr", "");
 			ptidErr = false;
