@@ -2020,7 +2020,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		return $result->result_array();
 	}
 
-	// NON PO PRODUCT CATEGORY
+								// NON PO WISE CHALLAN
 
 	public function non_po_product_category()
 	{
@@ -2079,5 +2079,84 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		$sqld = "DELETE FROM non_po_challanm2_insert WHERE spqty='0'";
 		$queryd = $this->db->query($sqld);
 		return $query;
+	}
+	public function non_po_factory_challanm_pending_list_out_count($factoryid)
+	{
+		$query = "SELECT COUNT(sfactoryid) AS nonpoopending FROM non_po_challanm1_insert
+		WHERE sfactoryid='$factoryid' AND status='1'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_factory_challanm_pending_list_in_count($factoryid)
+	{
+		$query = "SELECT COUNT(sfactoryid) AS nonpoipending FROM non_po_challanm1_insert
+		WHERE dfactoryid='$factoryid' AND status='2'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_factory_challanm_pending_list($factoryid)
+	{
+		$query = "SELECT * FROM non_po_challanm1_insert
+		WHERE (sfactoryid='$factoryid' OR dfactoryid='$factoryid') AND (status='1' OR status='2') 
+		ORDER BY nonpochmid DESC";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_factory_challanm_sapproved($nonpochmid)
+	{
+		$sql = "UPDATE non_po_challanm1_insert SET status='2' WHERE nonpochmid='$nonpochmid'";
+		$this->db->query($sql);
+	}
+	public function non_po_factory_challanm_receive_form($nonpochmid)
+	{
+		$query = "SELECT nppcname,pname,spqty,rpqty,puom,challantype,crcdate,dfactoryid,challanno,
+		non_po_challanm2_insert.puomid,non_po_challanm2_insert.ctid,non_po_challanm2_insert.nppcid,
+		sremarks,rremarks,nonpochmid2 
+		FROM non_po_challanm1_insert
+		JOIN non_po_challanm2_insert ON non_po_challanm1_insert.nonpochmid=non_po_challanm2_insert.nonpochmid1
+		JOIN challan_type ON challan_type.ctid=non_po_challanm2_insert.ctid
+		LEFT JOIN non_po_product_category ON non_po_product_category.nppcid=non_po_challanm2_insert.nppcid
+		LEFT JOIN product_uom_insert ON product_uom_insert.puomid=non_po_challanm2_insert.puomid
+		WHERE nonpochmid1='$nonpochmid'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_challanm_receive($data)
+	{
+		$sql = "UPDATE non_po_challanm1_insert SET status='3',rdate=CURDATE(),rtime=CURTIME() WHERE nonpochmid='$data[nonpochmid]'";
+		$this->db->query($sql);
+
+		$sql2 = "UPDATE non_po_challanm2_insert SET rpqty='$data[rpqty]',rremarks='$data[rremarks]' WHERE nonpochmid2='$data[nonpochmid2]'";
+		return $query2 = $this->db->query($sql2);
+	}
+	public function date_wise_non_po_challan_sent_status($pd, $wd, $factoryid)
+	{
+		$pd = date("Y-m-d", strtotime($pd));
+		$wd = date("Y-m-d", strtotime($wd));
+
+		$query = "SELECT * FROM non_po_challanm1_insert
+		JOIN non_po_challanm2_insert ON non_po_challanm1_insert.nonpochmid=non_po_challanm2_insert.nonpochmid1
+		JOIN challan_type ON challan_type.ctid=non_po_challanm2_insert.ctid
+		LEFT JOIN non_po_product_category ON non_po_product_category.nppcid=non_po_challanm2_insert.nppcid
+		LEFT JOIN product_uom_insert ON product_uom_insert.puomid=non_po_challanm2_insert.puomid
+		WHERE crcdate BETWEEN '$pd' AND '$wd' AND sfactoryid='$factoryid'
+		ORDER BY non_po_challanm1_insert.nonpochmid DESC";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function date_wise_non_po_challan_recv_status($pd, $wd, $factoryid)
+	{
+		$pd = date("Y-m-d", strtotime($pd));
+		$wd = date("Y-m-d", strtotime($wd));
+
+		$query = "SELECT * FROM non_po_challanm1_insert
+		JOIN non_po_challanm2_insert ON non_po_challanm1_insert.nonpochmid=non_po_challanm2_insert.nonpochmid1
+		JOIN challan_type ON challan_type.ctid=non_po_challanm2_insert.ctid
+		LEFT JOIN non_po_product_category ON non_po_product_category.nppcid=non_po_challanm2_insert.nppcid
+		LEFT JOIN product_uom_insert ON product_uom_insert.puomid=non_po_challanm2_insert.puomid
+		WHERE crcdate BETWEEN '$pd' AND '$wd' AND dfactoryid='$factoryid'
+		ORDER BY non_po_challanm1_insert.nonpochmid DESC";
+		$result = $this->db->query($query);
+		return $result->result_array();
 	}
 }

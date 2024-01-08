@@ -487,8 +487,8 @@
 									<ul class="treeview-menu">
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_list_form"><i class="fa fa-circle-o"></i>Date Wise Challan List</a></li>
 										<?php /*?><li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_status_form"><i class="fa fa-circle-o"></i>Date Wise Challan(S/R)</a></li><?php */ ?>
-										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
-										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -552,8 +552,8 @@
 									<ul class="treeview-menu">
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_list_form"><i class="fa fa-circle-o"></i>Date Wise Challan List</a></li>
 										<?php /*?><li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_status_form"><i class="fa fa-circle-o"></i>Date Wise Challan(S/R)</a></li><?php */ ?>
-										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
-										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
+										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
 								</li>
 							</ul>

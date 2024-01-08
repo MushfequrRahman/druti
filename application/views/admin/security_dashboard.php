@@ -54,112 +54,57 @@
                       <div class="col-lg-3 col-xs-6">
                         <div class="small-box bg-aqua">
                           <div class="inner">
-                          <?php
-                        foreach ($ul1 as $row) { ?>
-                            <?php $op=$row['opending'];?>
+                            <?php
+                            foreach ($ul1 as $row) { ?>
+                              <?php $op = $row['opending']; ?>
                             <?php
                             }
                             ?>
-                          <?php
-                        foreach ($ul2 as $row) { ?>
-                            <?php $ip=$row['ipending'];?>
+                            <?php
+                            foreach ($ul2 as $row) { ?>
+                              <?php $ip = $row['ipending']; ?>
                             <?php
                             }
                             ?>
-                            <h3><?php echo $op;?>/<?php echo $ip;?></h3>
-                            <p>PO Wise Gate Out/Gate In</p>
+                            <h3><?php echo $op; ?>/<?php echo $ip; ?></h3>
+                            <h6>Waiting For PO Wise Gate Out/Gate In</h6>
                           </div>
                           <div class="icon">
                             <i class="ion ion-bag"></i>
                           </div>
-                          <a href="#" class="small-box-footer float-left">More info <i class="fa fa-arrow-circle-right"></i></a>
+                          <a href="<?php echo base_url(); ?>Dashboard/po_wise_gateout_gatein" class="small-box-footer float-left">More info <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-xs-6">
+                        <div class="small-box bg-green">
+                          <div class="inner">
+                            <?php
+                            foreach ($ul3 as $row) { ?>
+                              <?php $nonpoop = $row['nonpoopending']; ?>
+                            <?php
+                            }
+                            ?>
+                            <?php
+                            foreach ($ul4 as $row) { ?>
+                              <?php $nonpoip = $row['nonpoipending']; ?>
+                            <?php
+                            }
+                            ?>
+                            <h3><?php echo $nonpoop; ?>/<?php echo $nonpoip; ?></h3>
+                            <h6>Waiting For Non PO Wise Gate Out/Gate In</h6>
+                          </div>
+                          <div class="icon">
+                            <i class="ion ion-stats-bars"></i>
+                          </div>
+                          <a href="<?php echo base_url(); ?>Dashboard/non_po_wise_gateout_gatein" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="box-body table-responsive no-padding">
-                    <div class="text-right-input">
-                      <div class="row">
-                        <div class="col-md-3 col-md-offset-9">
-                          <input type='text' class="form-control" id='txt_searchall' placeholder='Enter Search Text'>
-                        </div>
-                      </div>
-                    </div>
-                    <br />
-                    <table id="tableData" class="table table-hover table-bordered">
-                      <thead style="background:#91b9e6;">
-                        <tr>
-                          <th>SL</th>
-                          <th>Challan</th>
-                          <th>Date</th>
-                          <th>From</th>
-                          <th>Buyer</th>
-                          <th>Job No</th>
-                          <th>Style</th>
-                          <th>Order</th>
-                          <!-- <th>Color</th> -->
-                          <th>Status</th>
-                          <th>Details</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <?php
-                        $i = 1;
-                        foreach ($ul as $row) { ?>
-                          <tr>
-                            <td style="vertical-align:middle;"><?php echo $i++; ?></td>
-                            <?php if ($this->session->userdata('factoryid') == $row['dfactoryid'] && $row['status'] == 2) {
-                              //if($row['status']==1 || $row['status']==2)
-                              //					  {
-                            ?>
-                              <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/factory_challanm_receive_form/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['challanno']; ?></a></td>
-                            <?php
-                            } elseif ($this->session->userdata('factoryid') == $row['sfactoryid']) {
-                            ?>
-                              <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/factory_challanm_sapproved/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['challanno']; ?></a></td>
-                            <?php
-                            } else {
-                            ?>
-                              <td style="vertical-align:middle;"><?php echo $row['challanno']; ?></td>
-                            <?php
-                            }
-                            ?>
-                            <td style="vertical-align:middle;"><?php echo date("d-m-Y", strtotime($row['crcdate'])); ?></td>
-                            <td style="vertical-align:middle;"><?php echo $row['sfactoryid']; ?></td>
-                            <td style="vertical-align:middle;"><?php echo $row['buyername']; ?></td>
-                            <td style="vertical-align:middle;"><?php echo $row['jobno']; ?></td>
-                            <td style="vertical-align:middle;"><?php echo $row['stylename']; ?></td>
-                            <td style="vertical-align:middle;"><?php echo $row['ordername']; ?></td>
-                            <!-- <td style="vertical-align:middle;"><?php echo $row['colorname']; ?></td> -->
-                            <?php
-                            if ($row['status'] == '1') {
-                            ?>
-                              <td style="vertical-align:middle;">Waiting For Gate Out</td>
-                            <?php
-                            } elseif ($row['status'] == '2') {
-                            ?>
-                              <td style="vertical-align:middle;">Waiting For Gate In</td>
-                            <?php
-                            } elseif ($row['status'] == '3') {
-                            ?>
-                              <td style="vertical-align:middle;">Received</td>
-                            <?php
-                            }
-                            ?>
-                            <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/challanm_details/<?php echo $bn = $row['chmid']; ?>">Details</a></td>
-                          </tr>
-                        <?php } ?>
-                      </tbody>
-                    </table>
+                  <div class="box-body no-padding">
+                    &nbsp;
                   </div>
                 </div>
-                <script type="text/javascript">
-                  $(document).ready(function() {
-                    $('#tableData').paging({
-                      limit: 50
-                    });
-                  });
-                </script>
               </div>
             </div>
           </div>
@@ -167,27 +112,6 @@
       </section>
     </div>
   </div>
-  <script type='text/javascript'>
-    $(document).ready(function() {
-      $('#txt_searchall').keyup(function() {
-        var search = $(this).val();
-        $('table tbody tr').hide();
-        var len = $('table tbody tr:not(.notfound) td:contains("' + search + '")').length;
-        if (len > 0) {
-          $('table tbody tr:not(.notfound) td:contains("' + search + '")').each(function() {
-            $(this).closest('tr').show();
-          });
-        } else {
-          $('.notfound').show();
-        }
-      });
-    });
-    $.expr[":"].contains = $.expr.createPseudo(function(arg) {
-      return function(elem) {
-        return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-      };
-    });
-  </script>
 
 </body>
 

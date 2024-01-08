@@ -31,12 +31,18 @@ class Dashboard extends CI_Controller
 		if ($usertype == 1) {
 			$this->load->view('admin/dashboard', $data);
 		} elseif ($usertype == 2) {
-			$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
-			$this->load->view('admin/user_dashboard', $data);
-		} elseif ($usertype == 3) {
-			$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
 			$data['ul1'] = $this->Admin->factory_challanm_pending_list_out_count($factoryid);
 			$data['ul2'] = $this->Admin->factory_challanm_pending_list_in_count($factoryid);
+			$data['ul3'] = $this->Admin->non_po_factory_challanm_pending_list_out_count($factoryid);
+			$data['ul4'] = $this->Admin->non_po_factory_challanm_pending_list_in_count($factoryid);
+			//$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
+			$this->load->view('admin/user_dashboard', $data);
+		} elseif ($usertype == 3) {
+			//$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
+			$data['ul1'] = $this->Admin->factory_challanm_pending_list_out_count($factoryid);
+			$data['ul2'] = $this->Admin->factory_challanm_pending_list_in_count($factoryid);
+			$data['ul3'] = $this->Admin->non_po_factory_challanm_pending_list_out_count($factoryid);
+			$data['ul4'] = $this->Admin->non_po_factory_challanm_pending_list_in_count($factoryid);
 			$this->load->view('admin/security_dashboard', $data);
 		}
 	}
@@ -2750,6 +2756,20 @@ class Dashboard extends CI_Controller
 		}
 		redirect('Dashboard/order_list_for_challan', 'refresh');
 	}
+	public function po_wise_gateout_gatein()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Dashboard';
+		$this->load->view('admin/head', $data);
+		$userid = $this->session->userdata('userid');
+		$usertype = $this->session->userdata('user_type');
+		$factoryid = $this->session->userdata('factoryid');
+		$this->load->view('admin/toprightnav', $data);
+		$this->load->view('admin/leftmenu');
+		$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
+		$this->load->view('admin/po_wise_gateout_gatein', $data);
+	}
 	public function date_wise_challan_list_form()
 	{
 		$this->load->database();
@@ -2841,7 +2861,7 @@ class Dashboard extends CI_Controller
 		} else {
 			$this->session->set_flashdata('UnSuccessfully', "Not Inserted");
 		}
-		redirect('Dashboard', 'refresh');
+		redirect('Dashboard/po_wise_gateout_gatein', 'refresh');
 	}
 	public function factory_challanm_receive_form()
 	{
@@ -3171,6 +3191,20 @@ class Dashboard extends CI_Controller
 			echo  "error";
 		}
 	}
+	public function non_po_wise_gateout_gatein()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Dashboard';
+		$this->load->view('admin/head', $data);
+		$userid = $this->session->userdata('userid');
+		$usertype = $this->session->userdata('user_type');
+		$factoryid = $this->session->userdata('factoryid');
+		$this->load->view('admin/toprightnav', $data);
+		$this->load->view('admin/leftmenu');
+		$data['ul'] = $this->Admin->non_po_factory_challanm_pending_list($factoryid);
+		$this->load->view('admin/non_po_wise_gateout_gatein', $data);
+	}
 	public function date_wise_non_po_challan_list_form()
 	{
 		$this->load->database();
@@ -3298,5 +3332,131 @@ class Dashboard extends CI_Controller
 			$this->session->set_flashdata('UnSuccessfully', "Not Updated");
 		}
 		redirect('Dashboard/date_wise_non_po_challan_list_form', 'refresh');
+	}
+	public function non_po_factory_challanm_sapproved()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$nonpochmid = $this->uri->segment(3);
+		$ins = $this->Admin->non_po_factory_challanm_sapproved($nonpochmid);
+		if ($ins) {
+			$this->session->set_flashdata('Successfully', 'Successfully Inserted');
+		} else {
+			$this->session->set_flashdata('UnSuccessfully', "Not Inserted");
+		}
+		redirect('Dashboard/non_po_wise_gateout_gatein', 'refresh');
+	}
+	public function non_po_factory_challanm_receive_form()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Challan Receive';
+		$nonpochmid = $this->uri->segment(3);
+		//$data['sqty']= $this->uri->segment(4);
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$data['nonpochmid'] = $nonpochmid;
+		$data['ul'] = $this->Admin->non_po_factory_challanm_receive_form($nonpochmid);
+		$this->load->view('admin/non_po_factory_challanm_receive_form', $data);
+	}
+	public function non_po_challanm_receive()
+	{
+		$this->load->database();
+		$this->load->library('form_validation');
+		$this->load->model('Admin');
+		if ($this->input->post('submit')) {
+			$nonpochmid = $this->input->post('nonpochmid');
+			$nonpochmid2 = $this->input->post('nonpochmid2');
+			$rpqty = $this->input->post('rpqty');
+			$rremarks = $this->input->post('rremarks');
+			for ($i = 0; $i < count($nonpochmid2); $i++) {
+				$data["i"] = $i;
+				$data["nonpochmid"] = $nonpochmid;
+				$data["nonpochmid2"] = $nonpochmid2[$i];
+				$data["rpqty"] = $rpqty[$i];
+				$data["rremarks"] = $rremarks[$i];
+				$ins = $this->Admin->non_po_challanm_receive($data);
+				//print_r($data);
+			}
+			if ($ins == TRUE) {
+				$this->session->set_flashdata('Successfully', 'Successfully Inserted');
+			} else {
+				$this->session->set_flashdata('Successfully', 'Failed To Inserted');
+			}
+			redirect('Dashboard', 'refresh');
+		}
+	}
+	public function date_wise_non_po_challan_sent_status_form()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Date Wise Challan Sent Status';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$usertype = $this->session->userdata('user_type');
+		$factoryid = $this->session->userdata('factoryid');
+		if ($usertype == 1) {
+			$data['fl'] = $this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_sent_status_form', $data);
+		}
+		if ($usertype == 2) {
+			//$data['fl']=$this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_sent_status_form', $data);
+		}
+		if ($usertype == 3) {
+			//$data['fl']=$this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_sent_status_form', $data);
+		}
+	}
+	public function date_wise_non_po_challan_sent_status()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$pd = $this->input->post('pd');
+		$wd = $this->input->post('wd');
+		$factoryid = $this->input->post('factoryid');
+		$data['pd'] = $pd;
+		$data['wd'] = $wd;
+		$data['factoryid'] = $factoryid;
+		$data['ul'] = $this->Admin->date_wise_non_po_challan_sent_status($pd, $wd, $factoryid);
+		$this->load->view('admin/date_wise_non_po_challan_sent_status', $data);
+	}
+	public function date_wise_non_po_challan_recv_status_form()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Date Wise Challan Receive Status';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$usertype = $this->session->userdata('user_type');
+		$factoryid = $this->session->userdata('factoryid');
+		if ($usertype == 1) {
+			$data['fl'] = $this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_recv_status_form', $data);
+		}
+		if ($usertype == 2) {
+			//$data['fl']=$this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_recv_status_form', $data);
+		}
+		if ($usertype == 3) {
+			//$data['fl']=$this->Admin->factory_list();
+			$this->load->view('admin/date_wise_non_po_challan_recv_status_form', $data);
+		}
+	}
+	public function date_wise_non_po_challan_recv_status()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$pd = $this->input->post('pd');
+		$wd = $this->input->post('wd');
+		$factoryid = $this->input->post('factoryid');
+		$data['pd'] = $pd;
+		$data['wd'] = $wd;
+		$data['factoryid'] = $factoryid;
+		$data['ul'] = $this->Admin->date_wise_non_po_challan_recv_status($pd, $wd, $factoryid);
+		$this->load->view('admin/date_wise_non_po_challan_recv_status', $data);
 	}
 }
