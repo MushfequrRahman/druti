@@ -2159,4 +2159,35 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
+	public function non_po_challanm_details_sfactory($nonpochmid)
+	{
+		$query = "SELECT factoryname,factory_address FROM non_po_challanm1_insert
+		JOIN factory ON factory.factoryid=non_po_challanm1_insert.sfactoryid
+		WHERE nonpochmid='$nonpochmid'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_challanm_details_dfactory($nonpochmid)
+	{
+		$query = "SELECT factoryname,factory_address FROM non_po_challanm1_insert
+		JOIN factory ON factory.factoryid=non_po_challanm1_insert.dfactoryid
+		WHERE nonpochmid='$nonpochmid'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function non_po_challanm_print($nonpochmid)
+	{
+		$query = "SELECT nppcname,pname,spqty,rpqty,puom,challantype,
+		non_po_challanm2_insert.puomid,non_po_challanm2_insert.ctid,non_po_challanm2_insert.nppcid,
+		sremarks,rremarks,nonpochmid2 
+		FROM non_po_challanm1_insert
+		JOIN non_po_challanm2_insert ON non_po_challanm1_insert.nonpochmid=non_po_challanm2_insert.nonpochmid1
+		JOIN challan_type ON challan_type.ctid=non_po_challanm2_insert.ctid
+		LEFT JOIN non_po_product_category ON non_po_product_category.nppcid=non_po_challanm2_insert.nppcid
+		LEFT JOIN product_uom_insert ON product_uom_insert.puomid=non_po_challanm2_insert.puomid
+		
+		WHERE nonpochmid='$nonpochmid'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
 }

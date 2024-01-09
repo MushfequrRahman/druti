@@ -3459,4 +3459,20 @@ class Dashboard extends CI_Controller
 		$data['ul'] = $this->Admin->date_wise_non_po_challan_recv_status($pd, $wd, $factoryid);
 		$this->load->view('admin/date_wise_non_po_challan_recv_status', $data);
 	}
+	public function non_po_challanm_print()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$this->load->library('pdf');
+		$data['title'] = 'Order Wise Challan';
+		$nonpochmid = $this->uri->segment(3);
+		$this->load->view('admin/head', $data);
+		$data['cl1'] = $this->Admin->non_po_challanm_details_form_c1($nonpochmid);
+		$data['sf'] = $this->Admin->non_po_challanm_details_sfactory($nonpochmid);
+		$data['df'] = $this->Admin->non_po_challanm_details_dfactory($nonpochmid);
+		$data['ul'] = $this->Admin->non_po_challanm_print($nonpochmid);
+		//$html = $this->load->view('admin/challanmpdf', $data, true);
+		//$this->pdf->createPDF($html, 'Order Wise Challan', false);
+		$this->load->view('admin/non_po_challanmpdf_html', $data);
+	}
 }

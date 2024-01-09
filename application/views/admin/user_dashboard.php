@@ -99,6 +99,18 @@
                           <a href="<?php echo base_url(); ?>Dashboard/non_po_wise_gateout_gatein" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                         </div>
                       </div>
+                      <div class="col-lg-3 col-xs-6">
+                        <div class="small-box bg-red">
+                          <div class="inner">
+                            <h3><?php echo $nonpoop + $op; ?>/<?php echo $nonpoip + $ip; ?></h3>
+                            <h6>Waiting For Total Gate Out/Gate In</h6>
+                          </div>
+                          <div class="icon">
+                            <i class="ion ion-pie-graph"></i>
+                          </div>
+                          <a href="#" class="small-box-footer">&nbsp;</a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <div class="box-body no-padding">
