@@ -2020,7 +2020,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		return $result->result_array();
 	}
 
-								// NON PO WISE CHALLAN
+	// NON PO WISE CHALLAN
 
 	public function non_po_product_category()
 	{
@@ -2050,6 +2050,8 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	public function non_po_challanm_details_form_c1($nonpochmid)
 	{
 		$query = "SELECT * FROM non_po_challanm1_insert
+		JOIN department ON department.deptid=non_po_challanm1_insert.deptid
+		JOIN designation ON designation.desigid=non_po_challanm1_insert.desigid
 		WHERE nonpochmid='$nonpochmid'";
 		$result = $this->db->query($query);
 		return $result->result_array();
@@ -2070,9 +2072,9 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	}
 	public function non_po_challanm_details_edit($data)
 	{
-		$sql = "UPDATE non_po_challanm1_insert SET challanno='$data[challanno]',dfactoryid='$data[dfactory]' WHERE nonpochmid='$data[nonpochmid]'";
+		$sql = "UPDATE non_po_challanm1_insert SET challanno='$data[challanno]',deptid='$data[deptid]',desigid='$data[desigid]',user='$data[username]',dfactoryid='$data[dfactory]' WHERE nonpochmid='$data[nonpochmid]'";
 		$query = $this->db->query($sql);
-		
+
 		$sql1 = "UPDATE non_po_challanm2_insert SET nppcid='$data[nppcid]',pname='$data[pname]',spqty='$data[spqty]',puomid='$data[puomid]',ctid='$data[ctid]',sremarks='$data[sremarks]' WHERE nonpochmid2='$data[nonpochmid2]'";
 		$query1 = $this->db->query($sql1);
 

@@ -68,19 +68,31 @@
                     $i = 1;
                     foreach ($cl1 as $row) { ?>
                       <div class="row">
-                        <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>Challan Date</label>
                           <input type="text" class="form-control" readonly value="<?php echo date("d-m-y", strtotime($row['crcdate'])); ?>">
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>From Factory</label>
                           <input type="text" class="form-control" name="sfactory" readonly value="<?php echo $row['sfactoryid']; ?>">
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-3">
-                          <label>Challan Number</label>
+                        <div class="col-sm-12 col-md-1 col-lg-1">
+                          <label>Challan</label>
                           <input type="text" class="form-control" name="challanno" readonly id="challanno" value="<?php echo $row['challanno']; ?>">
                         </div>
-                        <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <label>Department</label>
+                          <input type="text" class="form-control" name="deptid" readonly id="deptid" value="<?php echo $row['departmentname']; ?>">
+                        </div>
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <label>Designation</label>
+                          <input type="text" class="form-control" name="desigid" readonly id="desigid" value="<?php echo $row['designation']; ?>">
+                        </div>
+                        <div class="col-sm-12 col-md-1 col-lg-1">
+                          <label>User</label>
+                          <input type="text" class="form-control" name="username" readonly id="username" value="<?php echo $row['user']; ?>">
+                        </div>
+                        <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>To Factory</label>
                           <input type="text" class="form-control" name="dfactoryid" readonly id="dfactoryid" value="<?php echo $row['dfactoryid']; ?>">
                         </div>

@@ -121,22 +121,58 @@
                       $i = 1;
                       foreach ($cl1 as $row) { ?>
                         <div class="row">
-                          <div class="col-sm-12 col-md-3 col-lg-3">
+                          <div class="col-sm-12 col-md-2 col-lg-2">
                             <label>Challan Date<em>*</em></label>
                             <input type="text" class="form-control pd" name="crcdate" readonly id="pd" value="<?php echo date("d-m-y", strtotime($row['crcdate'])); ?>">
                           </div>
-                          <div class="col-sm-12 col-md-3 col-lg-3">
+                          <div class="col-sm-12 col-md-2 col-lg-2">
                             <label>From Factory<em>*</em></label>
                             <input type="text" class="form-control" name="sfactory" readonly value="<?php echo $this->session->userdata('factoryid'); ?>">
                             <?php echo form_error('sfactory', '<div class="error">', '</div>');  ?>
                           </div>
-                          <div class="col-sm-12 col-md-3 col-lg-3">
-                            <label>Challan Number<em>*</em></label>
-                            <input type="text" class="form-control" name="challanno" required id="challanno" value="<?php echo $row['challanno']; ?>">
+                          <div class="col-sm-12 col-md-1 col-lg-1">
+                            <label>Challan<em>*</em></label>
+                            <input type="text" class="form-control" readonly name="challanno" required id="challanno" value="<?php echo $row['challanno']; ?>">
                             <?php echo form_error('challan', '<div class="error">', '</div>');  ?>
                             <div class="error" id="challannoErr"></div>
                           </div>
-                          <div class="col-sm-12 col-md-3 col-lg-3">
+                          <div class="col-sm-12 col-md-2 col-lg-2">
+                            <label>Department<em>*</em></label>
+                            <select class="form-control" name="deptid" id="deptid">
+                              <option value="<?php echo $row['deptid']; ?>"><?php echo $row['departmentname']; ?></option>
+                              <?php
+                              foreach ($dl as $rowd) {
+                              ?>
+                                <option value="<?php echo $rowd['deptid']; ?>"><?php echo $rowd['departmentname']; ?></option>
+                              <?php
+                              }
+                              ?>
+                            </select>
+                            <?php echo form_error('deptid', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="deptidErr"></div>
+                          </div>
+                          <div class="col-sm-12 col-md-2 col-lg-2">
+                            <label>Designation<em>*</em></label>
+                            <select class="form-control" name="desigid" id="desigid">
+                              <option value="<?php echo $row['desigid']; ?>"><?php echo $row['designation']; ?></option>
+                              <?php
+                              foreach ($del as $rowde) {
+                              ?>
+                                <option value="<?php echo $rowde['desigid']; ?>"><?php echo $rowde['designation']; ?></option>
+                              <?php
+                              }
+                              ?>
+                            </select>
+                            <?php echo form_error('desigid', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="desigidErr"></div>
+                          </div>
+                          <div class="col-sm-12 col-md-1 col-lg-1">
+                            <label>User<em>*</em></label>
+                            <input type="text" class="form-control username" name="username" required id="username" value="<?php echo $row['user']; ?>">
+                            <?php echo form_error('username', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="usernameErr"></div>
+                          </div>
+                          <div class="col-sm-12 col-md-2 col-lg-2">
                             <label>To Factory<em>*</em></label>
                             <select class="form-control" name="dfactory" id="dfactory">
                               <option value="<?php echo $row['dfactoryid']; ?>"><?php echo $row['dfactoryid']; ?></option>

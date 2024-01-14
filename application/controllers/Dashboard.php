@@ -3106,6 +3106,8 @@ class Dashboard extends CI_Controller
 		$data['pul'] = $this->Admin->product_uom_list();
 		$data['nl'] = $this->Admin->non_po_product_category();
 		$data['ctl'] = $this->Admin->challan_type_list();
+		$data['dl'] = $this->Admin->department_list();
+		$data['del'] = $this->Admin->designation_list();
 		$data['fl'] = $this->Admin->factory_list();
 		$this->load->view('admin/non_po_challan_create_form', $data);
 	}
@@ -3157,6 +3159,9 @@ class Dashboard extends CI_Controller
 		$this->load->model('Admin');
 		$sfactory = $this->input->get('sfactory');
 		$challanno = $this->input->get('challanno');
+		$deptid = $this->input->get('deptid');
+		$desigid = $this->input->get('desigid');
+		$username = $this->input->get('username');
 		$dfactory = $this->input->get('dfactory');
 		$userid = $this->session->userdata('userid');
 		$nppcname = $this->input->get('nppcname');
@@ -3168,7 +3173,7 @@ class Dashboard extends CI_Controller
 		$remarks = $this->input->get('remarks');
 		$remarks =  str_replace("'", "\'", $remarks);
 
-		$sql = "INSERT INTO non_po_challanm1_insert VALUES ('$ccid','$sfactory','$challanno','$dfactory','$userid','$crcdate','$month','$year',CURDATE(),CURTIME(),'','','1','1')";
+		$sql = "INSERT INTO non_po_challanm1_insert VALUES ('$ccid','$sfactory','$challanno','$deptid','$desigid','$username','$dfactory','$userid','$crcdate','$month','$year',CURDATE(),CURTIME(),'','','1','1')";
 		$query = $this->db->query($sql);
 
 
@@ -3285,6 +3290,8 @@ class Dashboard extends CI_Controller
 		$data['npl'] = $this->Admin->non_po_product_category();
 		$data['ctl'] = $this->Admin->challan_type_list();
 		$data['fl'] = $this->Admin->factory_list();
+		$data['dl'] = $this->Admin->department_list();
+		$data['del'] = $this->Admin->designation_list();
 		$data['cl1'] = $this->Admin->non_po_challanm_details_form_c1($nonpochmid);
 		$data['ul'] = $this->Admin->non_po_challanm_details($nonpochmid);
 		$this->load->view('admin/non_po_challanm_details_form', $data);
@@ -3298,6 +3305,9 @@ class Dashboard extends CI_Controller
 		$crcdate = $this->input->post('crcdate');
 		$sfactory = $this->input->post('sfactory');
 		$challanno = $this->input->post('challanno');
+		$deptid = $this->input->post('deptid');
+		$desigid = $this->input->post('desigid');
+		$username = $this->input->post('username');
 		$dfactory = $this->input->post('dfactory');
 		$nonpochmid2 = $this->input->post('nonpochmid2');
 		$nppcid = $this->input->post('nppcid');
@@ -3315,6 +3325,9 @@ class Dashboard extends CI_Controller
 			$data["crcdate"] = $crcdate;
 			$data["sfactory"] = $sfactory;
 			$data["challanno"] = $challanno;
+			$data["deptid"] = $deptid;
+			$data["desigid"] = $desigid;
+			$data["username"] = $username;
 			$data["dfactory"] = $dfactory;
 			$data["nonpochmid2"] = $nonpochmid2[$i];
 			$data["nppcid"] = $nppcid[$i];

@@ -66,6 +66,8 @@
 		var ptid = document.contactForm.ptid.value;
 		var ctid = document.contactForm.ctid.value;
 		var dfactory = document.contactForm.dfactory.value;
+		var deptid = document.contactForm.deptid.value;
+		var desigid = document.contactForm.desigid.value;
 
 		// Defining error variables with a default value
 		var challannoErr = ptidErr = ctidErr = dfactoryErr = true;
@@ -98,8 +100,22 @@
 			dfactoryErr = false;
 		}
 
+		if (deptid == "") {
+			printError("deptidErr", "Need Department");
+		} else {
+			printError("deptidErr", "");
+			deptidErr = false;
+		}
+
+		if (desigid == "") {
+			printError("desigidErr", "Need Designation");
+		} else {
+			printError("desigErr", "");
+			desigidErr = false;
+		}
+
 		// Prevent the form from being submitted if there are any errors
-		if ((challannoErr || ptidErr || ctidErr || dfactoryErr) == true) {
+		if ((challannoErr || ptidErr || ctidErr || deptidErr || desigidErr || dfactoryErr) == true) {
 			return false;
 		} else {
 			// Creating a string from input data for preview
@@ -107,6 +123,8 @@
 				"Challan No: " + challanno + "\n" +
 				"Production Type: " + ptid + "\n" +
 				"Challan Type: " + ctid + "\n" +
+				"Department: " + deptid + "\n" +
+				"Designation: " + desigid + "\n" +
 				"destination Factory: " + dfactory + "\n";
 
 			// Display input data in a dialog box before submitting the form
@@ -154,22 +172,58 @@ foreach ($ctl as $row) {
 
 										<div class="box-header with-border">
 											<div class="row">
-												<div class="col-sm-12 col-md-3 col-lg-3">
+												<div class="col-sm-12 col-md-2 col-lg-2">
 													<label>Challan Date<em>*</em></label>
 													<input type="text" class="form-control pd" name="crcdate" readonly id="pd" value="<?php echo date('d-m-Y'); ?>">
 												</div>
-												<div class="col-sm-12 col-md-3 col-lg-3">
+												<div class="col-sm-12 col-md-2 col-lg-2">
 													<label>From Factory<em>*</em></label>
 													<input type="text" class="form-control" name="sfactory" id="sfactory" readonly value="<?php echo $this->session->userdata('factoryid'); ?>">
 													<?php echo form_error('sfactory', '<div class="error">', '</div>');  ?>
 												</div>
-												<div class="col-sm-12 col-md-3 col-lg-3">
-													<label>Challan Number<em>*</em></label>
+												<div class="col-sm-12 col-md-1 col-lg-1">
+													<label>Challan<em>*</em></label>
 													<input type="text" class="form-control" name="challanno" id="challanno" placeholder="Enter Challan Number">
 													<?php echo form_error('challan', '<div class="error">', '</div>');  ?>
 													<div class="error" id="challannoErr"></div>
 												</div>
-												<div class="col-sm-12 col-md-3 col-lg-3">
+												<div class="col-sm-12 col-md-2 col-lg-2">
+													<label>Department<em>*</em></label>
+													<select class="form-control deptid" name="deptid" id="deptid">
+														<option value="">Select....</option>
+														<?php
+														foreach ($dl as $row) {
+														?>
+															<option value="<?php echo $row['deptid']; ?>"><?php echo $row['departmentname']; ?></option>
+														<?php
+														}
+														?>
+													</select>
+													<?php echo form_error('deptid', '<div class="error">', '</div>');  ?>
+													<div class="error" id="deptidErr"></div>
+												</div>
+												<div class="col-sm-12 col-md-2 col-lg-2">
+													<label>Designation<em>*</em></label>
+													<select class="form-control desigid" name="desigid" id="desigid">
+														<option value="">Select....</option>
+														<?php
+														foreach ($del as $row) {
+														?>
+															<option value="<?php echo $row['desigid']; ?>"><?php echo $row['designation']; ?></option>
+														<?php
+														}
+														?>
+													</select>
+													<?php echo form_error('desigid', '<div class="error">', '</div>');  ?>
+													<div class="error" id="desigidErr"></div>
+												</div>
+												<div class="col-sm-12 col-md-1 col-lg-1">
+													<label>User<em>*</em></label>
+													<input type="text" class="form-control username" name="username" id="username" placeholder="Enter User">
+													<?php echo form_error('user', '<div class="error">', '</div>');  ?>
+													<div class="error" id="userErr"></div>
+												</div>
+												<div class="col-sm-12 col-md-2 col-lg-2">
 													<label>To Factory<em>*</em></label>
 													<select class="form-control dfactory" name="dfactory" id="dfactory">
 														<option value="">Select....</option>
@@ -194,7 +248,7 @@ foreach ($ctl as $row) {
 															<thead>
 																<tr>
 																	<th style="text-align:center;">Product Type<em>*</em></th>
-																	<th style="text-align:center;">Name<em>*</em></th>
+																	<th style="text-align:center;">Product Name<em>*</em></th>
 																	<th style="text-align:center;">Qty<em>*</em></th>
 																	<th style="text-align:center;">UOM<em>*</em></th>
 																	<th style="text-align:center;">Challan Type<em>*</em></th>
@@ -288,6 +342,33 @@ foreach ($ctl as $row) {
 				event.preventDefault();
 				var error = '';
 
+				$('.deptid').each(function() {
+					var count = 1;
+					if ($(this).val() == '') {
+						error += '<p>Enter Department ' + count + ' Row</p>';
+						return false;
+					}
+					count = count + 1;
+				});
+
+				$('.desigid').each(function() {
+					var count = 1;
+					if ($(this).val() == '') {
+						error += '<p>Enter Designation ' + count + ' Row</p>';
+						return false;
+					}
+					count = count + 1;
+				});
+
+				$('.username').each(function() {
+					var count = 1;
+					if ($(this).val() == '') {
+						error += '<p>Enter User ' + count + ' Row</p>';
+						return false;
+					}
+					count = count + 1;
+				});
+				
 				$('.dfactory').each(function() {
 					var count = 1;
 					if ($(this).val() == '') {
