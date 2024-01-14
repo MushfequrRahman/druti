@@ -2020,8 +2020,22 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		return $result->result_array();
 	}
 
-	// NON PO WISE CHALLAN
+					//////////////// NON PO WISE CHALLAN ////////////////////////
 
+	public function non_po_product_category_insert($nppcname)
+	{
+
+		$sql = "SELECT * FROM non_po_product_category WHERE nppcname='$nppcname'";
+		$query = $this->db->query($sql);
+		if ($query->num_rows() == 1) {
+			return false;
+		} else {
+		$sql1 = "INSERT INTO non_po_product_category VALUES ('','$nppcname')";
+		$query1 = $this->db->query($sql1);
+		return $query1;
+		}
+	}
+	
 	public function non_po_product_category()
 	{
 		$query = "SELECT * FROM non_po_product_category ORDER BY nppcname ASC";

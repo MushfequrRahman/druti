@@ -3093,8 +3093,54 @@ class Dashboard extends CI_Controller
 		$this->load->view('admin/challanmpdf_html', $data);
 	}
 
-	// NON PO CHALLAN
+	//////////////////////////////////////////// NON PO CHALLAN ////////////////////////////////////////
 
+	public function non_po_product_category_insert_form()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Non Product Category Insert';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$this->load->view('admin/non_po_product_category_insert_form', $data);
+	}
+	public function non_po_product_category_insert()
+	{
+		$this->load->database();
+		$this->load->library('form_validation');
+		$this->load->model('Admin');
+		if ($this->input->post('submit')) {
+			$nppcname = $this->form_validation->set_rules('nppcname', 'Product Category', 'required');
+			if ($this->form_validation->run() == FALSE) {
+				$this->non_po_product_category_insert_form();
+			} else {
+				$nppcname = $this->input->post('nppcname');
+				$ins = $this->Admin->non_po_product_category_insert($nppcname);
+
+				if ($ins == TRUE) {
+					$this->session->set_flashdata('Successfully', 'Successfully Inserted');
+				} else {
+					$this->session->set_flashdata('Successfully', 'Failed To Inserted');
+				}
+				redirect('Dashboard/non_po_product_category_insert_form', 'refresh');
+			}
+		}
+	}
+	public function non_po_product_category_list()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Non Product Category List';
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		$data['ul'] = $this->Admin->non_po_product_category();
+		$this->load->view('admin/non_po_product_category_list', $data);
+	}
+	
+	
+	
 	public function non_po_challan_create_form()
 	{
 		$this->load->database();
