@@ -64,7 +64,7 @@
     float: left;
     width: 233px;
     font-size: 12px;
-    text-align:center;
+    text-align: center;
 
   }
 
@@ -72,7 +72,7 @@
     float: right;
     width: 115px;
     font-size: 12px;
-    text-align:center;
+    text-align: center;
 
   }
 
@@ -138,7 +138,7 @@
     left: -170%;
   }
 
-  
+
 
   #bg-text {
     color: lightgrey;
@@ -149,7 +149,7 @@
 </style>
 
 <body>
-  <?php date_default_timezone_set('Asia/Dhaka');?>
+  <?php date_default_timezone_set('Asia/Dhaka'); ?>
   <div class="wrapper">
     <div class="top">
       <div class="top1">
@@ -174,7 +174,9 @@
             <br />
             <span><strong>Challan Type:</strong></span><span><?php echo $row['challantype']; ?></span>
             <br />
+            <span><strong>Bag:</strong></span><span><?php echo $row['sbag']; ?></span>
             <br />
+
           <?php
           }
           ?>
@@ -191,8 +193,8 @@
           <?php
           }
           ?>
-          </div>
-          <div class="text-right">
+        </div>
+        <div class="text-right">
           <span><strong>To Location:</strong></span>
           <br />
           <?php
@@ -223,7 +225,7 @@
             <th>Product/Part</th>
             <th>Challan Qty</th>
             <th>UOM</th>
-            <th>Bag</th>
+            <!-- <th>Bag</th> -->
             <th>Remarks</th>
           </tr>
         </thead>
@@ -242,7 +244,7 @@
               <td style="vertical-align:middle;"><?php echo $row['garmentspart']; ?></td>
               <td style="vertical-align:middle;"><?php echo $row['sqty']; ?></td>
               <td style="vertical-align:middle;"><?php echo $row['puom']; ?></td>
-              <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td>
+              <!-- <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td> -->
               <td style="vertical-align:middle;"><?php echo $row['sremarks']; ?></td>
             </tr>
           <?php } ?>
@@ -264,10 +266,11 @@
       </div>
     </div>
     <p style="text-align:center; font-size:10px;">This Is System Generated Document</p>
-    <p style="text-align:center; font-size:10px;"><?php echo "Date:".date('d-m-Y')." & "."Time:".date("h:i:sa");?></p>
+    <p style="text-align:center; font-size:10px;"><?php echo "Date:" . date('d-m-Y') . " & " . "Time:" . date("h:i:sa"); ?></p>
   </div>
 
-<hr></hr>
+  <hr>
+  </hr>
 
   <div class="wrapper">
     <div class="top">
@@ -293,7 +296,9 @@
             <br />
             <span><strong>Challan Type:</strong></span><span><?php echo $row['challantype']; ?></span>
             <br />
+            <span><strong>Bag:</strong></span><span><?php echo $row['sbag']; ?></span>
             <br />
+
           <?php
           }
           ?>
@@ -310,8 +315,8 @@
           <?php
           }
           ?>
-          </div>
-          <div class="text-right">
+        </div>
+        <div class="text-right">
           <span><strong>To Location:</strong></span>
           <br />
           <?php
@@ -342,7 +347,7 @@
             <th>Product/Part</th>
             <th>Challan Qty</th>
             <th>UOM</th>
-            <th>Bag</th>
+            <!-- <th>Bag</th> -->
             <th>Remarks</th>
           </tr>
         </thead>
@@ -361,7 +366,7 @@
               <td style="vertical-align:middle;"><?php echo $row['garmentspart']; ?></td>
               <td style="vertical-align:middle;"><?php echo $row['sqty']; ?></td>
               <td style="vertical-align:middle;"><?php echo $row['puom']; ?></td>
-              <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td>
+              <!-- <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td> -->
               <td style="vertical-align:middle;"><?php echo $row['sremarks']; ?></td>
             </tr>
           <?php } ?>
@@ -383,7 +388,7 @@
       </div>
     </div>
     <p style="text-align:center; font-size:10px;">This Is System Generated Document</p>
-    <p style="text-align:center; font-size:10px;"><?php echo "Date:".date('d-m-Y')." & "."Time:".date("h:i:sa");?></p>
+    <p style="text-align:center; font-size:10px;"><?php echo "Date:" . date('d-m-Y') . " & " . "Time:" . date("h:i:sa"); ?></p>
   </div>
 </body>
 

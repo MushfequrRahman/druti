@@ -155,7 +155,7 @@
             <td style="vertical-align:middle;"><?php echo $row['productiontype']; ?></td>
             <td style="vertical-align:middle;"><?php echo $row['sqty'] . "" . $row['puom']; ?></td>
             <td style="vertical-align:middle;"><?php echo $row['rqty'] . "" . $row['puom']; ?></td>
-            <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td>
+            <td style="vertical-align:middle;"><?php echo $row['sbag']; ?></td>
             <?php
             if ($row['rdate'] == '0000-00-00') {
             ?>

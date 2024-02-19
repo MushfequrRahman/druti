@@ -96,7 +96,7 @@
                             <th>Production Type</th>
                             <th>Sent Qty</th>
                             <th>Receive Qty</th>
-                            <th>Bag</th>
+                            <!-- <th>Bag</th> -->
                             <th>Remarks</th>
                           </tr>
                         </thead>
@@ -124,7 +124,7 @@
                                   <p><i class="fa fa-exclamation-circle"></i> Please insert receive qty</p>
                                 </div>
                               </td>
-                              <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td>
+                              <!-- <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td> -->
                               <td style="vertical-align:middle;"><input type="text" class="form-control" name="rremarks[]" placeholder="Enter Remarks"></td>
                             </tr>
                         </tbody>

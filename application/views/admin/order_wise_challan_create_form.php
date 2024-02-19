@@ -65,6 +65,7 @@
     var challanno = document.contactForm.challanno.value;
     var ptid = document.contactForm.ptid.value;
     var ctid = document.contactForm.ctid.value;
+    var sbag = document.contactForm.sbag.value;
     var dfactory = document.contactForm.dfactory.value;
 
     // Defining error variables with a default value
@@ -91,6 +92,13 @@
       ctidErr = false;
     }
 
+    if (sbag == "") {
+      printError("sbagErr", "Need Bag");
+    } else {
+      printError("sbagErr", "");
+      sbagErr = false;
+    }
+
     if (dfactory == "") {
       printError("dfactoryErr", "Need Destination");
     } else {
@@ -99,7 +107,7 @@
     }
 
     // Prevent the form from being submitted if there are any errors
-    if ((challannoErr || ptidErr || ctidErr || dfactoryErr) == true) {
+    if ((challannoErr || ptidErr || ctidErr || sbagErr || dfactoryErr) == true) {
       return false;
     } else {
       // Creating a string from input data for preview
@@ -107,6 +115,7 @@
         "Challan No: " + challanno + "\n" +
         "Production Type: " + ptid + "\n" +
         "Challan Type: " + ctid + "\n" +
+        "Bag: " + sbag + "\n" +
         "destination Factory: " + dfactory + "\n";
 
       // Display input data in a dialog box before submitting the form
@@ -140,8 +149,8 @@
                           <input type="text" class="form-control" name="sfactory" id="sfactory" readonly value="<?php echo $this->session->userdata('factoryid'); ?>">
                           <?php echo form_error('sfactory', '<div class="error">', '</div>');  ?>
                         </div>
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>Challan Number<em>*</em></label>
+                        <div class="col-sm-12 col-md-1 col-lg-1">
+                          <label>Challan<em>*</em></label>
                           <input type="text" class="form-control" name="challanno" id="challanno" placeholder="Enter Challan Number">
                           <?php echo form_error('challan', '<div class="error">', '</div>');  ?>
                           <div class="error" id="challannoErr"></div>
@@ -175,6 +184,12 @@
                           </select>
                           <?php echo form_error('ctid', '<div class="error">', '</div>');  ?>
                           <div class="error" id="ctidErr"></div>
+                        </div>
+                        <div class="col-sm-12 col-md-1 col-lg-1">
+                          <label>Bag<em>*</em></label>
+                          <input type="text" class="form-control" name="sbag" id="sbag" placeholder="Enter Bag Number">
+                          <?php echo form_error('sbag', '<div class="error">', '</div>');  ?>
+                          <div class="error" id="sbagErr"></div>
                         </div>
                         <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>To Factory<em>*</em></label>
@@ -214,7 +229,7 @@
                               <th>Product/Part</th>
                               <th>Challan Qty</th>
                               <th>UOM</th>
-                              <th>Bag</th>
+                              <!-- <th>Bag</th> -->
                               <th>Remarks</th>
                             </tr>
                           </thead>
@@ -263,7 +278,7 @@
                                   </select>
                                   <?php echo form_error('puomid', '<div class="error">', '</div>');  ?>
                                 </td>
-                                <td style="vertical-align:middle;"><input type="text" class="form-control" id="bag" name="bag[]" placeholder="Enter Bag"></td>
+                                <!-- <td style="vertical-align:middle;"><input type="text" class="form-control" id="bag" name="bag[]" placeholder="Enter Bag"></td> -->
                                 <td><textarea class="form-control remarks" rows="1" name="sremarks[]" id="sremarks"></textarea></td>
                               </tr>
                           </tbody>

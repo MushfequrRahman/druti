@@ -36,8 +36,14 @@
     font-weight: 600;
     font-variant: small-caps;
   }
-  em{color: red;}
-  .error{color: red;}
+
+  em {
+    color: red;
+  }
+
+  .error {
+    color: red;
+  }
 </style>
 <script type="text/javascript">
   $(function() {
@@ -48,67 +54,74 @@
 </script>
 
 <script>
-
-// Defining a function to display error message
-function printError(elemId, hintMsg) {
+  // Defining a function to display error message
+  function printError(elemId, hintMsg) {
     document.getElementById(elemId).innerHTML = hintMsg;
-}
+  }
 
-// Defining a function to validate form 
-function validateForm() {
+  // Defining a function to validate form 
+  function validateForm() {
     // Retrieving the values of form elements 
     var challanno = document.contactForm.challanno.value;
     var ptid = document.contactForm.ptid.value;
-	var ctid = document.contactForm.ctid.value;
-	var dfactory = document.contactForm.dfactory.value;
-    
-	// Defining error variables with a default value
-    var challannoErr = ptidErr = ctidErr = dfactoryErr =true;
+    var ctid = document.contactForm.ctid.value;
+    var sbag = document.contactForm.sbag.value;
+    var dfactory = document.contactForm.dfactory.value;
 
-    if(challanno == "") {
-        printError("challannoErr", "Need Challan No");
+    // Defining error variables with a default value
+    var challannoErr = ptidErr = ctidErr = dfactoryErr = true;
+
+    if (challanno == "") {
+      printError("challannoErr", "Need Challan No");
     } else {
-            printError("challannoErr", "");
-            challannoErr = false;
-        }
-
-    if(ptid == "") {
-        printError("ptidErr", "Need Production Type");
-    } else{
-            printError("ptidErr", "");
-            ptidErr = false;
-        }
-
-    if(ctid == "") {
-        printError("ctidErr", "Need Challan Type");
-    } else {
-        printError("ctidErr", "");
-        ctidErr = false;
+      printError("challannoErr", "");
+      challannoErr = false;
     }
-    
-    if(dfactory == "") {
-        printError("dfactoryErr", "Need Destination");
+
+    if (ptid == "") {
+      printError("ptidErr", "Need Production Type");
     } else {
-        printError("dfactoryErr", "");
-        dfactoryErr = false;
+      printError("ptidErr", "");
+      ptidErr = false;
     }
-    
+
+    if (ctid == "") {
+      printError("ctidErr", "Need Challan Type");
+    } else {
+      printError("ctidErr", "");
+      ctidErr = false;
+    }
+
+    if (sbag == "") {
+      printError("sbagErr", "Need Bag");
+    } else {
+      printError("sbagErr", "");
+      sbagErr = false;
+    }
+
+    if (dfactory == "") {
+      printError("dfactoryErr", "Need Destination");
+    } else {
+      printError("dfactoryErr", "");
+      dfactoryErr = false;
+    }
+
     // Prevent the form from being submitted if there are any errors
-    if((challannoErr || ptidErr || ctidErr || dfactoryErr) == true) {
-       return false;
+    if ((challannoErr || ptidErr || ctidErr || sbagErr || dfactoryErr) == true) {
+      return false;
     } else {
-        // Creating a string from input data for preview
-        var dataPreview = "You've entered the following details: \n" +
-                          "Challan No: " + challanno + "\n" +
-                          "Production Type: " + ptid + "\n" +
-						  "Challan Type: " + ctid + "\n" +
-						  "destination Factory: " + dfactory + "\n";
-        
-        // Display input data in a dialog box before submitting the form
-        //alert(dataPreview);
-    }
-};
+      // Creating a string from input data for preview
+      var dataPreview = "You've entered the following details: \n" +
+        "Challan No: " + challanno + "\n" +
+        "Production Type: " + ptid + "\n" +
+        "Challan Type: " + ctid + "\n" +
+        "Bag: " + sbag + "\n" +
+        "destination Factory: " + dfactory + "\n";
 
+      // Display input data in a dialog box before submitting the form
+      //alert(dataPreview);
+    }
+  };
 </script>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -125,76 +138,82 @@ function validateForm() {
                   </div>
 
                   <form role="form" name="contactForm" autocomplete="off" onSubmit="return validateForm()" action="<?php echo base_url(); ?>Dashboard/challanm_details_edit" method="post" enctype="multipart/form-data">
-                  <input type="hidden" class="form-control" name="chmid" id="chmid" value="<?php echo $chmid; ?>">
+                    <input type="hidden" class="form-control" name="chmid" id="chmid" value="<?php echo $chmid; ?>">
                     <div class="box-header with-border">
-                    <?php
-                            $i = 1;
-                            foreach ($cl1 as $row) { ?>
-                      <div class="row">
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>Challan Date<em>*</em></label>
-                          <input type="text" class="form-control pd" name="crcdate" readonly id="pd" value="<?php echo date("d-m-y", strtotime($row['crcdate'])); ?>">
-                        </div>
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>From Factory<em>*</em></label>
-                          <input type="text" class="form-control" name="sfactory" readonly value="<?php echo $this->session->userdata('factoryid'); ?>">
-                          <?php echo form_error('sfactory', '<div class="error">', '</div>');  ?>
-                        </div>
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>Challan Number<em>*</em></label>
-                          <input type="text" class="form-control" name="challanno" id="challanno" value="<?php echo $row['challanno']; ?>">
-                          <?php echo form_error('challan', '<div class="error">', '</div>');  ?>
-                          <div class="error" id="challannoErr"></div>
-                        </div>
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>Production Type<em>*</em></label>
-                          <select class="form-control" name="ptid" id="ptid">
-                            <option value="<?php echo $row['ptid']; ?>"><?php echo $row['productiontype']; ?></option>
-                            <?php
-                            foreach ($ptl as $row1) {
-                            ?>
-                              <option value="<?php echo $row1['ptid']; ?>"><?php echo $row1['productiontype']; ?></option>
-                            <?php
-                            }
-                            ?>
-                          </select>
-                          <?php echo form_error('ptid', '<div class="error">', '</div>');  ?>
-                          <div class="error" id="ptidErr"></div>
-                        </div>
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>Challan Type<em>*</em></label>
-                          <select class="form-control" name="ctid" id="ctid">
-                            <option value="<?php echo $row['ctid']; ?>"><?php echo $row['challantype']; ?></option>
-                            <?php
-                            foreach ($ctl as $row2) {
-                            ?>
-                              <option value="<?php echo $row2['ctid']; ?>"><?php echo $row2['challantype']; ?></option>
-                            <?php
-                            }
-                            ?>
-                          </select>
-                          <?php echo form_error('ctid', '<div class="error">', '</div>');  ?>
-                          <div class="error" id="ctidErr"></div>
-                        </div>
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>To Factory<em>*</em></label>
-                          <select class="form-control" name="dfactory" id="dfactory">
-                            <option value="<?php echo $row['dfactoryid']; ?>"><?php echo $row['dfactoryid']; ?></option>
-                            <?php
-                            foreach ($fl as $row3) {
-                            ?>
-                              <option value="<?php echo $row3['factoryid']; ?>"><?php echo $row3['factoryname']; ?></option>
-                            <?php
-                            }
-                            ?>
-                          </select>
-                          <?php echo form_error('dfactory', '<div class="error">', '</div>');  ?>
-                          <div class="error" id="dfactoryErr"></div>
-                        </div>
-                      </div>
                       <?php
-							}
-							?>
+                      $i = 1;
+                      foreach ($cl1 as $row) { ?>
+                        <div class="row">
+                          <div class="col-sm-12 col-md-2 col-lg-2">
+                            <label>Challan Date<em>*</em></label>
+                            <input type="text" class="form-control pd" name="crcdate" readonly id="pd" value="<?php echo date("d-m-y", strtotime($row['crcdate'])); ?>">
+                          </div>
+                          <div class="col-sm-12 col-md-2 col-lg-2">
+                            <label>From Factory<em>*</em></label>
+                            <input type="text" class="form-control" name="sfactory" readonly value="<?php echo $this->session->userdata('factoryid'); ?>">
+                            <?php echo form_error('sfactory', '<div class="error">', '</div>');  ?>
+                          </div>
+                          <div class="col-sm-12 col-md-1 col-lg-1">
+                            <label>Challan<em>*</em></label>
+                            <input type="text" class="form-control" readonly name="challanno" id="challanno" value="<?php echo $row['challanno']; ?>">
+                            <?php echo form_error('challan', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="challannoErr"></div>
+                          </div>
+                          <div class="col-sm-12 col-md-2 col-lg-2">
+                            <label>Production Type<em>*</em></label>
+                            <select class="form-control" name="ptid" id="ptid">
+                              <option value="<?php echo $row['ptid']; ?>"><?php echo $row['productiontype']; ?></option>
+                              <?php
+                              foreach ($ptl as $row1) {
+                              ?>
+                                <option value="<?php echo $row1['ptid']; ?>"><?php echo $row1['productiontype']; ?></option>
+                              <?php
+                              }
+                              ?>
+                            </select>
+                            <?php echo form_error('ptid', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="ptidErr"></div>
+                          </div>
+                          <div class="col-sm-12 col-md-2 col-lg-2">
+                            <label>Challan Type<em>*</em></label>
+                            <select class="form-control" name="ctid" id="ctid">
+                              <option value="<?php echo $row['ctid']; ?>"><?php echo $row['challantype']; ?></option>
+                              <?php
+                              foreach ($ctl as $row2) {
+                              ?>
+                                <option value="<?php echo $row2['ctid']; ?>"><?php echo $row2['challantype']; ?></option>
+                              <?php
+                              }
+                              ?>
+                            </select>
+                            <?php echo form_error('ctid', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="ctidErr"></div>
+                          </div>
+                          <div class="col-sm-12 col-md-1 col-lg-1">
+                            <label>Bag<em>*</em></label>
+                            <input type="text" class="form-control" name="sbag" id="sbag" value="<?php echo $row['sbag']; ?>">
+                            <?php echo form_error('sbag', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="sbagErr"></div>
+                          </div>
+                          <div class="col-sm-12 col-md-2 col-lg-2">
+                            <label>To Factory<em>*</em></label>
+                            <select class="form-control" name="dfactory" id="dfactory">
+                              <option value="<?php echo $row['dfactoryid']; ?>"><?php echo $row['dfactoryid']; ?></option>
+                              <?php
+                              foreach ($fl as $row3) {
+                              ?>
+                                <option value="<?php echo $row3['factoryid']; ?>"><?php echo $row3['factoryname']; ?></option>
+                              <?php
+                              }
+                              ?>
+                            </select>
+                            <?php echo form_error('dfactory', '<div class="error">', '</div>');  ?>
+                            <div class="error" id="dfactoryErr"></div>
+                          </div>
+                        </div>
+                      <?php
+                      }
+                      ?>
                     </div>
                     <div class="box-header with-border">
                       <div class="box-body table-responsive no-padding">
@@ -218,7 +237,7 @@ function validateForm() {
                               <th>Product/Part</th>
                               <th>Challan Qty</th>
                               <th>UOM</th>
-                              <th>Bag</th>
+                              <!-- <th>Bag</th> -->
                               <th>Remarks</th>
                             </tr>
                           </thead>
@@ -268,12 +287,12 @@ function validateForm() {
                                   </select>
                                   <?php echo form_error('puomid', '<div class="error">', '</div>');  ?>
                                 </td>
-                                <td style="vertical-align:middle;"><input type="text" class="form-control" id="bag" name="bag[]" value="<?php echo $row['bag']; ?>"></td>
+                                <!-- <td style="vertical-align:middle;"><input type="text" class="form-control" id="bag" name="bag[]" value="<?php echo $row['bag']; ?>"></td> -->
                                 <td><textarea class="form-control remarks" rows="1" name="sremarks[]" id="sremarks"><?php echo $row['sremarks']; ?></textarea></td>
                               </tr>
-                              <?php } ?>
+                            <?php } ?>
                           </tbody>
-                        
+
                         </table>
                         <br />
                         <div class="col-sm-12 col-md-2 col-lg-2 col-md-offset-5 col-lg-offset-5">
@@ -292,7 +311,7 @@ function validateForm() {
       </section>
     </div>
   </div>
-  
+
 
 
 
@@ -318,4 +337,3 @@ function validateForm() {
       });
     });
   </script>
-  

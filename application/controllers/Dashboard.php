@@ -2736,6 +2736,7 @@ class Dashboard extends CI_Controller
 			$challanno = $this->input->post('challanno');
 			$ptid = $this->input->post('ptid');
 			$ctid = $this->input->post('ctid');
+			$sbag = $this->input->post('sbag');
 			$dfactory = $this->input->post('dfactory');
 			$buyerid = $this->input->post('buyerid');
 			$jobno = $this->input->post('jobnoid');
@@ -2746,10 +2747,10 @@ class Dashboard extends CI_Controller
 			$gpid = $this->input->post('gpid');
 			$rqty = $this->input->post('rqty');
 			$puomid = $this->input->post('puomid');
-			$bag = $this->input->post('bag');
+			// $bag = $this->input->post('bag');
 			$sremarks = $this->input->post('sremarks');
 			$userid = $this->session->userdata('userid');
-			$sql = "INSERT INTO challanm1_insert VALUES ('$ccid','$sfactory','$challanno','$ptid','$ctid','$dfactory','$buyerid[0]','$jobno[0]','$style[0]','$orderno[0]','$userid','$crcdate','$month','$year',CURDATE(),CURTIME(),'','','1','1')";
+			$sql = "INSERT INTO challanm1_insert VALUES ('$ccid','$sfactory','$challanno','$ptid','$ctid','$sbag','$dfactory','$buyerid[0]','$jobno[0]','$style[0]','$orderno[0]','$userid','$crcdate','$month','$year',CURDATE(),CURTIME(),'','','1','1')";
 			$query = $this->db->query($sql);
 
 			for ($i = 0; $i < count($buyerid); $i++) {
@@ -2772,7 +2773,7 @@ class Dashboard extends CI_Controller
 				$data["gpid"] = $gpid[$i];
 				$data["rqty"] = $rqty[$i];
 				$data["puomid"] = $puomid[$i];
-				$data["bag"] = $bag[$i];
+				// $data["bag"] = $bag[$i];
 				$data["sremarks"] = $sremarks[$i];
 				$data["userid"] = $userid;
 				//var_dump($data);
@@ -3042,6 +3043,7 @@ class Dashboard extends CI_Controller
 		$challanno = $this->input->post('challanno');
 		$ptid = $this->input->post('ptid');
 		$ctid = $this->input->post('ctid');
+		$sbag = $this->input->post('sbag');
 		$dfactory = $this->input->post('dfactory');
 		$chmid2 = $this->input->post('chmid2');
 		$buyerid = $this->input->post('buyerid');
@@ -3053,7 +3055,7 @@ class Dashboard extends CI_Controller
 		$gpid = $this->input->post('gpid');
 		$rqty = $this->input->post('rqty');
 		$puomid = $this->input->post('puomid');
-		$bag = $this->input->post('bag');
+		// $bag = $this->input->post('bag');
 		$sremarks = $this->input->post('sremarks');
 		$userid = $this->session->userdata('userid');
 
@@ -3066,6 +3068,7 @@ class Dashboard extends CI_Controller
 			$data["challanno"] = $challanno;
 			$data["ptid"] = $ptid;
 			$data["ctid"] = $ctid;
+			$data["sbag"] = $sbag;
 			$data["dfactory"] = $dfactory;
 			$data["chmid2"] = $chmid2[$i];
 			$data["buyerid"] = $buyerid[$i];
@@ -3077,7 +3080,7 @@ class Dashboard extends CI_Controller
 			$data["gpid"] = $gpid[$i];
 			$data["rqty"] = $rqty[$i];
 			$data["puomid"] = $puomid[$i];
-			$data["bag"] = $bag[$i];
+			// $data["bag"] = $bag[$i];
 			$data["sremarks"] = $sremarks[$i];
 			$data["userid"] = $userid;
 			//var_dump($data);

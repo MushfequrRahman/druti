@@ -123,6 +123,7 @@
           <th>Order/PO</th>
           <!-- <th>Color</th> -->
           <th>Purpose</th>
+          <th>Bag</th>
           <th>Sent Date</th>
           <th>Sent Time</th>
           <th>Received Date</th>
@@ -147,7 +148,7 @@
             <td style="vertical-align:middle;"><?php echo $row['ordername']; ?></td>
             <!-- <td style="vertical-align:middle;"><?php echo $row['colorname']; ?></td> -->
             <td style="vertical-align:middle;"><?php echo $row['productiontype']; ?></td>
-
+            <td style="vertical-align:middle;"><?php echo $row['sbag']; ?></td>
             <?php
             if ($row['sdate'] == '0000-00-00') {
             ?>

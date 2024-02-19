@@ -1758,7 +1758,8 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		// echo "<br/>";
 		// echo "<br/>";
 		// echo "<br/>";
-		$sql1 = "INSERT INTO challanm2_insert VALUES ('$data[ccid1]','$data[ccid]','$data[colorno]','$data[sizeid]','$data[gpid]','$data[rqty]','','$data[puomid]','$data[bag]','$data[sremarks]','','1')";
+		// $sql1 = "INSERT INTO challanm2_insert VALUES ('$data[ccid1]','$data[ccid]','$data[colorno]','$data[sizeid]','$data[gpid]','$data[rqty]','','$data[puomid]','$data[bag]','$data[sremarks]','','1')";
+		$sql1 = "INSERT INTO challanm2_insert VALUES ('$data[ccid1]','$data[ccid]','$data[colorno]','$data[sizeid]','$data[gpid]','$data[rqty]','','$data[puomid]','','$data[sremarks]','','1')";
 		$query1 = $this->db->query($sql1);
 		// echo "<br/>";
 		// echo "<br/>";
@@ -1783,7 +1784,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		
 		JOIN challan_type ON challan_type.ctid=challanm1_insert.ctid
 		JOIN production_type ON production_type.ptid=challanm1_insert.ptid
-		WHERE crcdate BETWEEN '$pd' AND '$wd' AND sfactoryid='$factoryid' AND jobnostatus='1'
+		WHERE crcdate BETWEEN '$pd' AND '$wd' AND (sfactoryid='$factoryid' OR dfactoryid='$factoryid') AND jobnostatus='1'
 		ORDER BY chmid DESC";
 		$result = $this->db->query($query);
 		return $result->result_array();
@@ -1922,7 +1923,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	public function challanm_details_form_c1($chmid)
 	{
 		$query = "SELECT challanno,crcdate,production_type.ptid,
-		productiontype,challan_type.ctid,challantype,sfactoryid,dfactoryid
+		productiontype,challan_type.ctid,challantype,sbag,sfactoryid,dfactoryid
 		 FROM challanm1_insert
 		JOIN challan_type ON challan_type.ctid=challanm1_insert.ctid
 		JOIN production_type ON production_type.ptid=challanm1_insert.ptid
@@ -1978,10 +1979,10 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		//		$t1 = str_replace(":", "", $t);
 		//		$ccid = $d1 . $t1;
 		//		$ccid1 = $ccid . $data['i'];
-		$sql = "UPDATE challanm1_insert SET challanno='$data[challanno]',ptid='$data[ptid]',ctid='$data[ctid]',dfactoryid='$data[dfactory]' WHERE chmid='$data[chmid]'";
+		$sql = "UPDATE challanm1_insert SET challanno='$data[challanno]',ptid='$data[ptid]',ctid='$data[ctid]',sbag='$data[sbag]',dfactoryid='$data[dfactory]' WHERE chmid='$data[chmid]'";
 		$query = $this->db->query($sql);
 
-		$sql1 = "UPDATE challanm2_insert SET gpid='$data[gpid]',sqty='$data[rqty]',puomid='$data[puomid]',bag='$data[bag]',sremarks='$data[sremarks]' WHERE chmid2='$data[chmid2]'";
+		$sql1 = "UPDATE challanm2_insert SET gpid='$data[gpid]',sqty='$data[rqty]',puomid='$data[puomid]',sremarks='$data[sremarks]' WHERE chmid2='$data[chmid2]'";
 		$query1 = $this->db->query($sql1);
 
 

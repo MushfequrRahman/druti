@@ -70,8 +70,8 @@
                           <label>From Factory</label>
                           <input type="text" class="form-control" name="sfactory" readonly value="<?php echo $row['sfactoryid']; ?>">
                         </div>
-                        <div class="col-sm-12 col-md-2 col-lg-2">
-                          <label>Challan Number</label>
+                        <div class="col-sm-12 col-md-1 col-lg-1">
+                          <label>Challan</label>
                           <input type="text" class="form-control" name="challanno" readonly id="challanno" value="<?php echo $row['challanno']; ?>">
                         </div>
                         <div class="col-sm-12 col-md-2 col-lg-2">
@@ -81,6 +81,10 @@
                         <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>Challan Type</label>
                           <input type="text" class="form-control" name="challantype" readonly id="challantype" value="<?php echo $row['challantype']; ?>">
+                        </div>
+                        <div class="col-sm-12 col-md-1 col-lg-1">
+                          <label>Bag</label>
+                          <input type="text" class="form-control" name="sbag" readonly id="sbag" value="<?php echo $row['sbag']; ?>">
                         </div>
                         <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>To Factory</label>
@@ -107,7 +111,7 @@
                               <th>Sent Qty</th>
                               <th>Received Qty</th>
                               <th>UOM</th>
-                              <th>Bag</th>
+                              <!-- <th>Bag</th> -->
                               <th>Sent Remarks</th>
                               <th>Received Remarks</th>
                             </tr>
@@ -128,7 +132,7 @@
                                 <td style="vertical-align:middle;"><?php echo $row['sqty']; ?></td>
                                 <td style="vertical-align:middle;"><?php echo $row['rqty']; ?></td>
                                 <td style="vertical-align:middle;"><?php echo $row['puom']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td>
+                                <!-- <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td> -->
                                 <td style="vertical-align:middle;"><?php echo $row['sremarks']; ?></td>
                                 <td style="vertical-align:middle;"><?php echo $row['rremarks']; ?></td>
                               </tr>
