@@ -292,7 +292,7 @@
 							</a>
 							<ul class="treeview-menu">
 								<li><a href="<?php echo base_url(); ?>Dashboard/order_list_for_challan"><i class="fa fa-circle-o"></i>Create Challan (By PO)</a></li>
-								<li><a href="<?php echo base_url(); ?>Dashboard/non_po_challan_create_form"><i class="fa fa-circle-o"></i>Create Challan (By Non-PO)</a></li>
+								<!-- <li><a href="<?php echo base_url(); ?>Dashboard/non_po_challan_create_form"><i class="fa fa-circle-o"></i>Create Challan (By Non-PO)</a></li> -->
 							</ul>
 						</li>
 
@@ -318,7 +318,7 @@
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
 								</li>
-								<li class="treeview">
+								<!-- <li class="treeview">
 									<a href="#">
 										<i class="fa fa-id-card" aria-hidden="true"></i> <span>NON PO Wise</span>
 										<span class="pull-right-container">
@@ -331,7 +331,7 @@
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
-								</li>
+								</li> -->
 							</ul>
 						</li>
 
@@ -440,7 +440,7 @@
 								<li><a href="<?php echo base_url(); ?>Dashboard/garments_part_list"><i class="fa fa-circle-o"></i>Garments Part List</a></li>
 							</ul>
 						</li>
-						<li class="treeview">
+						<!-- <li class="treeview">
 							<a href="#">
 								<i class="fa fa-id-card" aria-hidden="true"></i> <span>Non PO Category</span>
 								<span class="pull-right-container">
@@ -451,7 +451,7 @@
 								<li><a href="<?php echo base_url(); ?>Dashboard/non_po_product_category_insert_form"><i class="fa fa-circle-o"></i> Add Category</a></li>
 								<li><a href="<?php echo base_url(); ?>Dashboard/non_po_product_category_list"><i class="fa fa-circle-o"></i>Category List</a></li>
 							</ul>
-						</li>
+						</li> -->
 					</ul>
 				</li>
 
@@ -472,7 +472,7 @@
 							</a>
 							<ul class="treeview-menu">
 								<li><a href="<?php echo base_url(); ?>Dashboard/order_list_for_challan"><i class="fa fa-circle-o"></i>Create Challan (By Order)</a></li>
-								<li><a href="<?php echo base_url(); ?>Dashboard/non_po_challan_create_form"><i class="fa fa-circle-o"></i>Create Challan (By Non-PO)</a></li>
+								<!-- <li><a href="<?php echo base_url(); ?>Dashboard/non_po_challan_create_form"><i class="fa fa-circle-o"></i>Create Challan (By Non-PO)</a></li> -->
 							</ul>
 						</li>
 
@@ -498,7 +498,7 @@
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
 								</li>
-								<li class="treeview">
+								<!-- <li class="treeview">
 									<a href="#">
 										<i class="fa fa-id-card" aria-hidden="true"></i> <span>NON PO Wise</span>
 										<span class="pull-right-container">
@@ -511,7 +511,7 @@
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
-								</li>
+								</li> -->
 							</ul>
 						</li>
 
@@ -552,7 +552,7 @@
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
 								</li>
-								<li class="treeview">
+								<!-- <li class="treeview">
 									<a href="#">
 										<i class="fa fa-id-card" aria-hidden="true"></i> <span>NON PO Wise</span>
 										<span class="pull-right-container">
@@ -565,7 +565,7 @@
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_sent_status_form"><i class="fa fa-circle-o"></i>Date Wise Sent</a></li>
 										<li><a href="<?php echo base_url(); ?>Dashboard/date_wise_non_po_challan_recv_status_form"><i class="fa fa-circle-o"></i>Date Wise Receive</a></li>
 									</ul>
-								</li>
+								</li> -->
 							</ul>
 						</li>
 

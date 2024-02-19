@@ -1206,6 +1206,40 @@ class Dashboard extends CI_Controller
 		$this->load->view('admin/size_list', $data);
 	}
 
+	public function size_up()
+	{
+		$this->load->database();
+		$this->load->model('Admin');
+		$data['title'] = 'Size Info Update';
+		$sizeid = $this->uri->segment(3);
+		$this->load->view('admin/head', $data);
+		$this->load->view('admin/toprightnav');
+		$this->load->view('admin/leftmenu');
+		//		$data['ul1']=$this->Admin->fabric_type_list();
+		//		$data['ul2']=$this->Admin->product_uom_list();
+		//		$data['ul3']=$this->Admin->fabric_part_list();
+		$data['ul'] = $this->Admin->size_up($sizeid);
+		$this->load->view('admin/size_up', $data);
+	}
+	public function size_lup()
+	{
+		$this->load->database();
+		$this->load->library('form_validation');
+		$this->load->model('Admin');
+		if ($this->input->post('submit')) {
+			$sizeid = $this->input->post('sizeid');
+			$sizename = $this->input->post('sizename');
+			$swoqty = $this->input->post('swoqty');
+			$ins = $this->Admin->size_lup($sizeid, $sizename, $swoqty);
+			if ($ins == TRUE) {
+				$this->session->set_flashdata('Successfully', 'Successfully Updated');
+			} else {
+				$this->session->set_flashdata('Successfully', 'Failed To Updated');
+			}
+			redirect('Dashboard/size_list', 'refresh');
+		}
+	}
+
 	public function size_available()
 	{
 		$this->load->database();

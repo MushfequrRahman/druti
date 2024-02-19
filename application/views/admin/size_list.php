@@ -69,6 +69,7 @@
                           <th>Color Name</th>
                           <th>Size Name</th>
                           <th>Order Qty</th>
+                          <th>Edit</th>
                           <!-- <th>Gsm</th>
                           <th>Edit</th>
                           <th>Add Part</th>
@@ -90,6 +91,7 @@
                             <td style="vertical-align:middle;"><?php echo $row['colorname']; ?></td>
                             <td style="vertical-align:middle;"><?php echo $row['sizename']; ?></td>
                             <td style="vertical-align:middle;"><?php echo $row['swoqty']; ?></td>
+                            <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/size_up/<?php echo $bn = $row['sizeid']; ?>"><i class="fa fa-edit" style="font-size:24px"></i></a></td>
                             <!-- <td style="vertical-align:middle;"><?php echo $row['gsm']; ?></td>
                             <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/color_up/<?php echo $bn = $row['colorid']; ?>"><i class="fa fa-edit" style="font-size:24px"></i></a></td>
                             <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/color_part/<?php echo $bn = $row['colorid']; ?>"><i class="fa fa-plus" style="font-size:20px"></i></a></td>

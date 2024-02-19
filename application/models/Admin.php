@@ -852,6 +852,18 @@ class Admin extends CI_Model
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
+	public function size_up($sizeid)
+	{
+		$query = "SELECT * FROM gsize
+		WHERE sizeid='$sizeid'";
+		$result = $this->db->query($query);
+		return $result->result_array();
+	}
+	public function size_lup($sizeid, $sizename, $swoqty)
+	{
+		$sql = "UPDATE gsize SET sizename='$sizename',swoqty='$swoqty' WHERE sizeid='$sizeid'";
+		$query = $this->db->query($sql);
+	}
 
 	/////////////////////////////////////////FABRIC//////////////////////////////////////
 

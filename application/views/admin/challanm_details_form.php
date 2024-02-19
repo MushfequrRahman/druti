@@ -271,8 +271,9 @@ function validateForm() {
                                 <td style="vertical-align:middle;"><input type="text" class="form-control" id="bag" name="bag[]" value="<?php echo $row['bag']; ?>"></td>
                                 <td><textarea class="form-control remarks" rows="1" name="sremarks[]" id="sremarks"><?php echo $row['sremarks']; ?></textarea></td>
                               </tr>
+                              <?php } ?>
                           </tbody>
-                        <?php } ?>
+                        
                         </table>
                         <br />
                         <div class="col-sm-12 col-md-2 col-lg-2 col-md-offset-5 col-lg-offset-5">
