@@ -287,7 +287,7 @@
                         <br />
                         <div class="col-sm-12 col-md-2 col-lg-2 col-md-offset-5 col-lg-offset-5">
                           <label>&nbsp;</label>
-                          <!-- <input type="submit" class="btn btn-primary " name="submit" id="btn" value="CREATE" /> -->
+                          <input type="submit" class="btn btn-primary " name="submit" id="btn" value="CREATE" />
                           <div id="response"></div>
                         </div>
                       </div>
@@ -327,16 +327,14 @@
       });
     });
   </script>
-  <script>
+  <!-- <script>
     $(document).ready(function() {
 
       $("#challanno").keyup(function(event) {
 
         var sfactory = $("#sfactory").val().trim();
         var challanno = $("#challanno").val().trim();
-        // var ptid = $("#ptid").val().trim();
-        // var ctid = $("#ctid").val().trim();
-        // var dfactory = $("#dfactory").val().trim();
+        
         
         if ( challanno != '') {
 
@@ -349,7 +347,7 @@
             },
             success: function(response) {
 
-              // Show response
+              
               $("#response").html(response);
 
             }
@@ -361,4 +359,4 @@
       });
 
     });
-  </script>
+  </script> -->

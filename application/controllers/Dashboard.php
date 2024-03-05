@@ -674,7 +674,8 @@ class Dashboard extends CI_Controller
 			} else {
 				$buyerid = $this->input->post('buyerid');
 				$jobno = $this->input->post('jobno');
-				$ins = $this->Admin->jobno_insert($jobno, $buyerid);
+				$factoryid = $this->session->userdata('factoryid');
+				$ins = $this->Admin->jobno_insert($jobno, $buyerid,$factoryid);
 
 				if ($ins == TRUE) {
 					$this->session->set_flashdata('Successfully', 'Successfully Inserted');
@@ -2754,6 +2755,8 @@ class Dashboard extends CI_Controller
 			$query = $this->db->query($sql);
 
 			for ($i = 0; $i < count($buyerid); $i++) {
+				if($rqty[$i]!='')
+				{
 				$data["i"] = $i;
 				$data["j"] = $i + 1;
 				$data["ccid"] = $ccid;
@@ -2779,6 +2782,7 @@ class Dashboard extends CI_Controller
 				//var_dump($data);
 				//echo "<br/>";
 				$ins = $this->Admin->order_wise_challan_create($data);
+			}
 			}
 		}
 		if ($ins) {

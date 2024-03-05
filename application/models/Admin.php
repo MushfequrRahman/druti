@@ -429,7 +429,7 @@ class Admin extends CI_Model
 
 	/////////////////////////////////////////////////////////JOB NO/////////////////////////////////////////////////////////////
 
-	public function jobno_insert($jobno, $buyerid)
+	public function jobno_insert($jobno, $buyerid,$factoryid)
 	{
 		$d = date('Y-m-d');
 		$t = date("H:i:s");
@@ -441,7 +441,7 @@ class Admin extends CI_Model
 		if ($query->num_rows() == 1) {
 			return false;
 		} else {
-			$sql = "INSERT INTO jobno VALUES ('$ccid','$jobno','$buyerid','1')";
+			$sql = "INSERT INTO jobno VALUES ('$ccid','$jobno','$buyerid','1','$factoryid')";
 			$query = $this->db->query($sql);
 			return $query;
 		}
@@ -1764,9 +1764,9 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		// echo "<br/>";
 		// echo "<br/>";
 		// echo "<br/>";
-		$sqld = "DELETE FROM challanm2_insert WHERE sqty='0' AND chmid1='$data[ccid]'";
-		$queryd = $this->db->query($sqld);
-		return $queryd;
+		// $sqld = "DELETE FROM challanm2_insert WHERE sqty='0' AND chmid1='$data[ccid]'";
+		// $queryd = $this->db->query($sqld);
+		return $query1;
 		// echo "<br/>";
 		// echo "<br/>";
 		// echo "<br/>";
