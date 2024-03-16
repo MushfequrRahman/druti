@@ -1856,17 +1856,29 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	}
 	public function factory_challanm_pending_list($factoryid)
 	{
+		// $query = "SELECT * FROM challanm1_insert
+		// JOIN challanm2_insert ON challanm1_insert.chmid=challanm2_insert.chmid1
+		// JOIN challan_type ON challan_type.ctid=challanm1_insert.ctid
+		// JOIN production_type ON production_type.ptid=challanm1_insert.ptid
+		// JOIN buyer ON buyer.buyerid=challanm1_insert.buyerid
+		// JOIN jobno ON jobno.jobnoid=challanm1_insert.jobnoid
+		// JOIN style ON style.styleid=challanm1_insert.styleid
+		// JOIN border ON border.orderid=challanm1_insert.orderid
+		// JOIN color ON color.colorid=challanm2_insert.colorid
+		// LEFT JOIN garments_part ON garments_part.gpid=challanm2_insert.gpid
+		// LEFT JOIN product_uom_insert ON product_uom_insert.puomid=challanm2_insert.puomid
+		// WHERE (sfactoryid='$factoryid' OR dfactoryid='$factoryid') AND (status='1' OR status='2') 
+		// GROUP BY chmid ORDER BY chmid DESC";
+		// $result = $this->db->query($query);
+		// return $result->result_array();
+
 		$query = "SELECT * FROM challanm1_insert
-		JOIN challanm2_insert ON challanm1_insert.chmid=challanm2_insert.chmid1
-		JOIN challan_type ON challan_type.ctid=challanm1_insert.ctid
-		JOIN production_type ON production_type.ptid=challanm1_insert.ptid
+		
 		JOIN buyer ON buyer.buyerid=challanm1_insert.buyerid
 		JOIN jobno ON jobno.jobnoid=challanm1_insert.jobnoid
 		JOIN style ON style.styleid=challanm1_insert.styleid
 		JOIN border ON border.orderid=challanm1_insert.orderid
-		JOIN color ON color.colorid=challanm2_insert.colorid
-		LEFT JOIN garments_part ON garments_part.gpid=challanm2_insert.gpid
-		LEFT JOIN product_uom_insert ON product_uom_insert.puomid=challanm2_insert.puomid
+		
 		WHERE (sfactoryid='$factoryid' OR dfactoryid='$factoryid') AND (status='1' OR status='2') 
 		GROUP BY chmid ORDER BY chmid DESC";
 		$result = $this->db->query($query);
@@ -1888,7 +1900,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	}
 	public function factory_challanm_sapproved($chmid)
 	{
-		$sql = "UPDATE challanm1_insert SET status='2' WHERE chmid='$chmid'";
+		$sql = "UPDATE challanm1_insert SET status='2' WHERE chmid='$chmid' LIMIT 1";
 		$this->db->query($sql);
 	}
 

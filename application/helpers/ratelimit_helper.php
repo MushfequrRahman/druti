@@ -28,7 +28,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 if(!function_exists('limitRequests')) {
 
     //limit for IP to 100 requests per 5 min
-    function limitRequests($ip, $max_requests = 10, $sec = 5){
+    function limitRequests($ip, $max_requests = 5, $sec = 5){
         $CI =& get_instance();
 
         $CI->load->driver('cache', array('adapter'=>'file'));
