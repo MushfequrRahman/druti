@@ -1880,7 +1880,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		JOIN border ON border.orderid=challanm1_insert.orderid
 		
 		WHERE (sfactoryid='$factoryid' OR dfactoryid='$factoryid') AND (status='1' OR status='2') 
-		GROUP BY chmid ORDER BY chmid DESC";
+		ORDER BY chmid DESC";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
@@ -1926,13 +1926,11 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	}
 	public function challanm_receive($data)
 	{
-		//$sql = "UPDATE challanm1_insert SET status='3',rdate=CURDATE(),rtime=CURTIME() WHERE chmid='$data[chmid]'";
-		//$this->db->query($sql);
-		//echo "<br/>";
+		$sql = "UPDATE challanm1_insert SET status='3',rdate=CURDATE(),rtime=CURTIME() WHERE chmid='$data[chmid]'";
+		$this->db->query($sql);
 
-		$sql2 = "UPDATE challanm2_insert SET rqty='$data[rqty]',rremarks='$data[rremarks]' WHERE chmid1='$data[chmid]' AND chmid2='$data[chmid2]'";
+		$sql2 = "UPDATE challanm2_insert SET rqty='$data[rqty]',rremarks='$data[rremarks]' WHERE chmid2='$data[chmid2]'";
 		return $query2 = $this->db->query($sql2);
-		//echo "<br/>";
 	}
 	public function challanm_details_form_c1($chmid)
 	{

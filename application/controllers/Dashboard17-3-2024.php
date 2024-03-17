@@ -2926,8 +2926,6 @@ class Dashboard extends CI_Controller
 			$chmid2 = $this->input->post('chmid2');
 			$rqty = $this->input->post('rqty');
 			$rremarks = $this->input->post('rremarks');
-			$sql = "UPDATE challanm1_insert SET status='3',rdate=CURDATE(),rtime=CURTIME() WHERE chmid='$chmid'";
-			$this->db->query($sql);
 			for ($i = 0; $i < count($chmid2); $i++) {
 				$data["i"] = $i;
 				$data["chmid"] = $chmid;
