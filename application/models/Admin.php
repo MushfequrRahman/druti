@@ -505,9 +505,6 @@ class Admin extends CI_Model
 		$this->db->query($sql15);
 		$sql16 = "UPDATE challanm1_insert SET challanm2status='0' WHERE jobnoid='$jobnoid'";
 		$this->db->query($sql16);
-
-
-
 		return $query;
 	}
 	public function jobno_status_running($jobnoid)

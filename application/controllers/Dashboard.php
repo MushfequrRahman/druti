@@ -33,16 +33,16 @@ class Dashboard extends CI_Controller
 		} elseif ($usertype == 2) {
 			$data['ul1'] = $this->Admin->factory_challanm_pending_list_out_count($factoryid);
 			$data['ul2'] = $this->Admin->factory_challanm_pending_list_in_count($factoryid);
-			$data['ul3'] = $this->Admin->non_po_factory_challanm_pending_list_out_count($factoryid);
-			$data['ul4'] = $this->Admin->non_po_factory_challanm_pending_list_in_count($factoryid);
+			//$data['ul3'] = $this->Admin->non_po_factory_challanm_pending_list_out_count($factoryid);
+			//$data['ul4'] = $this->Admin->non_po_factory_challanm_pending_list_in_count($factoryid);
 			//$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
 			$this->load->view('admin/user_dashboard', $data);
 		} elseif ($usertype == 3) {
 			//$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
 			$data['ul1'] = $this->Admin->factory_challanm_pending_list_out_count($factoryid);
 			$data['ul2'] = $this->Admin->factory_challanm_pending_list_in_count($factoryid);
-			$data['ul3'] = $this->Admin->non_po_factory_challanm_pending_list_out_count($factoryid);
-			$data['ul4'] = $this->Admin->non_po_factory_challanm_pending_list_in_count($factoryid);
+			//$data['ul3'] = $this->Admin->non_po_factory_challanm_pending_list_out_count($factoryid);
+			//$data['ul4'] = $this->Admin->non_po_factory_challanm_pending_list_in_count($factoryid);
 			$this->load->view('admin/security_dashboard', $data);
 		}
 	}
