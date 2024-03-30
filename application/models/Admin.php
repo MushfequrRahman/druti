@@ -478,33 +478,40 @@ class Admin extends CI_Model
 		$sql5 = "UPDATE color_wise_fabric_part SET colorpartstatus='0' WHERE colorid='$colorid'";
 		$this->db->query($sql5);
 
-		$sql6 = "UPDATE fabric_received SET fabricreceivedstatus='0' WHERE jobnoid='$jobnoid'";
-		$this->db->query($sql6);
+		// $sql6 = "UPDATE fabric_received SET fabricreceivedstatus='0' WHERE jobnoid='$jobnoid'";
+		// $this->db->query($sql6);
 
-		$sql7 = "SELECT fabricreceivedid FROM fabric_received WHERE jobnoid='$jobnoid'";
-		$result7 = $this->db->query($sql7);
-		$re7 = $result7->result_array();
-		foreach ($re7 as $row7) {
-			$fabricreceivedid = $row7['fabricreceivedid'];
+		// $sql7 = "SELECT fabricreceivedid FROM fabric_received WHERE jobnoid='$jobnoid'";
+		// $result7 = $this->db->query($sql7);
+		// $re7 = $result7->result_array();
+		// foreach ($re7 as $row7) {
+		// 	$fabricreceivedid = $row7['fabricreceivedid'];
 
-			$sql8 = "UPDATE fabric_delivery SET fabricdeliverystatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql8);
+		// 	$sql8 = "UPDATE fabric_delivery SET fabricdeliverystatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql8);
 
-			$sql9 = "UPDATE fabric_return SET fabricreturnstatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql9);
+		// 	$sql9 = "UPDATE fabric_return SET fabricreturnstatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql9);
 
-			$sql10 = "UPDATE fabric_order_transfer SET fabricordertransferstatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql10);
+		// 	$sql10 = "UPDATE fabric_order_transfer SET fabricordertransferstatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql10);
 
-			$sql11 = "UPDATE fabric_rack_transfer SET fabricracktransferstatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql11);
-		}
+		// 	$sql11 = "UPDATE fabric_rack_transfer SET fabricracktransferstatus='0' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql11);
+		// }
 		$sql14 = "UPDATE gsize SET sizestatus='0' WHERE jobnoid='$jobnoid'";
 		$this->db->query($sql14);
 		$sql15 = "UPDATE challanm1_insert SET challanm1status='0' WHERE jobnoid='$jobnoid'";
 		$this->db->query($sql15);
-		$sql16 = "UPDATE challanm1_insert SET challanm2status='0' WHERE jobnoid='$jobnoid'";
-		$this->db->query($sql16);
+		$sql16 = "SELECT chmid FROM challanm1_insert WHERE jobnoid='$jobnoid'";
+		$result16 = $this->db->query($sql16);
+		$re16 = $result16->result_array();
+		foreach ($re16 as $row16) {
+			$chmid = $row16['chmid'];
+
+			$sql17 = "UPDATE challanm2_insert SET challanm2status='0' WHERE chmid='$chmid'";
+			$this->db->query($sql17);
+		}
 		return $query;
 	}
 	public function jobno_status_running($jobnoid)
@@ -531,34 +538,41 @@ class Admin extends CI_Model
 		$sql5 = "UPDATE color_wise_fabric_part SET colorpartstatus='1' WHERE colorid='$colorid'";
 		$query5 = $this->db->query($sql5);
 
-		$sql6 = "UPDATE fabric_received SET fabricreceivedstatus='1' WHERE jobnoid='$jobnoid'";
-		$query6 = $this->db->query($sql6);
+		// $sql6 = "UPDATE fabric_received SET fabricreceivedstatus='1' WHERE jobnoid='$jobnoid'";
+		// $query6 = $this->db->query($sql6);
 
-		$sql7 = "SELECT fabricreceivedid FROM fabric_received WHERE jobnoid='$jobnoid'";
-		$result7 = $this->db->query($sql7);
-		$re7 = $result7->result_array();
-		foreach ($re7 as $row7) {
-			$fabricreceivedid = $row7['fabricreceivedid'];
+		// $sql7 = "SELECT fabricreceivedid FROM fabric_received WHERE jobnoid='$jobnoid'";
+		// $result7 = $this->db->query($sql7);
+		// $re7 = $result7->result_array();
+		// foreach ($re7 as $row7) {
+		// 	$fabricreceivedid = $row7['fabricreceivedid'];
 
-			$sql8 = "UPDATE fabric_delivery SET fabricdeliverystatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql8);
+		// 	$sql8 = "UPDATE fabric_delivery SET fabricdeliverystatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql8);
 
-			$sql9 = "UPDATE fabric_return SET fabricreturnstatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql9);
+		// 	$sql9 = "UPDATE fabric_return SET fabricreturnstatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql9);
 
-			$sql10 = "UPDATE fabric_order_transfer SET fabricordertransferstatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql10);
+		// 	$sql10 = "UPDATE fabric_order_transfer SET fabricordertransferstatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql10);
 
-			$sql11 = "UPDATE fabric_rack_transfer SET fabricracktransferstatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
-			$this->db->query($sql11);
-		}
+		// 	$sql11 = "UPDATE fabric_rack_transfer SET fabricracktransferstatus='1' WHERE fabricreceivedid='$fabricreceivedid'";
+		// 	$this->db->query($sql11);
+		// }
 		$sql14 = "UPDATE gsize SET sizestatus='1' WHERE jobnoid='$jobnoid'";
 		$this->db->query($sql14);
 		$sql15 = "UPDATE challanm1_insert SET challanm1status='1' WHERE jobnoid='$jobnoid'";
 		$this->db->query($sql15);
-		$sql16 = "UPDATE challanm1_insert SET challanm2status='1' WHERE jobnoid='$jobnoid'";
-		$this->db->query($sql16);
 
+		$sql16 = "SELECT chmid FROM challanm1_insert WHERE jobnoid='$jobnoid'";
+		$result16 = $this->db->query($sql16);
+		$re16 = $result16->result_array();
+		foreach ($re16 as $row16) {
+			$chmid = $row16['chmid'];
+
+			$sql17 = "UPDATE challanm2_insert SET challanm2status='1' WHERE chmid='$chmid'";
+			$this->db->query($sql17);
+		}
 
 		return $query;
 	}
@@ -594,13 +608,14 @@ class Admin extends CI_Model
 		$query = "SELECT * FROM style
 		JOIN buyer ON buyer.buyerid=style.buyerid
 		JOIN jobno ON jobno.jobnoid=style.jobnoid
+		WHERE stylestatus='1'
 		ORDER BY jobno ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
 	public function show_styleno($jobno, $buyerid)
 	{
-		$query = "SELECT * FROM style WHERE jobnoid='$jobno' AND buyerid='$buyerid' ORDER BY stylename ASC";
+		$query = "SELECT * FROM style WHERE jobnoid='$jobno' AND buyerid='$buyerid' AND stylestatus='1' ORDER BY stylename ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
@@ -630,13 +645,14 @@ class Admin extends CI_Model
 		$query = "SELECT * FROM border
 		JOIN jobno ON jobno.jobnoid=border.jobnoid
 		JOIN style ON style.styleid=border.styleid
-		JOIN buyer ON buyer.buyerid=style.buyerid";
+		JOIN buyer ON buyer.buyerid=style.buyerid
+		WHERE orderstatus='1'";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
 	public function show_orderno($buyerid, $jobno, $style)
 	{
-		$query = "SELECT * FROM border WHERE buyerid='$buyerid' AND jobnoid='$jobno' AND styleid='$style' ORDER BY ordername ASC";
+		$query = "SELECT * FROM border WHERE buyerid='$buyerid' AND jobnoid='$jobno' AND styleid='$style' AND orderstatus='1' ORDER BY ordername ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
@@ -699,13 +715,14 @@ class Admin extends CI_Model
 		LEFT JOIN fabric_part ON fabric_part.fabricpartid=color_wise_fabric_part.fabricpartid
 		LEFT JOIN product_uom_insert ON product_uom_insert.puomid=color_wise_fabric_part.puomid
 		JOIN fabric_type ON fabric_type.fabrictypeid=color_wise_fabric_part.fabrictypeid
+		WHERE colorpartstatus='1'
 		ORDER BY buyername,jobno,stylename,ordername,colorname ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
 	public function show_colorno($buyerid, $jobno, $style, $orderid)
 	{
-		$query = "SELECT * FROM color WHERE buyerid='$buyerid' AND styleid='$style' AND jobnoid='$jobno' AND orderid='$orderid' ORDER BY colorname ASC";
+		$query = "SELECT * FROM color WHERE buyerid='$buyerid' AND styleid='$style' AND jobnoid='$jobno' AND orderid='$orderid' AND colorstatus='1' ORDER BY colorname ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
@@ -742,6 +759,7 @@ class Admin extends CI_Model
 		JOIN style ON style.styleid=color.styleid
 		JOIN border ON border.orderid=color.orderid
 		JOIN buyer ON buyer.buyerid=color.buyerid
+		WHERE colorstatus='1'
 		ORDER BY buyername,jobno,stylename,ordername,colorname ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
@@ -845,6 +863,7 @@ class Admin extends CI_Model
 		JOIN style ON style.styleid=gsize.styleid
 		JOIN border ON border.orderid=gsize.orderid
 		JOIN color ON color.colorid=gsize.colorid
+		WHERE sizestatus='1'
 		ORDER BY buyername,jobno,stylename,ordername,colorname,sizename ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
@@ -1876,7 +1895,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		JOIN style ON style.styleid=challanm1_insert.styleid
 		JOIN border ON border.orderid=challanm1_insert.orderid
 		
-		WHERE (sfactoryid='$factoryid' OR dfactoryid='$factoryid') AND (status='1' OR status='2') 
+		WHERE (sfactoryid='$factoryid' OR dfactoryid='$factoryid') AND (status='1' OR status='2') AND jobnostatus='1'
 		GROUP BY chmid ORDER BY chmid DESC";
 		$result = $this->db->query($query);
 		return $result->result_array();
@@ -1884,20 +1903,20 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	public function factory_challanm_pending_list_out_count($factoryid)
 	{
 		$query = "SELECT COUNT(sfactoryid) AS opending FROM challanm1_insert
-		WHERE sfactoryid='$factoryid' AND status='1'";
+		WHERE sfactoryid='$factoryid' AND status='1' AND challanm1status='1'";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
 	public function factory_challanm_pending_list_in_count($factoryid)
 	{
 		$query = "SELECT COUNT(sfactoryid) AS ipending FROM challanm1_insert
-		WHERE dfactoryid='$factoryid' AND status='2'";
+		WHERE dfactoryid='$factoryid' AND status='2' AND challanm1status='1'";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
-	public function factory_challanm_sapproved($chmid)
+	public function factory_challanm_sapproved($chmid,$factoryid)
 	{
-		$sql = "UPDATE challanm1_insert SET status='2' WHERE chmid='$chmid' LIMIT 1";
+		$sql = "UPDATE challanm1_insert SET status='2' WHERE sfactoryid='$factoryid' AND challanm1status='1' AND chmid='$chmid' LIMIT 1";
 		$this->db->query($sql);
 	}
 
@@ -1927,7 +1946,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		//$this->db->query($sql);
 		//echo "<br/>";
 
-		$sql2 = "UPDATE challanm2_insert SET rqty='$data[rqty]',rremarks='$data[rremarks]' WHERE chmid1='$data[chmid]' AND chmid2='$data[chmid2]'";
+		$sql2 = "UPDATE challanm2_insert SET rqty='$data[rqty]',rremarks='$data[rremarks]' WHERE challanm2status='1' AND chmid1='$data[chmid]' AND chmid2='$data[chmid2]'";
 		return $query2 = $this->db->query($sql2);
 		//echo "<br/>";
 	}

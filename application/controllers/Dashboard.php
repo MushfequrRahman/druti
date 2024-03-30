@@ -2894,7 +2894,8 @@ class Dashboard extends CI_Controller
 		$this->load->database();
 		$this->load->model('Admin');
 		$chmid = $this->uri->segment(3);
-		$ins = $this->Admin->factory_challanm_sapproved($chmid);
+		$factoryid = $this->session->userdata('factoryid');
+		$ins = $this->Admin->factory_challanm_sapproved($chmid,$factoryid);
 		if ($ins) {
 			$this->session->set_flashdata('Successfully', 'Successfully Inserted');
 		} else {

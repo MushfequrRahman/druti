@@ -153,7 +153,7 @@
   <div class="wrapper">
     <div class="top">
       <div class="top1">
-        <h3><img style="width:80px; height:35px; margin:0 15px 0 0;" src="http://192.168.170.25/druti/assets/admin/images/babylon.png" alt="logo"></h3>
+        <h3><img style="width:80px; height:35px; margin:0 15px 0 0;" src="<?php echo base_url().'assets/images/babylon.png';?>" alt="logo"></h3>
         <span><strong>BABYLON GROUP</strong></span>
         <br />
         <span>2-B/1,Darus Salam Road</span>
@@ -275,7 +275,7 @@
   <div class="wrapper">
     <div class="top">
       <div class="top1">
-        <h3><img style="width:80px; height:35px; margin:0 15px 0 0;" src="http://192.168.170.25/druti/assets/admin/images/babylon.png" alt="logo"></h3>
+        <h3><img style="width:80px; height:35px; margin:0 15px 0 0;" src="<?php echo base_url().'assets/images/babylon.png';?>" alt="logo"></h3>
         <span><strong>BABYLON GROUP</strong></span>
         <br />
         <span>2-B/1,Darus Salam Road</span>
