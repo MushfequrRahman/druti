@@ -32,6 +32,13 @@
         text-align: center;
     }
 </style>
+<script type='text/javascript'>
+    //<![CDATA[
+    $(document).ready(function() {
+        $('.filter').multifilter()
+    })
+    //]]>
+</script>
 
 <body class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
@@ -46,10 +53,41 @@
                                     <div class="box-header with-border">
                                         <h3 class="box-title">Order Info</h3>
                                     </div>
-                                    <div class="text-right-input">
-                                        <div class="row">
-                                            <div class="col-md-3 col-md-offset-9">
-                                                <input type='text' class="form-control" id='txt_searchall' placeholder='Enter Search Text'>
+                                    <div class="row">
+                                        <!-- <div class="col-md-3"> -->
+                                        <!-- <input type='text' class="form-control" id='txt_searchall' placeholder='Enter Search Text'> -->
+                                        <div class='filters'>
+                                            <!-- <div class="col-md-1">
+          <div class='filter-container'>
+            <input autocomplete='off' class='filter form-control' name='From' placeholder='From' data-col='From' />
+          </div>
+        </div> -->
+
+
+                                            <div class="col-md-2">
+                                                <div class='filter-container'>
+                                                    <input autocomplete='off' class='filter form-control' name='Buyer' placeholder='Buyer' data-col='Buyer' />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class='filter-container'>
+                                                    <input autocomplete='off' class='filter form-control' name='Job No/ATL No' placeholder='Job No/ATL No' data-col='Job No/ATL No' />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class='filter-container'>
+                                                    <input autocomplete='off' class='filter form-control' name='Style Name' placeholder='Style Name' data-col='Style Name' />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class='filter-container'>
+                                                    <input autocomplete='off' class='filter form-control' name='Order Name/PO' placeholder='Order Name/PO' data-col='Order Name/PO' />
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class='filter-container'>
+                                                    <input autocomplete='off' class='filter form-control' name='Color Name' placeholder='Color Name' data-col='Color Name' />
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -63,6 +101,7 @@
                                                     <th>Job No/ATL NO</th>
                                                     <th>Style Name</th>
                                                     <th>Order Name/PO</th>
+                                                    <th>Color Name</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -74,20 +113,21 @@
                                                         <td style="vertical-align:middle;"><?php echo $row['buyername']; ?></td>
                                                         <td style="vertical-align:middle;"><?php echo $row['jobno']; ?></td>
                                                         <td style="vertical-align:middle;"><?php echo $row['stylename']; ?></td>
-                                                        <td style="vertical-align:middle;"><a href="<?php echo base_url();?>Dashboard/order_wise_challan_create_form/<?php echo $bn=$row['orderid'];?>"><?php echo $row['ordername']; ?></a></td>
+                                                        <td style="vertical-align:middle;"><?php echo $row['ordername']; ?></td>
+                                                        <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/order_wise_challan_create_form/<?php echo $bn = $row['colorid']; ?>"><?php echo $row['colorname']; ?></a></td>
                                                     </tr>
                                                 <?php } ?>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
-                                <script type="text/javascript">
+                                <!-- <script type="text/javascript">
                                     $(document).ready(function() {
                                         $('#tableData').paging({
                                             limit: 10
                                         });
                                     });
-                                </script>
+                                </script> -->
                             </div>
                         </div>
                     </div>

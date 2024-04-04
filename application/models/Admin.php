@@ -1732,7 +1732,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 
 	//////////////////////////////////////ORDER WISE CHALLAN//////////////////////////
 
-	public function order_wise_challan_create_form($orderid)
+	public function order_wise_challan_create_form($colorid)
 	{
 		// $query = "SELECT * FROM color 
 		// JOIN border ON border.orderid=color.orderid
@@ -1749,7 +1749,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		JOIN style ON style.styleid=gsize.styleid
 		JOIN jobno ON jobno.jobnoid=gsize.jobnoid
 		JOIN buyer ON buyer.buyerid=gsize.buyerid
-		WHERE color.orderid='$orderid'";
+		WHERE color.colorid='$colorid'";
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}

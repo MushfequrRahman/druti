@@ -675,7 +675,7 @@ class Dashboard extends CI_Controller
 				$buyerid = $this->input->post('buyerid');
 				$jobno = $this->input->post('jobno');
 				$factoryid = $this->session->userdata('factoryid');
-				$ins = $this->Admin->jobno_insert($jobno, $buyerid,$factoryid);
+				$ins = $this->Admin->jobno_insert($jobno, $buyerid, $factoryid);
 
 				if ($ins == TRUE) {
 					$this->session->set_flashdata('Successfully', 'Successfully Inserted');
@@ -859,7 +859,7 @@ class Dashboard extends CI_Controller
 		$this->load->view('admin/head', $data);
 		$this->load->view('admin/toprightnav');
 		$this->load->view('admin/leftmenu');
-		$data['ul'] = $this->Admin->order_list();
+		$data['ul'] = $this->Admin->color_list();
 		$this->load->view('admin/order_list_for_challan', $data);
 	}
 
@@ -2675,7 +2675,7 @@ class Dashboard extends CI_Controller
 		$this->load->view('admin/head', $data);
 		$this->load->view('admin/toprightnav');
 		$this->load->view('admin/leftmenu');
-		$orderid = $this->uri->segment(3);
+		$colorid = $this->uri->segment(3);
 		// $data['sl']=$this->Admin->supplier_list();
 		// $data['rl']=$this->Admin->rackno_list();
 		// $data['bl']=$this->Admin->booking_type_list();
@@ -2684,7 +2684,7 @@ class Dashboard extends CI_Controller
 		$data['ptl'] = $this->Admin->production_type_list();
 		$data['ctl'] = $this->Admin->challan_type_list();
 		$data['fl'] = $this->Admin->factory_list();
-		$data['ul'] = $this->Admin->order_wise_challan_create_form($orderid);
+		$data['ul'] = $this->Admin->order_wise_challan_create_form($colorid);
 		$this->load->view('admin/order_wise_challan_create_form', $data);
 	}
 	public function order_wise_challan_available()
@@ -2755,34 +2755,33 @@ class Dashboard extends CI_Controller
 			$query = $this->db->query($sql);
 
 			for ($i = 0; $i < count($buyerid); $i++) {
-				if($rqty[$i]!='')
-				{
-				$data["i"] = $i;
-				$data["j"] = $i + 1;
-				$data["ccid"] = $ccid;
-				$data["ccid1"] = $ccid . $i;
-				$data["crcdate"] = $crcdate;
-				$data["sfactory"] = $sfactory;
-				$data["challanno"] = $challanno;
-				$data["ptid"] = $ptid;
-				$data["ctid"] = $ctid;
-				$data["dfactory"] = $dfactory;
-				$data["buyerid"] = $buyerid[$i];
-				$data["jobno"] = $jobno[$i];
-				$data["style"] = $style[$i];
-				$data["orderno"] = $orderno[$i];
-				$data["colorno"] = $colorno[$i];
-				$data["sizeid"] = $sizeid[$i];
-				$data["gpid"] = $gpid[$i];
-				$data["rqty"] = $rqty[$i];
-				$data["puomid"] = $puomid[$i];
-				// $data["bag"] = $bag[$i];
-				$data["sremarks"] = $sremarks[$i];
-				$data["userid"] = $userid;
-				//var_dump($data);
-				//echo "<br/>";
-				$ins = $this->Admin->order_wise_challan_create($data);
-			}
+				if ($rqty[$i] != '') {
+					$data["i"] = $i;
+					$data["j"] = $i + 1;
+					$data["ccid"] = $ccid;
+					$data["ccid1"] = $ccid . $i;
+					// $data["crcdate"] = $crcdate;
+					// $data["sfactory"] = $sfactory;
+					// $data["challanno"] = $challanno;
+					// $data["ptid"] = $ptid;
+					// $data["ctid"] = $ctid;
+					// $data["dfactory"] = $dfactory;
+					// $data["buyerid"] = $buyerid[$i];
+					// $data["jobno"] = $jobno[$i];
+					// $data["style"] = $style[$i];
+					// $data["orderno"] = $orderno[$i];
+					$data["colorno"] = $colorno[$i];
+					$data["sizeid"] = $sizeid[$i];
+					$data["gpid"] = $gpid[$i];
+					$data["rqty"] = $rqty[$i];
+					$data["puomid"] = $puomid[$i];
+					// $data["bag"] = $bag[$i];
+					$data["sremarks"] = $sremarks[$i];
+					//$data["userid"] = $userid;
+					//var_dump($data);
+					//echo "<br/>";
+					$ins = $this->Admin->order_wise_challan_create($data);
+				}
 			}
 		}
 		if ($ins) {
@@ -2895,7 +2894,7 @@ class Dashboard extends CI_Controller
 		$this->load->model('Admin');
 		$chmid = $this->uri->segment(3);
 		$factoryid = $this->session->userdata('factoryid');
-		$ins = $this->Admin->factory_challanm_sapproved($chmid,$factoryid);
+		$ins = $this->Admin->factory_challanm_sapproved($chmid, $factoryid);
 		if ($ins) {
 			$this->session->set_flashdata('Successfully', 'Successfully Inserted');
 		} else {
@@ -3182,9 +3181,9 @@ class Dashboard extends CI_Controller
 		$data['ul'] = $this->Admin->non_po_product_category();
 		$this->load->view('admin/non_po_product_category_list', $data);
 	}
-	
-	
-	
+
+
+
 	public function non_po_challan_create_form()
 	{
 		$this->load->database();
