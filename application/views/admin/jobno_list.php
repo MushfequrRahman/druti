@@ -90,13 +90,13 @@
                     </table>
                   </div>
                 </div>
-                <script type="text/javascript">
+                <!-- <script type="text/javascript">
                   $(document).ready(function() {
                     $('#tableData').paging({
                       limit: 10
                     });
                   });
-                </script>
+                </script> -->
               </div>
             </div>
           </div>
