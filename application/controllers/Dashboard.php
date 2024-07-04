@@ -31,6 +31,39 @@ class Dashboard extends CI_Controller
 		if ($usertype == 1) {
 			$this->load->view('admin/dashboard', $data);
 		} elseif ($usertype == 2) {
+
+			$query =  $this->db->query("SELECT COUNT(dfactoryid) AS dfc,dfactoryid FROM challanm1_insert
+		WHERE sfactoryid='$factoryid' AND status='1' AND challanm1status='1'
+		GROUP BY dfactoryid");
+			$record = $query->result();
+			$data = array();
+			foreach ($record as $row) {
+
+				$data['label'][] = $row->dfactoryid;
+
+				$data['data'][] = (int) $row->dfc;
+			}
+
+			$data['chart_data'] = json_encode($data);
+
+
+
+			$query1 =  $this->db->query("SELECT COUNT(sfactoryid) AS sfc,sfactoryid FROM challanm1_insert
+		WHERE dfactoryid='$factoryid' AND status='2' AND challanm1status='1'
+		GROUP BY sfactoryid");
+			$record1 = $query1->result();
+			$data1 = array();
+			foreach ($record1 as $row1) {
+
+				$data1['label1'][] = $row1->sfactoryid;
+
+				$data1['data1'][] = (int) $row1->sfc;
+			}
+
+			$data['chart_data1'] = json_encode($data1);
+
+
+
 			$data['ul1'] = $this->Admin->factory_challanm_pending_list_out_count($factoryid);
 			$data['ul2'] = $this->Admin->factory_challanm_pending_list_in_count($factoryid);
 			//$data['ul3'] = $this->Admin->non_po_factory_challanm_pending_list_out_count($factoryid);
@@ -38,6 +71,39 @@ class Dashboard extends CI_Controller
 			//$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
 			$this->load->view('admin/user_dashboard', $data);
 		} elseif ($usertype == 3) {
+
+
+
+			$query =  $this->db->query("SELECT COUNT(dfactoryid) AS dfc,dfactoryid FROM challanm1_insert
+			WHERE sfactoryid='$factoryid' AND status='1' AND challanm1status='1'
+			GROUP BY dfactoryid");
+				$record = $query->result();
+				$data = array();
+				foreach ($record as $row) {
+	
+					$data['label'][] = $row->dfactoryid;
+	
+					$data['data'][] = (int) $row->dfc;
+				}
+	
+				$data['chart_data'] = json_encode($data);
+	
+	
+	
+				$query1 =  $this->db->query("SELECT COUNT(sfactoryid) AS sfc,sfactoryid FROM challanm1_insert
+			WHERE dfactoryid='$factoryid' AND status='2' AND challanm1status='1'
+			GROUP BY sfactoryid");
+				$record1 = $query1->result();
+				$data1 = array();
+				foreach ($record1 as $row1) {
+	
+					$data1['label1'][] = $row1->sfactoryid;
+	
+					$data1['data1'][] = (int) $row1->sfc;
+				}
+	
+				$data['chart_data1'] = json_encode($data1);
+
 			//$data['ul'] = $this->Admin->factory_challanm_pending_list($factoryid);
 			$data['ul1'] = $this->Admin->factory_challanm_pending_list_out_count($factoryid);
 			$data['ul2'] = $this->Admin->factory_challanm_pending_list_in_count($factoryid);

@@ -36,8 +36,14 @@
     font-weight: 600;
     font-variant: small-caps;
   }
-  em{color: red;}
-  .error{color: red;}
+
+  em {
+    color: red;
+  }
+
+  .error {
+    color: red;
+  }
 </style>
 
 
@@ -56,11 +62,14 @@
                     <h3 class="box-title">Order Wise Challan details</h3>
                   </div>
 
-                 
-                    <div class="box-header with-border">
+
+                  <div class="box-header with-border">
                     <?php
-                            $i = 1;
-                            foreach ($cl1 as $row) { ?>
+                    $i = 1;
+                    foreach ($cl1 as $row) {
+                      $chmid = $row['chmid'];
+                      $sfactoryid = $row['sfactoryid'];
+                    ?>
                       <div class="row">
                         <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>Challan Date</label>
@@ -88,75 +97,82 @@
                         </div>
                         <div class="col-sm-12 col-md-2 col-lg-2">
                           <label>To Factory</label>
-                         <input type="text" class="form-control" name="dfactoryid" readonly id="dfactoryid" value="<?php echo $row['dfactoryid']; ?>">
+                          <input type="text" class="form-control" name="dfactoryid" readonly id="dfactoryid" value="<?php echo $row['dfactoryid']; ?>">
                         </div>
                       </div>
-                      <?php
-							}
-							?>
-                    </div>
-                    <div class="box-header with-border">
-                      <div class="box-body table-responsive no-padding">
-                        <table id="tableData" class="table table-hover table-bordered">
-                          <thead style="background:#91b9e6;">
+                    <?php
+                    }
+                    ?>
+                  </div>
+                  <div class="box-header with-border">
+                    <div class="box-body table-responsive no-padding">
+                      <table id="tableData" class="table table-hover table-bordered">
+                        <thead style="background:#91b9e6;">
+                          <tr>
+                            <th>SL</th>
+                            <th>Buyer</th>
+                            <th>Job No/ATL NO</th>
+                            <th>Style</th>
+                            <th>Order/PO</th>
+                            <th>Color</th>
+                            <th>Size</th>
+                            <th>Product/Part</th>
+                            <th>Sent Qty</th>
+                            <th>Received Qty</th>
+                            <th>UOM</th>
+                            <!-- <th>Bag</th> -->
+                            <th>Sent Remarks</th>
+                            <th>Received Remarks</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <?php
+                          $i = 1;
+                          foreach ($ul as $row) { ?>
                             <tr>
-                              <th>SL</th>
-                              <th>Buyer</th>
-                              <th>Job No/ATL NO</th>
-                              <th>Style</th>
-                              <th>Order/PO</th>
-                              <th>Color</th>
-                              <th>Size</th>
-                              <th>Product/Part</th>
-                              <th>Sent Qty</th>
-                              <th>Received Qty</th>
-                              <th>UOM</th>
-                              <!-- <th>Bag</th> -->
-                              <th>Sent Remarks</th>
-                              <th>Received Remarks</th>
+                              <td style="vertical-align:middle;"><?php echo $i++; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['buyername']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['jobno']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['stylename']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['ordername']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['colorname']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['sizename']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['garmentspart']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['sqty']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['rqty']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['puom']; ?></td>
+                              <!-- <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td> -->
+                              <td style="vertical-align:middle;"><?php echo $row['sremarks']; ?></td>
+                              <td style="vertical-align:middle;"><?php echo $row['rremarks']; ?></td>
                             </tr>
-                          </thead>
-                          <tbody>
-                            <?php
-                            $i = 1;
-                            foreach ($ul as $row) { ?>
-                              <tr>
-                                <td style="vertical-align:middle;"><?php echo $i++; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['buyername']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['jobno']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['stylename']; ?></td>
-                               	<td style="vertical-align:middle;"><?php echo $row['ordername']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['colorname']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['sizename']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['garmentspart']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['sqty']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['rqty']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['puom']; ?></td>
-                                <!-- <td style="vertical-align:middle;"><?php echo $row['bag']; ?></td> -->
-                                <td style="vertical-align:middle;"><?php echo $row['sremarks']; ?></td>
-                                <td style="vertical-align:middle;"><?php echo $row['rremarks']; ?></td>
-                              </tr>
-                              <?php } ?>
-                          </tbody>
-                        
-                        </table>
-                        
-                      </div>
+                          <?php } ?>
+                        </tbody>
+
+                      </table>
+
                     </div>
+                  </div>
                   </form>
+
+
 
                 </div>
               </div>
+
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <?php
+            if ($this->session->userdata('factoryid') == $sfactoryid) {
+            ?>
+              <h1 class="text-center"><a class="btn btn-primary" href="<?php echo base_url(); ?>Dashboard/factory_challanm_sapproved/<?php echo $bn = $row['chmid']; ?>">APPROVE</a></h1>
+            <?php
+            }
+            ?>
           </div>
         </div>
       </section>
     </div>
   </div>
-  
-
-
-
-
- 
-  

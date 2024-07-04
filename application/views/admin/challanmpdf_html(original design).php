@@ -31,47 +31,25 @@
 
   .top {
     width: 700px;
-    height: 135px;
+    height: 220px;
     font-size: 22px;
 
   }
 
   .top1 {
-    margin: 45px 0 0 0;
-    font-size: 12px;
-    width: 233px;
-    text-align: left;
-    float: left;
-  }
-
-  .top2 {
     margin: auto;
     font-size: 12px;
-    width: 233px;
+    width: 700px;
     text-align: center;
-    float: left;
+
   }
 
-  .top3 {
-    margin: 45px 0 0 0;
-    font-size: 12px;
-    width: 233px;
-    text-align: right;
-    float: left;
-  }
-
-  .top-middle {
-    width: 650px;
-    font-size: 12px;
-    overflow: hidden;
-    margin: auto;
-  }
-
-  .ctext {
-    width: 130px;
-    float: left;
-    text-align: center;
-  }
+  /* .top2 {
+    
+    width: 600px;
+    font-size: 18px;
+    
+  } */
 
   .text-left {
     float: left;
@@ -168,8 +146,6 @@
     transform: rotate(300deg);
     -webkit-transform: rotate(300deg);
   }
-
-  
 </style>
 
 <body>
@@ -177,20 +153,7 @@
   <div class="wrapper">
     <div class="top">
       <div class="top1">
-        <span><strong>From Location:</strong></span>
-        <br />
-        <?php
-        foreach ($sf as $row) {
-        ?>
-          <span><?php echo $row['factoryname']; ?></span>
-          <br />
-          <span><?php echo $row['factory_address']; ?></span>
-        <?php
-        }
-        ?>
-      </div>
-      <div class="top2">
-        <p><img style="width:80px; height:35px;" src="<?php echo base_url() . 'assets/images/babylon.png'; ?>" alt="logo"></p>
+        <h3><img style="width:80px; height:35px; margin:0 15px 0 0;" src="<?php echo base_url().'assets/images/babylon.png';?>" alt="logo"></h3>
         <span><strong>BABYLON GROUP</strong></span>
         <br />
         <span>2-B/1,Darus Salam Road</span>
@@ -199,58 +162,54 @@
         <br />
         <p style="text-decoration:underline;">ORDER WISE GATE PASS</p>
         <br />
-      </div>
-      <div class="top3">
-        <span><strong>To Location:</strong></span>
-        <br />
-        <?php
-        foreach ($df as $row) {
-        ?>
-          <span><?php echo $row['factoryname']; ?></span>
+        <div class="text-left">
+          <?php
+          $i = 1;
+          foreach ($cl1 as $row) { ?>
+            <span><strong>Challan No:</strong></span><span><?php echo $row['chmid']; ?></span>
+            <br />
+            <span><strong>Challan Date:</strong></span><span><?php echo date("d-m-y", strtotime($row['crcdate'])); ?></span>
+            <br />
+            <span><strong>Purpose:</strong></span><span><?php echo $row['productiontype']; ?></span>
+            <br />
+            <span><strong>Challan Type:</strong></span><span><?php echo $row['challantype']; ?></span>
+            <br />
+            <span><strong>Bag:</strong></span><span><?php echo $row['sbag']; ?></span>
+            <br />
+
+          <?php
+          }
+          ?>
+        </div>
+        <div class="text-middle">
+          <span><strong>From Location:</strong></span>
           <br />
-          <span><?php echo $row['factory_address']; ?></span>
-        <?php
-        }
-        ?>
-        <br />
+          <?php
+          foreach ($sf as $row) {
+          ?>
+            <span><?php echo $row['factoryname']; ?></span>
+            <br />
+            <span><?php echo $row['factory_address']; ?></span>
+          <?php
+          }
+          ?>
+        </div>
+        <div class="text-right">
+          <span><strong>To Location:</strong></span>
+          <br />
+          <?php
+          foreach ($df as $row) {
+          ?>
+            <span><?php echo $row['factoryname']; ?></span>
+            <br />
+            <span><?php echo $row['factory_address']; ?></span>
+          <?php
+          }
+          ?>
+          <br />
+        </div>
       </div>
     </div>
-
-    <div class="top-middle">
-      <?php
-      $i = 1;
-      foreach ($cl1 as $row) { ?>
-        <div class="ctext">
-          <span><strong>Challan:</strong></span>
-          <span><?php echo $row['chmid']; ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Date:</strong></span>
-          <span><?php echo date("d-m-y", strtotime($row['crcdate'])); ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Purpose:</strong></span>
-          <span><?php echo $row['productiontype']; ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Type:</strong></span>
-          <span><?php echo $row['challantype']; ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Bag:</strong></span>
-          <span><?php echo $row['sbag']; ?></span>
-        </div>
-
-
-      <?php
-      }
-      ?>
-    </div>
-
     <div class="middle">
       <p style="text-align:center;"><strong>Product Details</strong></p>
       <table id="tableData">
@@ -313,24 +272,10 @@
   <hr>
   </hr>
 
-
   <div class="wrapper">
     <div class="top">
       <div class="top1">
-        <span><strong>From Location:</strong></span>
-        <br />
-        <?php
-        foreach ($sf as $row) {
-        ?>
-          <span><?php echo $row['factoryname']; ?></span>
-          <br />
-          <span><?php echo $row['factory_address']; ?></span>
-        <?php
-        }
-        ?>
-      </div>
-      <div class="top2">
-        <p><img style="width:80px; height:35px;" src="<?php echo base_url() . 'assets/images/babylon.png'; ?>" alt="logo"></p>
+        <h3><img style="width:80px; height:35px; margin:0 15px 0 0;" src="<?php echo base_url().'assets/images/babylon.png';?>" alt="logo"></h3>
         <span><strong>BABYLON GROUP</strong></span>
         <br />
         <span>2-B/1,Darus Salam Road</span>
@@ -339,58 +284,54 @@
         <br />
         <p style="text-decoration:underline;">ORDER WISE GATE PASS</p>
         <br />
-      </div>
-      <div class="top3">
-        <span><strong>To Location:</strong></span>
-        <br />
-        <?php
-        foreach ($df as $row) {
-        ?>
-          <span><?php echo $row['factoryname']; ?></span>
+        <div class="text-left">
+          <?php
+          $i = 1;
+          foreach ($cl1 as $row) { ?>
+            <span><strong>Challan No:</strong></span><span><?php echo $row['chmid']; ?></span>
+            <br />
+            <span><strong>Challan Date:</strong></span><span><?php echo date("d-m-y", strtotime($row['crcdate'])); ?></span>
+            <br />
+            <span><strong>Purpose:</strong></span><span><?php echo $row['productiontype']; ?></span>
+            <br />
+            <span><strong>Challan Type:</strong></span><span><?php echo $row['challantype']; ?></span>
+            <br />
+            <span><strong>Bag:</strong></span><span><?php echo $row['sbag']; ?></span>
+            <br />
+
+          <?php
+          }
+          ?>
+        </div>
+        <div class="text-middle">
+          <span><strong>From Location:</strong></span>
           <br />
-          <span><?php echo $row['factory_address']; ?></span>
-        <?php
-        }
-        ?>
-        <br />
+          <?php
+          foreach ($sf as $row) {
+          ?>
+            <span><?php echo $row['factoryname']; ?></span>
+            <br />
+            <span><?php echo $row['factory_address']; ?></span>
+          <?php
+          }
+          ?>
+        </div>
+        <div class="text-right">
+          <span><strong>To Location:</strong></span>
+          <br />
+          <?php
+          foreach ($df as $row) {
+          ?>
+            <span><?php echo $row['factoryname']; ?></span>
+            <br />
+            <span><?php echo $row['factory_address']; ?></span>
+          <?php
+          }
+          ?>
+          <br />
+        </div>
       </div>
     </div>
-
-    <div class="top-middle">
-      <?php
-      $i = 1;
-      foreach ($cl1 as $row) { ?>
-        <div class="ctext">
-          <span><strong>Challan:</strong></span>
-          <span><?php echo $row['chmid']; ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Date:</strong></span>
-          <span><?php echo date("d-m-y", strtotime($row['crcdate'])); ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Purpose:</strong></span>
-          <span><?php echo $row['productiontype']; ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Type:</strong></span>
-          <span><?php echo $row['challantype']; ?></span>
-        </div>
-
-        <div class="ctext">
-          <span><strong>Bag:</strong></span>
-          <span><?php echo $row['sbag']; ?></span>
-        </div>
-
-
-      <?php
-      }
-      ?>
-    </div>
-
     <div class="middle">
       <p style="text-align:center;"><strong>Product Details</strong></p>
       <table id="tableData">

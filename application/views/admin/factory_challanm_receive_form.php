@@ -132,7 +132,7 @@
                       </table>
                   </div>
                   <div class="box-footer text-center">
-                    <input type="submit" class="btn btn-primary" id="btn" name="submit" value="Submit" />
+                    <input type="submit" class="btn btn-primary" id="btn" name="submit" value="Receive" />
                   </div>
                   </form>
                 </div>

@@ -45,6 +45,48 @@
   //]]>
 </script>
 
+<script>
+  $(function() {
+    $("table").tablesorter({
+      theme: 'blue',
+      widgets: ['math', 'zebra', 'filter'],
+      widgetOptions: {
+        math_data: 'math', // data-math attribute
+        math_ignore: [0, 1],
+        math_none: 'N/A', // no matching math elements found (text added to cell)
+        math_complete: function($cell, wo, result, value, arry) {
+          var txt = '<span class="align-decimal">' +
+            (value === wo.math_none ? '' : ' ') +
+            result + '</span>';
+          if ($cell.attr('data-math') === 'all-sum') {
+            // when the "all-sum" is processed, add a count to the end
+            return txt + ' (Sum of ' + arry.length + ' cells)';
+          }
+          return txt;
+        },
+        math_completed: function(c) {
+          // c = table.config
+          // called after all math calculations have completed
+          console.log('math calculations complete', c.$table.find('[data-math="all-sum"]:first').text());
+        },
+        // see "Mask Examples" section
+        math_mask: '#,##0.00',
+        math_prefix: '', // custom string added before the math_mask value (usually HTML)
+        math_suffix: '', // custom string added after the math_mask value
+        // event triggered on the table which makes the math widget update all data-math cells (default shown)
+        math_event: 'recalculate',
+        // math calculation priorities (default shown)... rows are first, then column above/below,
+        // then entire column, and lastly "all" which is not included because it should always be last
+        math_priority: ['row', 'above', 'below', 'col'],
+        // set row filter to limit which table rows are included in the calculation (v2.25.0)
+        // e.g. math_rowFilter : ':visible:not(.filtered)' (default behavior when math_rowFilter isn't set)
+        // or math_rowFilter : ':visible'; default is an empty string
+        math_rowFilter: ''
+      }
+    });
+  });
+</script>
+
 <!-- /.box-header -->
 <div class="box-body table-responsive no-padding">
   <?php /*?><form action="<?php echo base_url() ?>Dashboard/date_wise_mpr_list_xls" class="excel-upl" id="excel-upl" enctype="multipart/form-data" method="post" accept-charset="utf-8">
@@ -113,6 +155,7 @@
       <thead style="background:#91b9e6;">
         <tr>
           <th>SL</th>
+          <th>System Challan</th>
           <th>Challan</th>
           <th>Date</th>
           <th>From</th>
@@ -132,12 +175,37 @@
           <th>Print</th>
         </tr>
       </thead>
+      <tfoot>
+        <tr>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <!-- <th data-math="col-sum">col-sum</th>
+          <th data-math="col-sum">col-sum</th> -->
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+        </tr>
+      </tfoot>
       <tbody>
         <?php
         $i = 1;
         foreach ($ul as $row) { ?>
           <tr>
             <td style="vertical-align:middle;"><?php echo $i++; ?></td>
+            <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/challanm_details/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['chmid']; ?></a></td>
             <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/challanm_details/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['challanno']; ?></a></td>
             <td style="vertical-align:middle;"><?php echo date("d-m-Y", strtotime($row['crcdate'])); ?></td>
             <td style="vertical-align:middle;"><?php echo $row['sfactoryid']; ?></td>
@@ -192,8 +260,9 @@
             <td style="vertical-align:middle;"><a target="_blank" href="<?php echo base_url(); ?>Dashboard/challanm_print/<?php echo $bn = $row['chmid']; ?>"><i class="fa fa-print" aria-hidden="true"></i>
               </a></td>
           </tr>
+        <?php } ?>
       </tbody>
-    <?php } ?>
+
     </table>
   </div>
 </div>

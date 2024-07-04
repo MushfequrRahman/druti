@@ -69,6 +69,7 @@
                       <thead style="background:#91b9e6;">
                         <tr>
                           <th>SL</th>
+                          <th>System Challan</th>
                           <th>Challan</th>
                           <th>Date</th>
                           <th>From</th>
@@ -91,14 +92,17 @@
                               //if($row['status']==1 || $row['status']==2)
                               //					  {
                             ?>
+                            <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/factory_challanm_receive_form/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['chmid']; ?></a></td>
                               <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/factory_challanm_receive_form/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['challanno']; ?></a></td>
                             <?php
                             } elseif ($this->session->userdata('factoryid') == $row['sfactoryid']) {
                             ?>
+                              <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/factory_challanm_sapproved/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['chmid']; ?></a></td>
                               <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/factory_challanm_sapproved/<?php echo $bn = $row['chmid']; ?>"><?php echo $row['challanno']; ?></a></td>
                             <?php
                             } else {
                             ?>
+                            <td style="vertical-align:middle;"><?php echo $row['chmid']; ?></td>
                               <td style="vertical-align:middle;"><?php echo $row['challanno']; ?></td>
                             <?php
                             }

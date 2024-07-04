@@ -1,7 +1,7 @@
 <aside class="main-sidebar">
 	<section class="sidebar">
 		<ul class="sidebar-menu" data-widget="tree">
-			<li class="header text-center">DRUTI</li>
+			<li class="header text-center">ONLINE CHALLAN SYSTEM(OCS)</li>
 			<?php if ($this->session->userdata('userid') && $this->session->userdata('user_type') == '1') { ?>
 				<li class="treeview">
 					<a href="#">

@@ -62,7 +62,7 @@
   // Defining a function to validate form 
   function validateForm() {
     // Retrieving the values of form elements 
-    var challanno = document.contactForm.challanno.value;
+    //var challanno = document.contactForm.challanno.value;
     var ptid = document.contactForm.ptid.value;
     var ctid = document.contactForm.ctid.value;
     var sbag = document.contactForm.sbag.value;
@@ -71,12 +71,12 @@
     // Defining error variables with a default value
     var challannoErr = ptidErr = ctidErr = dfactoryErr = true;
 
-    if (challanno == "") {
-      printError("challannoErr", "Need Challan No");
-    } else {
-      printError("challannoErr", "");
-      challannoErr = false;
-    }
+    // if (challanno == "") {
+    //   printError("challannoErr", "Need Challan No");
+    // } else {
+    //   printError("challannoErr", "");
+    //   challannoErr = false;
+    // }
 
     if (ptid == "") {
       printError("ptidErr", "Need Production Type");
@@ -107,12 +107,12 @@
     }
 
     // Prevent the form from being submitted if there are any errors
-    if ((challannoErr || ptidErr || ctidErr || sbagErr || dfactoryErr) == true) {
+    if ((ptidErr || ctidErr || sbagErr || dfactoryErr) == true) {
       return false;
     } else {
       // Creating a string from input data for preview
       var dataPreview = "You've entered the following details: \n" +
-        "Challan No: " + challanno + "\n" +
+        
         "Production Type: " + ptid + "\n" +
         "Challan Type: " + ctid + "\n" +
         "Bag: " + sbag + "\n" +

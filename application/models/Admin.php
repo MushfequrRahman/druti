@@ -1952,7 +1952,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 	}
 	public function challanm_details_form_c1($chmid)
 	{
-		$query = "SELECT challanno,crcdate,production_type.ptid,
+		$query = "SELECT chmid,challanno,crcdate,production_type.ptid,
 		productiontype,challan_type.ctid,challantype,sbag,sfactoryid,dfactoryid
 		 FROM challanm1_insert
 		JOIN challan_type ON challan_type.ctid=challanm1_insert.ctid
