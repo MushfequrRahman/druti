@@ -429,7 +429,7 @@ class Admin extends CI_Model
 
 	/////////////////////////////////////////////////////////JOB NO/////////////////////////////////////////////////////////////
 
-	public function jobno_insert($jobno, $buyerid,$factoryid)
+	public function jobno_insert($jobno, $buyerid, $factoryid)
 	{
 		$d = date('Y-m-d');
 		$t = date("H:i:s");
@@ -753,7 +753,9 @@ class Admin extends CI_Model
 	}
 	public function color_list()
 	{
-		$query = "SELECT * FROM color
+		$query = "SELECT colorid,buyername,jobno,stylename,ordername,colorcode,
+		colorname,cwoqty,gsm
+		 FROM color
 		
 		JOIN jobno ON jobno.jobnoid=color.jobnoid
 		JOIN style ON style.styleid=color.styleid
@@ -766,7 +768,8 @@ class Admin extends CI_Model
 	}
 	public function color_up($colorid)
 	{
-		$query = "SELECT * FROM color
+		$query = "SELECT colorid,colorcode,
+		colorname,cwoqty,gsm FROM color
 		
 		JOIN jobno ON jobno.jobnoid=color.jobnoid
 		JOIN style ON style.styleid=color.styleid
@@ -856,7 +859,9 @@ class Admin extends CI_Model
 	}
 	public function size_list()
 	{
-		$query = "SELECT * FROM gsize
+		$query = "SELECT color.colorid,buyername,jobno,stylename,ordername,colorcode,colorname,
+		sizename,swoqty,sizeid
+		 FROM gsize
 		
 		JOIN buyer ON buyer.buyerid=gsize.buyerid
 		JOIN jobno ON jobno.jobnoid=gsize.jobnoid
@@ -870,7 +875,7 @@ class Admin extends CI_Model
 	}
 	public function size_up($sizeid)
 	{
-		$query = "SELECT * FROM gsize
+		$query = "SELECT sizename,swoqty,sizeid FROM gsize
 		WHERE sizeid='$sizeid'";
 		$result = $this->db->query($query);
 		return $result->result_array();
@@ -1888,7 +1893,9 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		// $result = $this->db->query($query);
 		// return $result->result_array();
 
-		$query = "SELECT * FROM challanm1_insert
+		$query = "SELECT dfactoryid,status,chmid,challanno,crcdate,sfactoryid,buyername,
+		jobno,stylename,ordername
+		 FROM challanm1_insert
 		
 		JOIN buyer ON buyer.buyerid=challanm1_insert.buyerid
 		JOIN jobno ON jobno.jobnoid=challanm1_insert.jobnoid
@@ -1914,7 +1921,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		$result = $this->db->query($query);
 		return $result->result_array();
 	}
-	public function factory_challanm_sapproved($chmid,$factoryid)
+	public function factory_challanm_sapproved($chmid, $factoryid)
 	{
 		$sql = "UPDATE challanm1_insert SET status='2' WHERE sfactoryid='$factoryid' AND challanm1status='1' AND chmid='$chmid' LIMIT 1";
 		$this->db->query($sql);
@@ -2063,7 +2070,7 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		return $result->result_array();
 	}
 
-					//////////////// NON PO WISE CHALLAN ////////////////////////
+	//////////////// NON PO WISE CHALLAN ////////////////////////
 
 	public function non_po_product_category_insert($nppcname)
 	{
@@ -2073,12 +2080,12 @@ JOIN fabric_received ON fabric_received.fabricreceivedid=fabric_delivery.fabricr
 		if ($query->num_rows() == 1) {
 			return false;
 		} else {
-		$sql1 = "INSERT INTO non_po_product_category VALUES ('','$nppcname')";
-		$query1 = $this->db->query($sql1);
-		return $query1;
+			$sql1 = "INSERT INTO non_po_product_category VALUES ('','$nppcname')";
+			$query1 = $this->db->query($sql1);
+			return $query1;
 		}
 	}
-	
+
 	public function non_po_product_category()
 	{
 		$query = "SELECT * FROM non_po_product_category ORDER BY nppcname ASC";

@@ -33,11 +33,11 @@
     }
 </style>
 <script type='text/javascript'>
-    //<![CDATA[
-    $(document).ready(function() {
-        $('.filter').multifilter()
-    })
-    //]]>
+  //<![CDATA[
+  $(document).ready(function() {
+    $('.filter').multifilter()
+  })
+  //]]>
 </script>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -54,43 +54,43 @@
                                         <h3 class="box-title">Order Info</h3>
                                     </div>
                                     <div class="row">
-                                        <!-- <div class="col-md-3"> -->
-                                        <!-- <input type='text' class="form-control" id='txt_searchall' placeholder='Enter Search Text'> -->
-                                        <div class='filters'>
-                                            <!-- <div class="col-md-1">
+    <!-- <div class="col-md-3"> -->
+    <!-- <input type='text' class="form-control" id='txt_searchall' placeholder='Enter Search Text'> -->
+    <div class='filters'>
+      <!-- <div class="col-md-1">
           <div class='filter-container'>
             <input autocomplete='off' class='filter form-control' name='From' placeholder='From' data-col='From' />
           </div>
         </div> -->
-
-
-                                            <div class="col-md-2">
-                                                <div class='filter-container'>
-                                                    <input autocomplete='off' class='filter form-control' name='Buyer' placeholder='Buyer' data-col='Buyer' />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class='filter-container'>
-                                                    <input autocomplete='off' class='filter form-control' name='Job No/ATL No' placeholder='Job No/ATL No' data-col='Job No/ATL No' />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class='filter-container'>
-                                                    <input autocomplete='off' class='filter form-control' name='Style Name' placeholder='Style Name' data-col='Style Name' />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2">
-                                                <div class='filter-container'>
-                                                    <input autocomplete='off' class='filter form-control' name='Order Name/PO' placeholder='Order Name/PO' data-col='Order Name/PO' />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3">
-                                                <div class='filter-container'>
-                                                    <input autocomplete='off' class='filter form-control' name='Color Name' placeholder='Color Name' data-col='Color Name' />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+      
+        
+      <div class="col-md-2">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Buyer' placeholder='Buyer' data-col='Buyer' />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Job No/ATL No' placeholder='Job No/ATL No' data-col='Job No/ATL No' />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Style Name' placeholder='Style Name' data-col='Style Name' />
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Order Name/PO' placeholder='Order Name/PO' data-col='Order Name/PO' />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class='filter-container'>
+          <input autocomplete='off' class='filter form-control' name='Color Name' placeholder='Color Name' data-col='Color Name' />
+        </div>
+      </div>
+    </div>
+  </div>
                                     <br />
                                     <div class="box-body table-responsive no-padding">
                                         <table id="tableData" class="table table-hover table-bordered">
@@ -114,7 +114,7 @@
                                                         <td style="vertical-align:middle;"><?php echo $row['jobno']; ?></td>
                                                         <td style="vertical-align:middle;"><?php echo $row['stylename']; ?></td>
                                                         <td style="vertical-align:middle;"><?php echo $row['ordername']; ?></td>
-                                                        <td style="vertical-align:middle;"><a href="<?php echo base_url(); ?>Dashboard/order_wise_challan_create_form/<?php echo $bn = $row['colorid']; ?>"><?php echo $row['colorname']; ?></a></td>
+                                                        <td style="vertical-align:middle;"><a href="<?php echo base_url();?>Dashboard/order_wise_challan_create_form/<?php echo $bn=$row['colorid'];?>"><?php echo $row['colorname']; ?></a></td>
                                                     </tr>
                                                 <?php } ?>
                                             </tbody>
