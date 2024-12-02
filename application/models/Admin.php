@@ -761,7 +761,7 @@ class Admin extends CI_Model
 		JOIN style ON style.styleid=color.styleid
 		JOIN border ON border.orderid=color.orderid
 		JOIN buyer ON buyer.buyerid=color.buyerid
-		WHERE colorstatus='1'
+		WHERE jobnostatus='1' AND stylestatus='1' AND orderstatus='1' AND colorstatus='1'
 		ORDER BY buyername,jobno,stylename,ordername,colorname ASC";
 		$result = $this->db->query($query);
 		return $result->result_array();
